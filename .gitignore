@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# MkDocs build artifacts
+/site/
+
+# Python virtualenv
+.venv/
+env/
+venv/

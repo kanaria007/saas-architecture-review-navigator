@@ -1,0 +1,75 @@
+site_name: SaaS Architecture Review Navigator
+site_url: https://kanaria007.github.io/saas-architecture-review-navigator/
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Structure vs DeepDive: structure-vs-deepdive.md
+  - Navigation Map: navigation-map.md    
+  - Domain:
+      - Proper Domain Abstraction: categories/domain/domain-separation.md
+      - Constraint Validation: categories/domain/domain-validation.md
+      - Impossible State Design: categories/domain/invalid-states.md
+      - Inheritance & Modeling Alignment: categories/domain/inheritance-integrity.md
+      - Domain Authorization Strategy: categories/domain/domain-permissions.md
+  - Data:
+      - Data Lifecycle Clarity: categories/data/lifecycle-clarity.md
+      - Index Design for Entities: categories/data/index-design.md
+      - Concurrency Control Strategy: categories/data/write-contention.md
+      - Normalization/Denormalization Tradeoff: categories/data/normalization-balance.md
+      - Safe Migration Planning: categories/data/migration-impact.md
+      - Retry-Time Consistency: categories/data/retry-consistency.md
+      - Distributed Transaction Strategy: categories/data/distributed-transaction-design.md
+      - Fallback Strategy: categories/data/fallback-strategy.md
+  - Performance:
+      - DB Index Optimization: categories/performance/db-index-optimization.md
+      - Indexing Paths per Query: categories/performance/indexing-paths.md
+      - API Latency: categories/performance/api-response-latency.md
+      - Caching Strategy: categories/performance/cache-strategy.md
+      - External Load Protection: categories/performance/external-pressure-resilience.md
+      - Scaling Plan (Up/Out): categories/performance/scaling-strategy.md
+      - Bottleneck Avoidance: categories/performance/backend-bottlenecks.md
+  - Event:
+      - Async/Sync Responsibility Split: categories/async/sync-async-alignment.md
+      - Retry Impact Design: categories/async/event-retry-delay.md
+      - Cross-Service Consistency: categories/async/cross-service-consistency.md
+      - External Service Fallback: categories/async/external-failure-impact.md
+  - API:
+      - Schema Design Consistency: categories/api/api-schema-coherence.md
+      - Version Compatibility: categories/api/api-compatibility-strategy.md
+      - AuthZ Strategy: categories/api/api-permission-control.md
+      - Sync/Async Endpoint Scope: categories/api/sync-vs-async-boundaries.md
+      - Elevation Risk Protection: categories/api/privilege-escalation-risk.md
+  - UI:
+      - Component Reuse Strategy: categories/ui/component-reuse-impact.md
+      - Render Performance Awareness: categories/ui/data-volume-visibility.md
+      - Notification Translation Flow: categories/ui/notification-localization.md
+  - Test:
+      - Scope Impact Analysis: categories/test/impact-scope-analysis.md
+      - Acceptance Criteria: categories/test/acceptance-criteria-definition.md
+      - Performance Testing Decision: categories/test/performance-test-plan.md
+      - High Load Behavior Planning: categories/test/high-load-behavior-testing.md
+  - Release:
+      - Release Strategy by Risk: categories/release/release-strategy-planning.md
+      - User Notification Preparedness: categories/release/user-notification-preparation.md
+      - Minimized Downtime Plan: categories/release/minimize-downtime.md
+      - Rollback Procedure Preparedness: categories/release/rollback-strategy.md
+      - Change Impact Assessment: categories/release/impact-analysis-for-critical-changes.md
+  - Availability:
+      - Failover Strategy: categories/availability/failover-design.md
+      - Data Recovery Strategy: categories/availability/data-recovery-plan.md
+      - Backup Planning: categories/availability/backup-strategy.md
+  - Non-functional:
+      - Security Risk Coverage: categories/non-functional/security-risks.md
+      - Operational Load Distribution: categories/non-functional/operational-burden.md
+      - Recovery Workflow Clarity: categories/non-functional/recovery-runbook.md
+      - Monitoring & Alert Design: categories/non-functional/observability-alerting.md
+      - Logging for Troubleshooting: categories/non-functional/logging-for-troubleshooting.md
