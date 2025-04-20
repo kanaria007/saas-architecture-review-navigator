@@ -12,30 +12,30 @@ theme:
 
 nav:
   - Home: index.md
+  - Contributing: contributing.md
   - Structure vs DeepDive: structure-vs-deepdive.md
-  - Navigation Map: navigation-map.md    
+  - Common:
+      - Design Justification: categories/common/design-justification.md
   - Domain:
-      - Proper Domain Abstraction: categories/domain/domain-separation.md
-      - Constraint Validation: categories/domain/domain-validation.md
-      - Impossible State Design: categories/domain/invalid-states.md
-      - Inheritance & Modeling Alignment: categories/domain/inheritance-integrity.md
-      - Domain Authorization Strategy: categories/domain/domain-permissions.md
+      - Proper Domain Abstraction: categories/domain/domain-abstraction.md
+      - Constraint Validation: categories/domain/validation.md
+      - Impossible State Design: categories/domain/impossible-state.md
+      - Inheritance & Modeling Alignment: categories/domain/inheritance-alignment.md
+      - Domain Authorization Strategy: categories/domain/permission-logic.md
   - Data:
-      - Data Lifecycle Clarity: categories/data/lifecycle-clarity.md
-      - Index Design for Entities: categories/data/index-design.md
-      - Concurrency Control Strategy: categories/data/write-contention.md
-      - Normalization/Denormalization Tradeoff: categories/data/normalization-balance.md
-      - Safe Migration Planning: categories/data/migration-impact.md
-      - Retry-Time Consistency: categories/data/retry-consistency.md
-      - Distributed Transaction Strategy: categories/data/distributed-transaction-design.md
-      - Fallback Strategy: categories/data/fallback-strategy.md
+      - Data Lifecycle Clarity: categories/data/lifecycle.md
+      - Index Design for Entities: categories/data/indexing.md
+      - Indexing Strategy: categories/data/indexing-strategy.md
+      - Concurrency Control Strategy: categories/data/locking.md
+      - Normalization/Denormalization Tradeoff: categories/data/normalization.md
+      - Safe Migration Planning: categories/data/migration.md
   - Performance:
       - DB Index Optimization: categories/performance/db-index-optimization.md
       - Indexing Paths per Query: categories/performance/indexing-paths.md
-      - API Latency: categories/performance/api-response-latency.md
-      - Caching Strategy: categories/performance/cache-strategy.md
-      - External Load Protection: categories/performance/external-pressure-resilience.md
-      - Scaling Plan (Up/Out): categories/performance/scaling-strategy.md
+      - API Latency: categories/performance/api-latency.md
+      - Caching Strategy: categories/performance/caching.md
+      - External Load Protection: categories/performance/external-load.md
+      - Scaling Plan (Up/Out): categories/performance/scaling-plan.md
       - Bottleneck Avoidance: categories/performance/backend-bottlenecks.md
   - Event:
       - Async/Sync Responsibility Split: categories/async/sync-async-alignment.md
@@ -63,6 +63,7 @@ nav:
       - Minimized Downtime Plan: categories/release/minimize-downtime.md
       - Rollback Procedure Preparedness: categories/release/rollback-strategy.md
       - Change Impact Assessment: categories/release/impact-analysis-for-critical-changes.md
+      - Staged Rollout Strategy: categories/release/staged-release-strategy.md
   - Availability:
       - Failover Strategy: categories/availability/failover-design.md
       - Data Recovery Strategy: categories/availability/data-recovery-plan.md
@@ -73,3 +74,6 @@ nav:
       - Recovery Workflow Clarity: categories/non-functional/recovery-runbook.md
       - Monitoring & Alert Design: categories/non-functional/observability-alerting.md
       - Logging for Troubleshooting: categories/non-functional/logging-for-troubleshooting.md
+  - Security:
+      - Authn/Authz Implementation: categories/security/authn-authz-implementation.md
+      - Confidential Data Handling: categories/security/confidential-data-handling.md

@@ -1,7 +1,7 @@
 # SaaS Architecture Review Navigator
 
 > A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers  
-> **52 perspectives / 9 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
+> **50+ perspectives / 11 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
 
 ---
 
@@ -10,15 +10,18 @@
 This repository is a **checklist + knowledge navigator** for SaaS architecture design.  
 It helps teams avoid blind spots and ensure design quality by reviewing critical perspectives across:
 
-- Domain design
-- Data modeling
-- API/schema/interface contracts
-- Performance & scalability
-- Event-driven & asynchronous systems
-- Authorization & security
-- Testing and release operations
-- Availability and failure handling
-- Non-functional/operational requirements
+- Domain modeling and validation  
+- Data structure, indexing, lifecycle, and consistency  
+- API design, schema evolution, and compatibility  
+- Event-driven and asynchronous workflows  
+- Performance and scalability  
+- UI rendering and communication logic  
+- Release operations and rollback planning  
+- Availability, failover, and data recovery  
+- Testing boundaries and load behavior  
+- Security, authentication, and sensitive data protection  
+- Logging, observability, and operational resilience  
+- Common design justification and rationale
 
 Each perspective is a Markdown file (e.g. `docs/categories/api/authz-strategy.md`) with:
 
@@ -35,15 +38,17 @@ Each perspective is a Markdown file (e.g. `docs/categories/api/authz-strategy.md
 | Category | Description |
 |----------|-------------|
 | `domain` | Domain modeling, validation, permission logic |
-| `data` | Schema structure, index, consistency, migrations |
-| `api` | Interface design, versioning, security |
-| `performance` | Latency, throughput, scaling, bottlenecks |
-| `async` | Async design, retries, fallback patterns |
-| `test` | Testing boundaries, load testing, acceptance |
-| `release` | Rollout, rollback, impact control |
-| `availability` | Failover, backup, recovery |
-| `non-functional` | Logging, monitoring, security, operations |
-| `ui` | UX/performance, component reuse, notifications |
+| `data` | Schema lifecycle, indexing, consistency, migration |
+| `api` | Contract design, versioning, authorization strategy |
+| `performance` | Latency, indexing, caching, scalability |
+| `async` | Retry behavior, fallout impact, causal issues |
+| `release` | Rollouts, rollback, downtime, impact boundaries |
+| `test` | Acceptance criteria, stress testing, scope checks |
+| `availability` | Failover, data recovery, backup plans |
+| `non-functional` | Logging, monitoring, recovery workflows |
+| `ui` | Display limits, translation, component reuse |
+| `security` | Authentication, authorization, sensitive data protection |
+| `common` | Cross-cutting design rationale, justification |
 
 ---
 
@@ -83,13 +88,12 @@ See `/docs/` for deeper cross-cutting guides across multiple perspectives:
 
 ```
 docs/
-  ├─ index-perspectives.md
-  ├─ consistency-perspectives.md
-  ├─ recovery-perspectives.md
-  ├─ load-handling.md
-  ├─ test-perspectives.md
-  └─ navigation-map.md
+  ├─ index.md
+  ├─ contributing.md
+  ├─ navigation-map.md
+  ├─ structure-vs-deepdive.md
   └─ /categories/
+              ├─ common/
               ├─ domain/
               ├─ data/
               ├─ api/
@@ -97,6 +101,7 @@ docs/
               ├─ async/
               ├─ test/
               ├─ release/
+              ├─ security/
               ├─ availability/
               ├─ non-functional/
               └─ ui/
@@ -117,7 +122,7 @@ Use, fork, share, or extend freely. Attribution is welcome.
 
 ## 🛠 Maintainers & Source
 
-Created by [Kanaria (Zenn)](https://zenn.dev/kanaria007)  
+Created by [kanaria007 (Zenn)](https://zenn.dev/kanaria007)  
 Original articles and use cases:  
 https://zenn.dev/kanaria007/articles/101e51dbcf2135
 

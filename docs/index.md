@@ -2,7 +2,7 @@
 
 > A structured, field-tested design perspective navigator  
 > for SaaS architects, engineers, and reviewers.  
-> **52 perspectives / 9 categories / 2 structural levels** — all mapped and linked.
+> **50+ perspectives / 11 categories / 2 structural levels** — all mapped and linked.
 
 ---
 
@@ -11,14 +11,14 @@
 This navigator helps distributed system designers **avoid blind spots**  
 by checking critical architecture perspectives across:
 
-- Domain modeling
-- Data structure and consistency
-- API design and schema governance
-- Event-driven architecture
-- Performance and scalability
-- Authorization and security
-- Testing and release operations
-- Availability and failure handling
+- Domain modeling  
+- Data structure and consistency  
+- API design and schema governance  
+- Event-driven architecture  
+- Performance and scalability  
+- Authorization and security  
+- Testing and release operations  
+- Availability and failure handling  
 - Operational/non-functional requirements
 
 Each perspective is a focused, atomic `.md` file:
@@ -33,16 +33,18 @@ Each perspective is a focused, atomic `.md` file:
 
 ## 📂 Categories
 
-- 🏷️ [`domain/`](./domain/) — abstraction, constraints, permissions
-- 📦 [`data/`](./data/) — schema lifecycle, migration, indexing
-- 🌐 [`api/`](./api/) — contract design, versioning, authz
-- 🔁 [`event/`](./event/) — async design, retries, fallout zones
-- 📊 [`performance/`](./performance/) — latency, scale, resource limits
-- 🎨 [`ui/`](./ui/) — rendering cost, notification design
-- 🧪 [`test/`](./test/) — boundary tests, load, acceptance
-- 🚀 [`release/`](./release/) — rollout strategy, rollback design
-- 🔰 [`availability/`](./availability/) — failure response, backup, recovery
-- 🛡 [`non-functional/`](./non-functional/) — monitoring, security, ops
+- 🧩 [`Common`](categories/common/design-justification.md) — design reasoning, tradeoff clarity  
+- 🏷️ [`Domain`](categories/domain/domain-abstraction.md) — abstraction, constraints, permissions  
+- 📦 [`Data`](categories/data/lifecycle-clarity.md) — schema lifecycle, migration, indexing  
+- 🌐 [`API`](categories/api/api-schema-coherence.md) — contract design, versioning, authz  
+- 🔁 [`Event`](categories/async/sync-async-alignment.md) — async design, retries, fallout zones  
+- 📊 [`Performance`](categories/performance/db-index-optimization.md) — latency, scale, resource limits  
+- 🎨 [`UI`](categories/ui/component-reuse-impact.md) — rendering cost, notification design  
+- 🧪 [`Test`](categories/test/impact-scope-analysis.md) — boundary tests, load, acceptance  
+- 🚀 [`Release`](categories/release/release-strategy-planning.md) — rollout strategy, rollback design  
+- 🔰 [`Availability`](categories/availability/failover-design.md) — failure response, backup, recovery  
+- 🛡 [`Non-functional`](categories/non-functional/security-risks.md) — monitoring, security, ops  
+- 🔐 [`Security`](categories/security/authn-authz-implementation.md) — authn/authz, sensitive data  
 
 ---
 
@@ -51,7 +53,7 @@ Each perspective is a focused, atomic `.md` file:
 - **Structure**: architectural separation, clarity, responsibility  
 - **DeepDive**: failure handling, tradeoffs, operational edge cases
 
-Use the sidebar or navigation to explore perspectives by category or concept.
+Use the sidebar or top navigation to explore perspectives by category or concept.
 
 ---
 
@@ -69,4 +71,3 @@ Use the sidebar or navigation to explore perspectives by category or concept.
 > This is not a tutorial.  
 > It is a design navigator.  
 > Built to help teams **ask better questions** before code is written.
-
