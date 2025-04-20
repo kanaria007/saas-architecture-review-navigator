@@ -11,10 +11,6 @@
         <link rel="canonical" href="https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/retry-consistency/">
       
       
-        <link rel="prev" href="../migration-impact/">
-      
-      
-        <link rel="next" href="../distributed-transaction-design/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +18,7 @@
     
     
       
-        <title>Retry-Time Consistency - SaaS Architecture Review Navigator</title>
+        <title>Can Retried Events Introduce Inconsistent State? - SaaS Architecture Review Navigator</title>
       
     
     
@@ -98,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Retry-Time Consistency
+              Can Retried Events Introduce Inconsistent State?
             
           </span>
         </div>
@@ -192,6 +188,25 @@
   
   
     <li class="md-tabs__item">
+      <a href="../../../contributing/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contributing
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
       <a href="../../../structure-vs-deepdive/" class="md-tabs__link">
         
   
@@ -210,17 +225,18 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../../../navigation-map/" class="md-tabs__link">
-        
-  
-  
     
+    
+      <li class="md-tabs__item">
+        <a href="../../common/design-justification/" class="md-tabs__link">
+          
   
-  Navigation Map
+  
+  Common
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -232,7 +248,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../domain/domain-separation/" class="md-tabs__link">
+        <a href="../../domain/domain-abstraction.md" class="md-tabs__link">
           
   
   
@@ -248,13 +264,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../lifecycle-clarity/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../lifecycle.md" class="md-tabs__link">
           
   
   
@@ -426,6 +440,26 @@
   
 
       
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../security/authn-authz-implementation/" class="md-tabs__link">
+          
+  
+  
+  Security
+
+        </a>
+      </li>
+    
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -490,12 +524,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../structure-vs-deepdive/" class="md-nav__link">
+      <a href="../../../contributing/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Structure vs DeepDive
+    Contributing
     
   </span>
   
@@ -512,12 +546,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../navigation-map/" class="md-nav__link">
+      <a href="../../../structure-vs-deepdive/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Navigation Map
+    Structure vs DeepDive
     
   </span>
   
@@ -553,7 +587,7 @@
   
   
   <span class="md-ellipsis">
-    Domain
+    Common
     
   </span>
   
@@ -563,6 +597,77 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Common
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../common/design-justification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design Justification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Domain
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Domain
           </label>
@@ -575,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../domain/domain-separation/" class="md-nav__link">
+      <a href="../../domain/domain-abstraction.md" class="md-nav__link">
         
   
   
@@ -598,7 +703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../domain/domain-validation/" class="md-nav__link">
+      <a href="../../domain/validation.md" class="md-nav__link">
         
   
   
@@ -621,7 +726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../domain/invalid-states/" class="md-nav__link">
+      <a href="../../domain/impossible-state.md" class="md-nav__link">
         
   
   
@@ -644,7 +749,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../domain/inheritance-integrity/" class="md-nav__link">
+      <a href="../../domain/inheritance-alignment.md" class="md-nav__link">
         
   
   
@@ -667,345 +772,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../domain/domain-permissions/" class="md-nav__link">
+      <a href="../../domain/permission-logic.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     Domain Authorization Strategy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-        
-        
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    Data
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Data
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../lifecycle-clarity/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Data Lifecycle Clarity
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../index-design/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Index Design for Entities
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../write-contention/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Concurrency Control Strategy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../normalization-balance/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Normalization/Denormalization Tradeoff
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../migration-impact/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Safe Migration Planning
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Retry-Time Consistency
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    Retry-Time Consistency
-    
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-silent-disaster" class="md-nav__link">
-    <span class="md-ellipsis">
-      🚨 The Silent Disaster
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-real-question" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 The Real Question
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scenarios-to-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔍 Scenarios to Review
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#safer-designs" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✅ Safer Designs
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faq" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❓ FAQ
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-perspectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔗 Related Perspectives
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../distributed-transaction-design/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Distributed Transaction Strategy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../fallback-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Fallback Strategy
     
   </span>
   
@@ -1049,7 +821,7 @@
   
   
   <span class="md-ellipsis">
-    Performance
+    Data
     
   </span>
   
@@ -1059,6 +831,192 @@
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lifecycle.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Lifecycle Clarity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indexing.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index Design for Entities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../indexing-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Indexing Strategy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../locking.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Concurrency Control Strategy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../normalization.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Normalization/Denormalization Tradeoff
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../migration.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Safe Migration Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Performance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Performance
           </label>
@@ -1117,7 +1075,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/api-response-latency/" class="md-nav__link">
+      <a href="../../performance/api-latency.md" class="md-nav__link">
         
   
   
@@ -1140,7 +1098,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/cache-strategy/" class="md-nav__link">
+      <a href="../../performance/caching.md" class="md-nav__link">
         
   
   
@@ -1163,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/external-pressure-resilience/" class="md-nav__link">
+      <a href="../../performance/external-load.md" class="md-nav__link">
         
   
   
@@ -1186,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/scaling-strategy/" class="md-nav__link">
+      <a href="../../performance/scaling-plan.md" class="md-nav__link">
         
   
   
@@ -1250,10 +1208,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
   
   
@@ -1266,8 +1224,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Event
           </label>
@@ -1390,10 +1348,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
         
           
-          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
   
   
@@ -1406,8 +1364,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
             API
           </label>
@@ -1553,10 +1511,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
         
           
-          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
             
   
   
@@ -1569,8 +1527,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_9">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             UI
           </label>
@@ -1670,10 +1628,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
         
           
-          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
             
   
   
@@ -1686,8 +1644,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
             <span class="md-nav__icon md-icon"></span>
             Test
           </label>
@@ -1810,10 +1768,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
         
           
-          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
             
   
   
@@ -1826,8 +1784,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_11">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
             <span class="md-nav__icon md-icon"></span>
             Release
           </label>
@@ -1948,6 +1906,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/staged-release-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Staged Rollout Strategy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1973,10 +1954,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
         
           
-          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
             
   
   
@@ -1989,8 +1970,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_12">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
             <span class="md-nav__icon md-icon"></span>
             Availability
           </label>
@@ -2090,10 +2071,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
         
           
-          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="0">
             
   
   
@@ -2106,8 +2087,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_13">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             Non-functional
           </label>
@@ -2218,6 +2199,100 @@
   
   <span class="md-ellipsis">
     Logging for Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Security
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            Security
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/authn-authz-implementation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authn/Authz Implementation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../security/confidential-data-handling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Confidential Data Handling
     
   </span>
   
