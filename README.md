@@ -75,11 +75,6 @@ Browse `availability/` or `non-functional/` to audit failure handling quality.
 
 See `/docs/` for deeper cross-cutting guides across multiple perspectives:
 
-- [Index Strategy Perspectives](./docs/index-perspectives.md)
-- [Consistency Perspectives](./docs/consistency-perspectives.md)
-- [Recovery Strategy](./docs/recovery-perspectives.md)
-- [Load Handling & Scalability](./docs/load-handling.md)
-- [Test Strategy Layers](./docs/test-perspectives.md)
 - [Navigation Map (Full Index)](./docs/navigation-map.md)
 
 ---
