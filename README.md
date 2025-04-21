@@ -1,7 +1,7 @@
 # SaaS Architecture Review Navigator
 
 > A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers  
-> **50+ perspectives / 11 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
+> **50+ perspectives / 12 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
 
 ---
 

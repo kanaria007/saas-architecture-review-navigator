@@ -2,7 +2,7 @@
 
 > A structured, field-tested design perspective navigator  
 > for SaaS architects, engineers, and reviewers.  
-> **50+ perspectives / 11 categories / 2 structural levels** — all mapped and linked.
+> **50+ perspectives / 12 categories / 2 structural levels** — all mapped and linked.
 
 ---
 
