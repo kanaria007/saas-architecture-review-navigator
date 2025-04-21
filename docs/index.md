@@ -34,7 +34,7 @@ Each perspective is a focused, atomic `.md` file:
 ## 📂 Categories
 
 - 🧩 [`Common`](categories/common/design-justification.md) — design reasoning, tradeoff clarity  
-- 🏷️ [`Domain`](categories/domain/domain-abstraction.md) — abstraction, constraints, permissions  
+- 🏷️ [`Domain`](categories/domain/domain-permissions.md) — abstraction, constraints, permissions  
 - 📦 [`Data`](categories/data/lifecycle-clarity.md) — schema lifecycle, migration, indexing  
 - 🌐 [`API`](categories/api/api-schema-coherence.md) — contract design, versioning, authz  
 - 🔁 [`Event`](categories/async/sync-async-alignment.md) — async design, retries, fallout zones  

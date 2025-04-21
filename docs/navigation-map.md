@@ -1,22 +1,16 @@
 # 🗺 Navigation Map by Category
 
-## API
-
-- 📐 [Api Compatibility Strategy](categories/api/api-compatibility-strategy.md)
-- 📐 [Api Permission Control](categories/api/api-permission-control.md)
-- 📐 [Api Schema Coherence](categories/api/api-schema-coherence.md)
-- 🔬 [Privilege Escalation Risk](categories/api/privilege-escalation-risk.md)
-- 📐 [Sync Vs Async Boundaries](categories/api/sync-vs-async-boundaries.md)
-
-## Availability
-
-- 🔬 [Backup Strategy](categories/availability/backup-strategy.md)
-- 🔬 [Data Recovery Plan](categories/availability/data-recovery-plan.md)
-- 🔬 [Failover Design](categories/availability/failover-design.md)
-
 ## Common
 
 - 📐 [Design Justification](categories/common/design-justification.md)
+
+## Domain
+
+- 📐 [Domain Permissions](categories/domain/domain-permissions.md)
+- 📐 [Domain Separation](categories/domain/domain-separation.md)
+- 📐 [Domain Validation](categories/domain/domain-validation.md)
+- 📐 [Inheritance Integrity](categories/domain/inheritance-integrity.md)
+- 📐 [Invalid States](categories/domain/invalid-states.md)
 
 ## Data
 
@@ -30,13 +24,13 @@
 - 🔬 [Retry Consistency](categories/data/retry-consistency.md)
 - 🔬 [Write Contention](categories/data/write-contention.md)
 
-## Domain
+## API
 
-- 📐 [Domain Permissions](categories/domain/domain-permissions.md)
-- 📐 [Domain Separation](categories/domain/domain-separation.md)
-- 📐 [Domain Validation](categories/domain/domain-validation.md)
-- 📐 [Inheritance Integrity](categories/domain/inheritance-integrity.md)
-- 📐 [Invalid States](categories/domain/invalid-states.md)
+- 📐 [Api Compatibility Strategy](categories/api/api-compatibility-strategy.md)
+- 📐 [Api Permission Control](categories/api/api-permission-control.md)
+- 📐 [Api Schema Coherence](categories/api/api-schema-coherence.md)
+- 🔬 [Privilege Escalation Risk](categories/api/privilege-escalation-risk.md)
+- 📐 [Sync Vs Async Boundaries](categories/api/sync-vs-async-boundaries.md)
 
 ## Event
 
@@ -44,14 +38,6 @@
 - 🔬 [Event Retry Delay](categories/async/event-retry-delay.md)
 - 🔬 [External Failure Impact](categories/async/external-failure-impact.md)
 - 📐 [Sync Async Alignment](categories/async/sync-async-alignment.md)
-
-## Non-functional
-
-- 🔬 [Logging For Troubleshooting](categories/non-functional/logging-for-troubleshooting.md)
-- 🔬 [Observability Alerting](categories/non-functional/observability-alerting.md)
-- 📐 [Operational Burden](categories/non-functional/operational-burden.md)
-- 🔬 [Recovery Runbook](categories/non-functional/recovery-runbook.md)
-- 📐 [Security Risks](categories/non-functional/security-risks.md)
 
 ## Performance
 
@@ -63,6 +49,19 @@
 - 🔬 [Indexing Paths](categories/performance/indexing-paths.md)
 - 🔬 [Scaling Strategy](categories/performance/scaling-strategy.md)
 
+## UI
+
+- 📐 [Component Reuse Impact](categories/ui/component-reuse-impact.md)
+- 📐 [Data Volume Visibility](categories/ui/data-volume-visibility.md)
+- 📐 [Notification Localization](categories/ui/notification-localization.md)
+
+## Test
+
+- 📐 [Acceptance Criteria Definition](categories/test/acceptance-criteria-definition.md)
+- 🔬 [High Load Behavior Testing](categories/test/high-load-behavior-testing.md)
+- 📐 [Impact Scope Analysis](categories/test/impact-scope-analysis.md)
+- 📐 [Performance Test Plan](categories/test/performance-test-plan.md)
+
 ## Release
 
 - 🔬 [Impact Analysis For Critical Changes](categories/release/impact-analysis-for-critical-changes.md)
@@ -72,15 +71,21 @@
 - 🔬 [Staged Release Strategy](categories/release/staged-release-strategy.md)
 - 📐 [User Notification Preparation](categories/release/user-notification-preparation.md)
 
-## Test
+## Availability
 
-- 📐 [Acceptance Criteria Definition](categories/test/acceptance-criteria-definition.md)
-- 🔬 [High Load Behavior Testing](categories/test/high-load-behavior-testing.md)
-- 📐 [Impact Scope Analysis](categories/test/impact-scope-analysis.md)
-- 📐 [Performance Test Plan](categories/test/performance-test-plan.md)
+- 🔬 [Backup Strategy](categories/availability/backup-strategy.md)
+- 🔬 [Data Recovery Plan](categories/availability/data-recovery-plan.md)
+- 🔬 [Failover Design](categories/availability/failover-design.md)
 
-## UI
+## Non-functional
 
-- 📐 [Component Reuse Impact](categories/ui/component-reuse-impact.md)
-- 📐 [Data Volume Visibility](categories/ui/data-volume-visibility.md)
-- 📐 [Notification Localization](categories/ui/notification-localization.md)
+- 🔬 [Logging For Troubleshooting](categories/non-functional/logging-for-troubleshooting.md)
+- 🔬 [Observability Alerting](categories/non-functional/observability-alerting.md)
+- 📐 [Operational Burden](categories/non-functional/operational-burden.md)
+- 🔬 [Recovery Runbook](categories/non-functional/recovery-runbook.md)
+- 📐 [Security Risks](categories/non-functional/security-risks.md)
+
+## Security
+
+- 🔬 [Authn Auth Implementation](categories/security/authn-authz-implementation.md)
+- 🔬 [Confidential Data Handling](categories/security/confidential-data-handling.md)
