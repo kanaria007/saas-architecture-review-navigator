@@ -1959,7 +1959,16 @@
         <li class="md-nav__item">
   <a href="#what-this-perspective-covers" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 What This Perspective Covers
+      🔍 What This Perspective Covers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-failure-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Common Failure Patterns
     </span>
   </a>
   
@@ -1975,18 +1984,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#common-failure-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔥 Common Failure Patterns
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#better-release-strategy-design" class="md-nav__link">
     <span class="md-ellipsis">
-      🛠 Better Release Strategy Design
+      🧠 Better Release Strategy Design
     </span>
   </a>
   
@@ -1995,16 +1995,7 @@
         <li class="md-nav__item">
   <a href="#faq" class="md-nav__link">
     <span class="md-ellipsis">
-      📘 FAQ
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-principle" class="md-nav__link">
-    <span class="md-ellipsis">
-      🎯 Key Principle
+      ❓ FAQ
     </span>
   </a>
   
@@ -2504,11 +2495,20 @@ Category: Release<br />
 Audience: Tech leads, backend leads, SREs, and PMs planning production deployment</p>
 </blockquote>
 <hr />
-<h2 id="what-this-perspective-covers">🧠 What This Perspective Covers<a class="headerlink" href="#what-this-perspective-covers" title="Permanent link">&para;</a></h2>
+<h2 id="what-this-perspective-covers">🔍 What This Perspective Covers<a class="headerlink" href="#what-this-perspective-covers" title="Permanent link">&para;</a></h2>
 <p>Release is not deployment.<br />
 It is a negotiation with failure.</p>
 <p>Even small changes can cause large damage if release strategy is not considered—<br />
 especially under multi-tenant, distributed, or asynchronous conditions.</p>
+<hr />
+<h2 id="common-failure-patterns">⚠️ Common Failure Patterns<a class="headerlink" href="#common-failure-patterns" title="Permanent link">&para;</a></h2>
+<ul>
+<li>All-or-nothing deploy with no rollback path  </li>
+<li>Feature exposure tied directly to deploy, no toggles or controls  </li>
+<li>DB schema changes without forward/backward compatibility  </li>
+<li>Downtime assumed as “unavoidable” due to monolithic migration  </li>
+<li>Release timing misaligned with business risk window (e.g. peak hours)</li>
+</ul>
 <hr />
 <h2 id="typical-use-cases">✅ Typical Use Cases<a class="headerlink" href="#typical-use-cases" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2518,16 +2518,10 @@ especially under multi-tenant, distributed, or asynchronous conditions.</p>
 <li>Stepwise exposure: staging → internal users → selected customers → all users</li>
 </ul>
 <hr />
-<h2 id="common-failure-patterns">🔥 Common Failure Patterns<a class="headerlink" href="#common-failure-patterns" title="Permanent link">&para;</a></h2>
-<ul>
-<li>All-or-nothing deploy with no rollback path  </li>
-<li>Feature exposure tied directly to deploy, no toggles or controls  </li>
-<li>DB schema changes without forward/backward compatibility  </li>
-<li>Downtime assumed as “unavoidable” due to monolithic migration  </li>
-<li>Release timing misaligned with business risk window (e.g. peak hours)</li>
-</ul>
-<hr />
-<h2 id="better-release-strategy-design">🛠 Better Release Strategy Design<a class="headerlink" href="#better-release-strategy-design" title="Permanent link">&para;</a></h2>
+<h2 id="better-release-strategy-design">🧠 Better Release Strategy Design<a class="headerlink" href="#better-release-strategy-design" title="Permanent link">&para;</a></h2>
+<p>Key Principle</p>
+<p>Release ≠ Code Delivery<br />
+<strong>Release = Risk Framing + Controlled Exposure</strong></p>
 <ul>
 <li>Classify the change: is it visible? breaking? reversible?  </li>
 <li>Design rollout method: toggle, staged, canary, delayed exposure  </li>
@@ -2536,7 +2530,7 @@ especially under multi-tenant, distributed, or asynchronous conditions.</p>
 <li>Coordinate internally: who needs to know when and why</li>
 </ul>
 <hr />
-<h2 id="faq">📘 FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
+<h2 id="faq">❓ FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p><strong>Q: Why not fix forward?</strong><br />
@@ -2551,10 +2545,6 @@ especially under multi-tenant, distributed, or asynchronous conditions.</p>
 <strong>A:</strong> Every team must own it for what they ship.</p>
 </li>
 </ul>
-<hr />
-<h2 id="key-principle">🎯 Key Principle<a class="headerlink" href="#key-principle" title="Permanent link">&para;</a></h2>
-<p>Release ≠ Code Delivery<br />
-<strong>Release = Risk Framing + Controlled Exposure</strong></p>
 <hr />
 <h2 id="related-perspectives">🔗 Related Perspectives<a class="headerlink" href="#related-perspectives" title="Permanent link">&para;</a></h2>
 <ul>
@@ -2583,7 +2573,7 @@ especially under multi-tenant, distributed, or asynchronous conditions.</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    2025-04-21
+    2025-04-22
   </span>
 
     

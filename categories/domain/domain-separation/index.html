@@ -749,16 +749,7 @@
         <li class="md-nav__item">
   <a href="#whats-actually-being-asked-here" class="md-nav__link">
     <span class="md-ellipsis">
-      📌 What’s Actually Being Asked Here
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-proper-separation-actually-enables" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 What Proper Separation Actually Enables
+      🔍 What’s Actually Being Asked Here
     </span>
   </a>
   
@@ -767,7 +758,16 @@
         <li class="md-nav__item">
   <a href="#patterns-that-pretend-to-be-separation-but-arent" class="md-nav__link">
     <span class="md-ellipsis">
-      🚨 Patterns That Pretend to Be Separation (But Aren’t)
+      ⚠️ Patterns That Pretend to Be Separation (But Aren’t)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-proper-separation-actually-enables" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ What Proper Separation Actually Enables
     </span>
   </a>
   
@@ -776,7 +776,7 @@
         <li class="md-nav__item">
   <a href="#litmus-tests" class="md-nav__link">
     <span class="md-ellipsis">
-      🔍 Litmus Tests
+      🧠 Litmus Tests
     </span>
   </a>
   
@@ -2495,7 +2495,7 @@ Category: Domain<br />
 Audience: Engineers pretending they’re writing “business logic”</p>
 </blockquote>
 <hr />
-<h2 id="whats-actually-being-asked-here">📌 What’s Actually Being Asked Here<a class="headerlink" href="#whats-actually-being-asked-here" title="Permanent link">&para;</a></h2>
+<h2 id="whats-actually-being-asked-here">🔍 What’s Actually Being Asked Here<a class="headerlink" href="#whats-actually-being-asked-here" title="Permanent link">&para;</a></h2>
 <p>You’ve drawn a clean architecture diagram. Cool.<br />
 Now answer this:</p>
 <ul>
@@ -2504,7 +2504,14 @@ Now answer this:</p>
 <li>Or is it just holding data and praying someone else checks it?</li>
 </ul>
 <hr />
-<h2 id="what-proper-separation-actually-enables">🧠 What Proper Separation Actually Enables<a class="headerlink" href="#what-proper-separation-actually-enables" title="Permanent link">&para;</a></h2>
+<h2 id="patterns-that-pretend-to-be-separation-but-arent">⚠️ Patterns That Pretend to Be Separation (But Aren’t)<a class="headerlink" href="#patterns-that-pretend-to-be-separation-but-arent" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dumb domain models: <code>{ User(name: String, isAdmin: Boolean) }</code> → That’s a DTO wearing a mustache  </li>
+<li>Application layer calling <code>domain.validate()</code> → Then ignoring the result  </li>
+<li>Behavior checks in service classes → AKA: “just one more if-statement” until entropy takes over</li>
+</ul>
+<hr />
+<h2 id="what-proper-separation-actually-enables">✅ What Proper Separation Actually Enables<a class="headerlink" href="#what-proper-separation-actually-enables" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Your business rules live <strong>in the domain</strong>, not scattered across services or controllers  </li>
 <li>Application orchestration becomes thin—and safer  </li>
@@ -2512,14 +2519,7 @@ Now answer this:</p>
 <li>You can change the app layer without corrupting the model</li>
 </ul>
 <hr />
-<h2 id="patterns-that-pretend-to-be-separation-but-arent">🚨 Patterns That Pretend to Be Separation (But Aren’t)<a class="headerlink" href="#patterns-that-pretend-to-be-separation-but-arent" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Dumb domain models: <code>{ User(name: String, isAdmin: Boolean) }</code> → That’s a DTO wearing a mustache  </li>
-<li>Application layer calling <code>domain.validate()</code> → Then ignoring the result  </li>
-<li>Behavior checks in service classes → AKA: “just one more if-statement” until entropy takes over</li>
-</ul>
-<hr />
-<h2 id="litmus-tests">🔍 Litmus Tests<a class="headerlink" href="#litmus-tests" title="Permanent link">&para;</a></h2>
+<h2 id="litmus-tests">🧠 Litmus Tests<a class="headerlink" href="#litmus-tests" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Can you create an invalid object via constructor or factory?<br />
   → If yes, your domain is a data bag, not a rulekeeper.  </li>
@@ -2566,7 +2566,7 @@ Now answer this:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    2025-04-21
+    2025-04-22
   </span>
 
     
