@@ -97,14 +97,14 @@ docs/
               ├─ domain/
               ├─ data/
               ├─ api/
+              ├─ event/
               ├─ performance/
-              ├─ async/
+              ├─ ui/
               ├─ test/
               ├─ release/
-              ├─ security/
               ├─ availability/
               ├─ non-functional/
-              └─ ui/
+              └─ security/
 README.md
 LICENSE
 CONTRIBUTING.md
