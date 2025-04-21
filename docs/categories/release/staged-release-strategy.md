@@ -6,15 +6,13 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Releases don’t need to be all-or-nothing.
 
 A stepwise rollout lets you control exposure, validate assumptions, and absorb failure safely.
 
----
-
-## 🔍 Example Patterns
+Example Patterns
 
 - Start with internal users → select customers → general audience  
 - Use feature flags or remote config to gate access  
@@ -23,7 +21,7 @@ A stepwise rollout lets you control exposure, validate assumptions, and absorb f
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Releasing to all users before observing risk  
 - Lacking rollback plan for each phase  
@@ -42,7 +40,7 @@ A stepwise rollout lets you control exposure, validate assumptions, and absorb f
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Speed is not in full release.  
 Speed is in safe, observable rollout.**

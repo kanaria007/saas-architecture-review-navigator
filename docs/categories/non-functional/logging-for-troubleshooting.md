@@ -6,15 +6,13 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Logs are not just for developers—they’re lifelines during failure.
 
 This perspective checks whether your logging strategy provides **enough context and structure** to support fast, reliable incident diagnosis and postmortem analysis.
 
----
-
-## 🔍 Logging Pain Points
+Logging Pain Points
 
 - No correlation ID between API, job, and DB traces  
 - User actions are not clearly tied to internal events  
@@ -24,7 +22,7 @@ This perspective checks whether your logging strategy provides **enough context 
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - “It failed” but no insight into why or what triggered it  
 - Can’t trace user impact across distributed components  
@@ -44,7 +42,7 @@ This perspective checks whether your logging strategy provides **enough context 
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **If your logs can’t explain failure,  
 they’re just expensive noise.**

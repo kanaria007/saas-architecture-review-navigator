@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 When the change is big, the cost of being wrong explodes.
 
@@ -23,7 +23,7 @@ This perspective checks whether **critical or cross-cutting changes are assessed
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Data changes deployed without reverse plan or analytics impact review  
 - Infra configuration altered without traffic validation  
@@ -42,7 +42,7 @@ This perspective checks whether **critical or cross-cutting changes are assessed
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Scope isn’t just “what we built.”  
 It’s what could go wrong because we built it.**

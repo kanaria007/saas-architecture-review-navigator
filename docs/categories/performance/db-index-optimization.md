@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 This is not just about “adding indexes.”  
 It’s about **designing for how queries behave under growth and concurrency.**
@@ -20,7 +20,7 @@ This touches:
 
 ---
 
-## 🚨 What Goes Wrong in Practice
+## ⚠️ What Goes Wrong in Practice
 
 - Latency spikes on pages nobody thought were critical  
 - Multiple indexes fighting over the same table  

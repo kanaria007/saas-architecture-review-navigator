@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 The Real Question
+## 🔍 The Real Question
 
 Is your index structure **proactively shaped by read intent**—or is it just a patch?
 
@@ -15,7 +15,7 @@ you’re already behind.
 
 ---
 
-## 🚨 Common Index Design Failures
+## ⚠️ Common Index Design Failures
 
 - Over-indexing → writes slow down, SSD cries  
 - Under-indexing → filters applied in memory, not in scan  
@@ -34,7 +34,7 @@ you’re already behind.
 
 ---
 
-## 🔍 Litmus Tests
+## 🧠 Litmus Tests
 
 - Can you name the top 3 queries this index serves?  
 - Do you know which indexes are *hurting* insert/update performance?

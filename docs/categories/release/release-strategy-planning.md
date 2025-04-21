@@ -6,13 +6,23 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Release is not deployment.  
 It is a negotiation with failure.
 
 Even small changes can cause large damage if release strategy is not considered—  
 especially under multi-tenant, distributed, or asynchronous conditions.
+
+---
+
+## ⚠️ Common Failure Patterns
+
+- All-or-nothing deploy with no rollback path  
+- Feature exposure tied directly to deploy, no toggles or controls  
+- DB schema changes without forward/backward compatibility  
+- Downtime assumed as “unavoidable” due to monolithic migration  
+- Release timing misaligned with business risk window (e.g. peak hours)
 
 ---
 
@@ -25,17 +35,12 @@ especially under multi-tenant, distributed, or asynchronous conditions.
 
 ---
 
-## 🔥 Common Failure Patterns
+## 🧠 Better Release Strategy Design
 
-- All-or-nothing deploy with no rollback path  
-- Feature exposure tied directly to deploy, no toggles or controls  
-- DB schema changes without forward/backward compatibility  
-- Downtime assumed as “unavoidable” due to monolithic migration  
-- Release timing misaligned with business risk window (e.g. peak hours)
+Key Principle
 
----
-
-## 🛠 Better Release Strategy Design
+Release ≠ Code Delivery  
+**Release = Risk Framing + Controlled Exposure**
 
 - Classify the change: is it visible? breaking? reversible?  
 - Design rollout method: toggle, staged, canary, delayed exposure  
@@ -45,7 +50,7 @@ especially under multi-tenant, distributed, or asynchronous conditions.
 
 ---
 
-## 📘 FAQ
+## ❓ FAQ
 
 - **Q: Why not fix forward?**  
   **A:** That works only when blast radius is controlled and recovery is fast.
@@ -55,13 +60,6 @@ especially under multi-tenant, distributed, or asynchronous conditions.
 
 - **Q: Who owns release design?**  
   **A:** Every team must own it for what they ship.
-
----
-
-## 🎯 Key Principle
-
-Release ≠ Code Delivery  
-**Release = Risk Framing + Controlled Exposure**
 
 ---
 

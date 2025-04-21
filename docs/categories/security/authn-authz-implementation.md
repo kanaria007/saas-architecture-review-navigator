@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Authentication (AuthN) and Authorization (AuthZ) are not features.  
 They are **foundations**—and when shaky, everything on top suffers.
 
 ---
 
-## 🚨 Auth Fragility Patterns
+## ⚠️ Auth Fragility Patterns
 
 - Auth logic split across middlewares, controllers, services  
 - Manual JWT parsing or unclear claim propagation  
@@ -33,7 +33,7 @@ They are **foundations**—and when shaky, everything on top suffers.
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 You don’t need custom auth.  
 You need **custom enforcement of clear intent.**

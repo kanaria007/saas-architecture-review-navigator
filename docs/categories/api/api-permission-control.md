@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 APIs are often wide open—not because of malice,  
 but because permission logic is missing, scattered, or implied.
@@ -16,7 +16,7 @@ but because permission logic is missing, scattered, or implied.
 
 ---
 
-## 🚨 Risk Patterns
+## ⚠️ Risk Patterns
 
 - UI hides buttons, but API accepts all requests  
 - Permission logic split across UI, controller, domain  
@@ -35,7 +35,7 @@ but because permission logic is missing, scattered, or implied.
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 You can’t debug what you never defined.  
 **Permission must be part of the architecture—not just the UI.**

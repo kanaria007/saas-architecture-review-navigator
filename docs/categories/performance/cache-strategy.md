@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Caching is powerful.  
 Which is why it’s dangerous.
@@ -17,7 +17,7 @@ Which is why it’s dangerous.
 
 ---
 
-## 🚨 Anti-Patterns
+## ⚠️ Anti-Patterns
 
 - Over-aggressive caching of incomplete or inconsistent data  
 - No cache invalidation on updates → stale reads  

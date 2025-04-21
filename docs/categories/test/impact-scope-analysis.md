@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Testing is not only about what changed—  
 but what the change might **touch**.
 
 ---
 
-## 🚨 Blind Spot Patterns
+## ⚠️ Blind Spot Patterns
 
 - Code paths modified, but dependent behavior left untested  
 - Flags or conditionals hide risk in less-used flows  
@@ -32,7 +32,7 @@ but what the change might **touch**.
 
 ---
 
-## ⚠️ Key Principle
+## 🧠 Key Principle
 
 Good testing is risk tracing.  
 **Not just behavior checking.**

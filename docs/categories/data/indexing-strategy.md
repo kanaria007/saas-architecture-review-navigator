@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 Why This Isn’t Just a Database Problem
+## 🔍 Why This Isn’t Just a Database Problem
 
 Indexes shape the *access patterns* of your entire system.  
 They’re not infra. They’re interface.
 
 ---
 
-## 🚨 What Goes Wrong
+## ⚠️ What Goes Wrong
 
 - Indexes exist for writes that never get queried  
 - Queries rely on fields without indexes → performance death spiral  
@@ -31,7 +31,7 @@ They’re not infra. They’re interface.
 
 ---
 
-## 🔍 Litmus Tests
+## 🧠 Litmus Tests
 
 - Can you name the top 3 most performance-critical queries in your system?  
 - Do those queries align with current indexes?  

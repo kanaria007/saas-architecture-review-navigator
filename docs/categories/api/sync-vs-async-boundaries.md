@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 The problem isn't just how to implement async.  
 It's **where** to draw the line—and **why**.
 
 ---
 
-## 🚨 Common Confusions
+## ⚠️ Common Confusions
 
 - Sync endpoints that take 5+ seconds → client timeouts  
 - Async endpoints with no status feedback → user uncertainty  
@@ -32,7 +32,7 @@ It's **where** to draw the line—and **why**.
 
 ---
 
-## ⚠️ Core Insight
+## 🧠 Core Insight
 
 The difference isn’t latency.  
 It’s **contract shape and system responsibility**.

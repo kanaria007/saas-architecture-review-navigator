@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Security isn’t just about access.  
 It’s about **impact** when access is misused or leaked.
@@ -19,7 +19,7 @@ What happens when:
 
 ---
 
-## 🚨 Unsafe Handling Patterns
+## ⚠️ Unsafe Handling Patterns
 
 - Sensitive fields returned by default in APIs (e.g. name, email, phone)  
 - Personally Identifiable Information (PII) stored in logs or metrics  
@@ -38,7 +38,7 @@ What happens when:
 
 ---
 
-## ⚠️ Core Insight
+## 🧠 Core Insight
 
 Data doesn’t become sensitive at runtime.  
 **It was always sensitive—you just didn’t label it.**

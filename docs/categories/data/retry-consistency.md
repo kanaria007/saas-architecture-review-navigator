@@ -6,7 +6,20 @@
 
 ---
 
-## 🚨 The Silent Disaster
+## 🔍 The Real Question
+
+When your event fires again—  
+are you confident it won’t do something **wrong**?
+
+Or are you just hoping the system “should handle it”?
+
+- Idempotency: enforced *where*? request layer? domain? DB?
+- Event replays: do they mutate state again, or just confirm idempotence?
+- Side effects: are they guarded by **delivery guarantees**, or just “probably won’t happen twice”?
+
+---
+
+## ⚠️ The Silent Disaster
 
 Retries feel safe—until they aren’t.
 
@@ -16,29 +29,19 @@ Retries feel safe—until they aren’t.
 
 ---
 
-## 🧠 The Real Question
-
-When your event fires again—  
-are you confident it won’t do something **wrong**?
-
-Or are you just hoping the system “should handle it”?
-
----
-
-## 🔍 Scenarios to Review
-
-- Idempotency: enforced *where*? request layer? domain? DB?
-- Event replays: do they mutate state again, or just confirm idempotence?
-- Side effects: are they guarded by **delivery guarantees**, or just “probably won’t happen twice”?
-
----
-
 ## ✅ Safer Designs
 
 - Use idempotency keys at system boundaries  
 - Store event execution history to detect duplicates  
 - Make side effects part of transactional outbox, not best-effort fire-and-forget  
 - Prefer "confirm success" over "assume failure and retry"
+
+---
+
+## 🧠 Principle
+
+**Retries must preserve truth—not just hope for it.**  
+If you can't replay it safely, you never controlled it.
 
 ---
 

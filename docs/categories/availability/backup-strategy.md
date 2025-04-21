@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Having a backup is not the same as having a **reliable, restorable backup**.
 
@@ -14,18 +14,7 @@ This perspective checks whether the **backup plan is clearly defined**, covering
 
 ---
 
-## 🔍 What Should Be Backed Up?
-
-- Application DB: RDS, CloudSQL, etc.  
-- Blob storage: S3, GCS, user uploads  
-- Message queues and in-flight events  
-- Secrets and configuration state  
-- Infrastructure-as-code (Terraform, Helm, etc.)  
-- Audit logs and billing data
-
----
-
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Only DB is backed up → app state, blobs, configs lost  
 - Snapshots are scheduled but never tested  
@@ -34,6 +23,15 @@ This perspective checks whether the **backup plan is clearly defined**, covering
 - Backups stored in same region as production
 
 ---
+
+## ✅ What Should Be Backed Up?
+
+- Application DB: RDS, CloudSQL, etc.  
+- Blob storage: S3, GCS, user uploads  
+- Message queues and in-flight events  
+- Secrets and configuration state  
+- Infrastructure-as-code (Terraform, Helm, etc.)  
+- Audit logs and billing data
 
 ## ✅ Smarter Backup Design
 
@@ -45,7 +43,7 @@ This perspective checks whether the **backup plan is clearly defined**, covering
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Backups are promises.  
 A broken promise at recovery time is a system failure.**

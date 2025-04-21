@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 The Core Question
+## 🔍 The Core Question
 
 Can you answer this about every major entity in your system?
 
@@ -19,7 +19,7 @@ If you can’t, neither can your code—or your teammates.
 
 ---
 
-## 🚨 Why This Matters
+## ⚠️ Why This Matters
 
 - Unclear lifecycle leads to zombie data and haunted features  
 - Soft delete vs hard delete becomes political  
@@ -37,7 +37,7 @@ If you can’t, neither can your code—or your teammates.
 
 ---
 
-## 🔍 Litmus Tests
+## 🧠 Litmus Tests
 
 - Does anyone know when it's safe to delete this object?  
 - Can the UI reflect its lifecycle state clearly and meaningfully?

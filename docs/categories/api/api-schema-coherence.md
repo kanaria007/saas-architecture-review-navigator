@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Asks
+## 🔍 What This Perspective Asks
 
 - Are schemas consistent across endpoints and services?  
 - Do field names and nesting follow clear rules?  
@@ -16,7 +16,7 @@ This isn’t about correctness. It’s about **legibility and trust**.
 
 ---
 
-## 🚨 Common Anti-Patterns
+## ⚠️ Common Anti-Patterns
 
 - Same concept → different names on different endpoints  
 - Inconsistent casing, nesting, nullability defaults  
@@ -35,7 +35,7 @@ This isn’t about correctness. It’s about **legibility and trust**.
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 Schema is not documentation.  
 Schema is **contracted behavior**—and must be designed as such.

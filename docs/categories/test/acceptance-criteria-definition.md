@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 You can’t test what you can’t define.  
 And what’s undefined becomes a source of conflict.
 
 ---
 
-## 🚨 Common Mistakes
+## ⚠️ Common Mistakes
 
 - No written criteria → “Did we finish?” becomes subjective  
 - Dev and PM disagree on edge case expectations  
@@ -32,7 +32,7 @@ And what’s undefined becomes a source of conflict.
 
 ---
 
-## ⚠️ Key Principle
+## 🧠 Key Principle
 
 Testing without criteria isn’t testing.  
 It’s just **opinion validation.**

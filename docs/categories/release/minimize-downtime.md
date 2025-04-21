@@ -6,16 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Some releases will require downtime.  
 But not all downtime is equal.
 
 This perspective examines how to **minimize service disruption**, both in duration and impact.
 
----
-
-## 🔍 Example Scenarios
+Example Scenarios
 
 - DB migrations with exclusive locks  
 - Monolithic systems with no hot-reload mechanism  
@@ -24,7 +22,7 @@ This perspective examines how to **minimize service disruption**, both in durati
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - All users experience full downtime for minutes or hours  
 - No estimation or communication of window timing  
@@ -43,7 +41,7 @@ This perspective examines how to **minimize service disruption**, both in durati
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Downtime is sometimes inevitable.  
 But user surprise and prolonged recovery are not.**

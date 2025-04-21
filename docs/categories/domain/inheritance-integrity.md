@@ -6,7 +6,7 @@
 
 ---
 
-## 🤔 Why This Matters
+## 🔍 Why This Matters
 
 Inheritance looks like reuse.  
 But in systems, it’s often just **a silent entanglement.**
@@ -15,7 +15,7 @@ Used wrong, inheritance isn’t a structure—it’s a **trapdoor**.
 
 ---
 
-## 🚨 Danger Signs
+## ⚠️ Danger Signs
 
 - A subclass exists, but adds no real behavior—just fields  
 - Parent and child differ in validation rules  

@@ -6,18 +6,29 @@
 
 ---
 
-## 🧠 The Problem Isn't Just Race Conditions
+## 🔍 What This Perspective Covers
 
-It’s what race conditions **do to your users**:
+Write contention isn’t just a database concern.  
+It’s a design decision that affects **user trust, data correctness, and operational cost**.
+
+The real question:
+
+- When concurrent writes collide, who loses?
+- Can the system recover—or just retry until it breaks?
+
+---
+
+## ⚠️ Failure Patterns
+
+It’s not just about “race conditions.”  
+It’s about what race conditions **do to your users**:
 
 - Lost updates  
 - Deadlocks under load  
 - Feature toggles that “sometimes don’t work”  
 - Exploding retry queues and invisible data corruption
 
----
-
-## 🔍 Common Anti-Patterns
+And what **designs cause them**:
 
 - No retry logic on writes  
 - App logic assumes atomic multi-row updates  
@@ -36,7 +47,7 @@ It’s what race conditions **do to your users**:
 
 ---
 
-## ⚖️ Core Design Tradeoff
+## 🧠 Core Design Tradeoff
 
 You’re always trading off:
 

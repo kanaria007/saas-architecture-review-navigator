@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Functional tests pass.  
 Even performance tests might pass.  
@@ -14,7 +14,7 @@ But under stress—**systems don’t just slow down. They break.**
 
 ---
 
-## 🚨 Typical Misses
+## ⚠️ Typical Misses
 
 - Load tests stop at 80% CPU and never cross failure point  
 - No simulation of retry storms, queue overflow, or memory saturation  
@@ -33,7 +33,7 @@ But under stress—**systems don’t just slow down. They break.**
 
 ---
 
-## ⚠️ Core Insight
+## 🧠 Core Insight
 
 A stable system under light load proves nothing.  
 **Only under pressure does architecture reveal its fault lines.**

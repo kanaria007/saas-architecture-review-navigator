@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Asks
+## 🔍 What This Perspective Asks
 
 - What happens when load triples overnight?  
 - Which parts of the system become bottlenecks?  
@@ -17,7 +17,7 @@ Most systems are “scalable”
 
 ---
 
-## 🚨 What Breaks
+## ⚠️ What Breaks
 
 - One database serves multiple high-traffic features  
 - Horizontal scaling assumed, but stateful logic blocks it  
@@ -37,7 +37,7 @@ Most systems are “scalable”
 
 ---
 
-## ⚠️ Design Philosophy
+## 🧠 Design Philosophy
 
 Scalability isn’t about infrastructure.  
 It’s about knowing **which limits come first—and who they’ll hurt.**

@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 A good UI shows **just enough**.
 
@@ -16,7 +16,7 @@ And never too slow.
 
 ---
 
-## 🚨 UI Load Pitfalls
+## ⚠️ UI Load Pitfalls
 
 - Fetch-all endpoints crash browsers with large result sets  
 - Slow tables that rerender entire DOM trees for 1000+ rows  
@@ -35,7 +35,7 @@ And never too slow.
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 Performance isn’t just speed.  
 **It’s perceived responsiveness.**

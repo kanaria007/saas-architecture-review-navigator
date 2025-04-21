@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 When one service updates state—  
 how do you ensure the others agree?
@@ -17,7 +17,7 @@ how do you ensure the others agree?
 
 ---
 
-## 🚨 Failure Scenarios
+## ⚠️ Failure Scenarios
 
 - Event loss: system A updates, B never sees the change  
 - Out-of-order delivery → B overwrites A’s latest data  

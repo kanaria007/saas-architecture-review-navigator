@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 A well-designed system doesn’t just run—it **heals, explains, and supports itself**.
 
@@ -24,7 +24,7 @@ This perspective checks whether **day-to-day operations are streamlined** to avo
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - “Ask the dev” becomes standard ops process  
 - No self-serve tools for CS or QA teams  
@@ -44,7 +44,7 @@ This perspective checks whether **day-to-day operations are streamlined** to avo
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **You’re not done designing  
 until the system supports itself.**

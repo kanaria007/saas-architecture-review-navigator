@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 You can’t eliminate all bottlenecks.  
 But you can **decide which ones are acceptable—and when.**
 
 ---
 
-## 🚨 Symptoms of Undesigned Bottlenecks
+## ⚠️ Symptoms of Undesigned Bottlenecks
 
 - Intermittent slowness under load, but no clear root cause  
 - DB or storage tiers doing “just fine”—until cascading latency hits  
@@ -33,7 +33,7 @@ But you can **decide which ones are acceptable—and when.**
 
 ---
 
-## ⚠️ Framing Shift
+## 🧠 Framing Shift
 
 Bottlenecks aren’t failures.  
 They’re **choices about who gets hurt first.**

@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Performance is not a trait.  
 It’s a **commitment**—and must be proven.
 
 ---
 
-## 🚨 Common Omissions
+## ⚠️ Common Omissions
 
 - No test plan for API under load, despite expected concurrency  
 - “Performance” assumed because staging was fast  
@@ -32,7 +32,7 @@ It’s a **commitment**—and must be proven.
 
 ---
 
-## ⚠️ Key Principle
+## 🧠 Key Principle
 
 Latency isn’t a number.  
 It’s a **contractual boundary** that must be honored under pressure.

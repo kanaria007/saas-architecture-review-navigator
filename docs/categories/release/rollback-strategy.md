@@ -6,15 +6,13 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 You don’t truly own a system until you can safely undo its changes.
 
 This perspective examines whether rollback paths are designed, validated, and executable—**not just documented**.
 
----
-
-## 🔍 Real-World Risk Cases
+Real-World Risk Cases
 
 - DB schema migration that drops columns  
 - Batch jobs that transform or delete data  
@@ -23,7 +21,7 @@ This perspective examines whether rollback paths are designed, validated, and ex
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Rollback scripts exist but have never been tested  
 - Infra rollback is possible, but data state is irreversible  
@@ -42,7 +40,7 @@ This perspective examines whether rollback paths are designed, validated, and ex
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Rollback is not backup.  
 It’s an engineered return path.**

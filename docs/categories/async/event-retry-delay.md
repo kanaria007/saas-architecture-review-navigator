@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Async systems fail differently.  
 They don’t crash. They **drift**.
@@ -17,7 +17,7 @@ They don’t crash. They **drift**.
 
 ---
 
-## 🚨 Common Anti-Patterns
+## ⚠️ Common Anti-Patterns
 
 - Retry forever on transient failures → permanent backlog  
 - No delay compensation in UX → users spam reload  
@@ -36,7 +36,7 @@ They don’t crash. They **drift**.
 
 ---
 
-## ⚠️ Core Principle
+## 🧠 Core Principle
 
 Async systems don’t fail loud.  
 They fail **later and invisibly**—unless you design them not to.

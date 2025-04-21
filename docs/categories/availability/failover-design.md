@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 No system is immune to failure.
 
@@ -14,17 +14,7 @@ This perspective verifies whether **your most critical processing paths** can su
 
 ---
 
-## 🔍 Critical Examples
-
-- Background tasks move to a healthy worker if one dies  
-- API gateway can reroute across availability zones  
-- DB read replicas are promoted on primary failure  
-- Leader election recovers quorum-based consensus  
-- External dependency is wrapped with circuit breakers and fallback paths
-
----
-
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Failover is “planned” but never tested  
 - Infra auto-recovers, but app logic is not restart-tolerant  
@@ -35,6 +25,16 @@ This perspective verifies whether **your most critical processing paths** can su
 
 ## ✅ Smarter Failover Design
 
+### ✅ Critical Examples
+
+- Background tasks move to a healthy worker if one dies  
+- API gateway can reroute across availability zones  
+- DB read replicas are promoted on primary failure  
+- Leader election recovers quorum-based consensus  
+- External dependency is wrapped with circuit breakers and fallback paths
+
+### ✅ Design Considerations
+
 - Classify “critical to user experience” vs. “non-critical background”  
 - Simulate infrastructure chaos regularly—not just unit tests  
 - Use health checks and probes to drive failover triggers  
@@ -43,7 +43,7 @@ This perspective verifies whether **your most critical processing paths** can su
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Failover is not a feature.  
 It’s a testable architectural constraint.**

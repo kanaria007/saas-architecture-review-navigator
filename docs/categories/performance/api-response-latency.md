@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What’s Actually Being Asked
+## 🔍 What’s Actually Being Asked
 
 Not “is it fast?”  
 But:
@@ -17,7 +17,7 @@ But:
 
 ---
 
-## 🚨 Typical Issues
+## ⚠️ Typical Issues
 
 - High latency only under load—but no alerts fire  
 - Spikes caused by background tasks or queue congestion  
@@ -36,7 +36,7 @@ But:
 
 ---
 
-## ⚠️ Design Framing
+## 🧠 Design Framing
 
 Latency is not a number.  
 It’s a **conversation between client pain and backend design.**

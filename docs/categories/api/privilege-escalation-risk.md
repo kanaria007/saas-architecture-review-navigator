@@ -6,14 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Not all security breaches are intrusions.  
 Some are misdesigns—where the system lets users access more than they should.
 
 ---
 
-## 🚨 Common Escalation Paths
+## ⚠️ Common Escalation Paths
 
 - “Readonly” roles can perform side effects through indirect APIs  
 - Shared tenants leak access when tenant IDs aren't strictly checked  
@@ -32,7 +32,7 @@ Some are misdesigns—where the system lets users access more than they should.
 
 ---
 
-## ⚠️ Key Insight
+## 🧠 Key Insight
 
 Privilege escalation doesn’t feel like a bug.  
 Which is why it **must be tested as a feature**.

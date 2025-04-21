@@ -6,7 +6,9 @@
 
 ---
 
-## ⚖️ This Isn’t About Rules. It’s About Tradeoffs.
+## 🔍 What This Perspective Covers
+
+This isn’t about rules. It’s about tradeoffs.
 
 Normalization isn’t “correct.”  
 Denormalization isn’t “fast.”
@@ -15,7 +17,7 @@ They’re both **tools**—and every tool leaves scars.
 
 ---
 
-## 🚨 Common Failure Modes
+## ⚠️ Common Failure Modes
 
 - Over-normalized schema causes N+1 joins or multi-hop fetches  
 - Denormalized tables drift out of sync  

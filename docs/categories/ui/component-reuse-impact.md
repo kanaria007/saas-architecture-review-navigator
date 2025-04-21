@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Component reuse is not always virtuous.  
 When overdone, it creates:
@@ -17,7 +17,7 @@ When overdone, it creates:
 
 ---
 
-## 🚨 Harmful Reuse Patterns
+## ⚠️ Harmful Reuse Patterns
 
 - Component behavior changes break other screens  
 - Business-specific behavior embedded in “common” components  
@@ -36,7 +36,7 @@ When overdone, it creates:
 
 ---
 
-## ⚠️ Core Principle
+## 🧠 Core Principle
 
 Reusable is not the same as **safe to reuse**.
 

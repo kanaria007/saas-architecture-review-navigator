@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 APIs aren’t functions—they’re **promises**.
 
@@ -17,7 +17,7 @@ And promises must not break.
 
 ---
 
-## 🚨 Breaking Change Patterns
+## ⚠️ Breaking Change Patterns
 
 - Removing or renaming response fields without fallback  
 - Changing default values or error structures  
@@ -36,7 +36,7 @@ And promises must not break.
 
 ---
 
-## ⚠️ Key Principle
+## 🧠 Key Principle
 
 Stability is not about freezing.  
 It’s about **changing predictably**—and visibly.

@@ -6,17 +6,13 @@
 
 ---
 
-## 🧠 First, the Meta-Question
+## 🔍 First, the Meta-Question
 
 Distributed transactions aren’t always needed.  
 But they **always need to be considered**.
 
 If you skipped the question,  
 you’ve made a decision—just not consciously.
-
----
-
-## ⚠️ What’s Actually Being Asked
 
 - Will the system be OK if two updates succeed, and the third fails?  
 - Is eventual consistency acceptable here?  
@@ -25,7 +21,7 @@ you’ve made a decision—just not consciously.
 
 ---
 
-## 🚨 When It Goes Wrong
+## ⚠️ When It Goes Wrong
 
 - Partial updates that look fine… until a user clicks “export”  
 - Async retries that reapply incomplete state  

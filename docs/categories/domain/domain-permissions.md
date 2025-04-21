@@ -6,7 +6,7 @@
 
 ---
 
-## 🚨 Why This Exists
+## 🔍 Why This Exists
 
 Authorization is a business rule.  
 If your domain model can’t answer “Can this user do this?”,  
@@ -14,7 +14,7 @@ then it’s not protecting the system—it’s outsourcing it.
 
 ---
 
-## 🔍 Symptoms of a Missing Model
+## ⚠️ Symptoms of a Missing Model
 
 - UI hides actions, but API still allows them  
 - Authorization checks scattered across controllers  

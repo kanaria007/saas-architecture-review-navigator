@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 The Real Question
+## 🔍 The Real Question
 
 Are invalid objects **impossible to create**?  
 Or just **possible, but we hope we catch them later**?
@@ -16,7 +16,7 @@ It’s about who owns the truth.
 
 ---
 
-## 💥 Signs of Trouble
+## ⚠️ Signs of Trouble
 
 - Validation is duplicated: in controller, service, AND domain  
 - Validation is missing from object construction  
@@ -35,7 +35,7 @@ It’s about who owns the truth.
 
 ---
 
-## 🔍 Litmus Tests
+## 🧠 Litmus Tests
 
 - Can a developer construct an invalid object in one line?  
 - Does your “domain” silently accept bad input and rely on downstream logic to yell?

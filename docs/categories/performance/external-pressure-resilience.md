@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Is Really About
+## 🔍 What This Is Really About
 
 When an external dependency gets slow or flakey—  
 what happens to your system?
@@ -17,7 +17,7 @@ what happens to your system?
 
 ---
 
-## 🚨 What Can Go Wrong
+## ⚠️ What Can Go Wrong
 
 - Synchronous dependencies cause upstream timeouts  
 - Retry storms triggered by brief outages  
@@ -37,7 +37,7 @@ what happens to your system?
 
 ---
 
-## ⚠️ Design Frame
+## 🧠 Design Frame
 
 Dependency pressure isn’t an edge case.  
 It’s the **default condition of internet-scale systems**.

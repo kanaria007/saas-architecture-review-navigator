@@ -6,24 +6,14 @@
 
 ---
 
-## 🚨 First Principle
+## 🔍 First Principle
 
 If your system **can** represent something invalid,  
 someone **will**.
 
 ---
 
-## 🧠 What This Question Is Really About
-
-This isn’t just “do you have validation.”  
-It’s: **does your model forbid nonsense—or just quietly permit it?**
-
-You don’t need more tests.  
-You need fewer ways to go wrong.
-
----
-
-## 🔍 Common Leaks
+## ⚠️ Common Leaks
 
 - `User(status: Int)` with `7` as a possible value  
 - `Task(state: String)` that can be `"completed"` and `"in-progress"` simultaneously  
@@ -37,6 +27,16 @@ You need fewer ways to go wrong.
 - Constructors should be unable to produce an invalid object  
 - Optional? Only when **meaningful absence** is part of the domain  
 - A domain model that “accepts everything” is just a list of hazards
+
+---
+
+## 🧠 What This Question Is Really About
+
+This isn’t just “do you have validation.”  
+It’s: **does your model forbid nonsense—or just quietly permit it?**
+
+You don’t need more tests.  
+You need fewer ways to go wrong.
 
 ---
 

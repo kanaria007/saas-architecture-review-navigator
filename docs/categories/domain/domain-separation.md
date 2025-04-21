@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 What’s Actually Being Asked Here
+## 🔍 What’s Actually Being Asked Here
 
 You’ve drawn a clean architecture diagram. Cool.  
 Now answer this:
@@ -17,7 +17,15 @@ Now answer this:
 
 ---
 
-## 🧠 What Proper Separation Actually Enables
+## ⚠️ Patterns That Pretend to Be Separation (But Aren’t)
+
+- Dumb domain models: `{ User(name: String, isAdmin: Boolean) }` → That’s a DTO wearing a mustache  
+- Application layer calling `domain.validate()` → Then ignoring the result  
+- Behavior checks in service classes → AKA: “just one more if-statement” until entropy takes over
+
+---
+
+## ✅ What Proper Separation Actually Enables
 
 - Your business rules live **in the domain**, not scattered across services or controllers  
 - Application orchestration becomes thin—and safer  
@@ -26,15 +34,7 @@ Now answer this:
 
 ---
 
-## 🚨 Patterns That Pretend to Be Separation (But Aren’t)
-
-- Dumb domain models: `{ User(name: String, isAdmin: Boolean) }` → That’s a DTO wearing a mustache  
-- Application layer calling `domain.validate()` → Then ignoring the result  
-- Behavior checks in service classes → AKA: “just one more if-statement” until entropy takes over
-
----
-
-## 🔍 Litmus Tests
+## 🧠 Litmus Tests
 
 - Can you create an invalid object via constructor or factory?  
   → If yes, your domain is a data bag, not a rulekeeper.  

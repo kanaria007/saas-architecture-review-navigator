@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Is Really About
+## 🔍 What This Perspective Is Really About
 
 Not all indexes are equal.  
 And not all queries deserve them.
@@ -19,7 +19,7 @@ This perspective asks:
 
 ---
 
-## 🚨 Typical Pain Points
+## ⚠️ Typical Pain Points
 
 - N+1 joins on non-indexed foreign keys  
 - Composite indexes where predicate order doesn’t match usage  

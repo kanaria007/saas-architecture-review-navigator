@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Asks
+## 🔍 What This Perspective Asks
 
 - What *exactly* happens if an external system goes down?
 - Is the failure **detected**, **logged**, and **degraded gracefully**?
@@ -14,7 +14,7 @@
 
 ---
 
-## 🚨 Common Failures
+## ⚠️ Common Failures
 
 - Partner API goes down → internal queues fill silently  
 - Retry storms → overload own systems  
@@ -33,7 +33,7 @@
 
 ---
 
-## ⚠️ Core Principle
+## 🧠 Core Principle
 
 Async doesn’t mean **ignore the failure**.  
 It means **control how the failure manifests.**

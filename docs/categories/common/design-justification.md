@@ -6,7 +6,7 @@
 
 ---
 
-## 🧭 This Isn’t About Best Practices
+## ✅ This Isn’t About Best Practices
 
 Every system is a graveyard of decisions.  
 What worked once may break tomorrow—and what breaks may never be blamed on the real cause.
@@ -33,7 +33,7 @@ It’s a survival instinct.
 
 ---
 
-## 🧨 When It’s Missing
+## ⚠️ When It’s Missing
 
 - Design becomes cargo culted. No one knows why it exists, so no one knows when it can die.  
 - Reviewers can’t give meaningful feedback. There’s no context to push against.  
@@ -48,14 +48,6 @@ It’s a survival instinct.
 
 - **Q: Can’t people figure it out from code?**  
   **A:** Not when they’re stressed. Or new. Or not you.
-
----
-
-## 🪧 Related Perspectives
-
-- [ ] Trade-off visibility  
-- [ ] Architecture decision records (ADR)  
-- [ ] Review hygiene and design clarity
 
 ## 🔗 Related Perspectives
 

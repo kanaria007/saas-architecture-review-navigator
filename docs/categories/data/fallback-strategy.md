@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Is Actually About
+## 🔍 What This Is Actually About
 
 Async failures aren’t rare.  
 They’re just delayed.
@@ -19,7 +19,7 @@ So the question is:
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Retry loops that cause double-inserts  
 - No dead letter queue—just silent drops  
@@ -37,7 +37,7 @@ So the question is:
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 Your system should **fail visibly, not repeatedly**.
 

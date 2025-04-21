@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Design Perspective Really Asks
+## 🔍 What This Design Perspective Really Asks
 
 Not “is it async?”  
 But:
@@ -16,7 +16,7 @@ But:
 
 ---
 
-## 🚨 Poorly Aligned Sync/Async Patterns
+## ⚠️ Poorly Aligned Sync/Async Patterns
 
 - Long-running sync API → user waits → timeout → duplicate retries  
 - Async job triggers UI update, but UX doesn't reflect delay  
@@ -35,7 +35,7 @@ But:
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 Async ≠ later.  
 Async = **a different kind of contract**—one you must make explicit.

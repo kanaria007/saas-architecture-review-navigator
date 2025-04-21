@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Notifications aren’t copywriting.  
 They are **structured communication** with:
@@ -18,7 +18,7 @@ They are **structured communication** with:
 
 ---
 
-## 🚨 Typical Issues
+## ⚠️ Typical Issues
 
 - Hardcoded messages baked into backend or scripts  
 - Business terms untranslated or ambiguous  
@@ -37,7 +37,7 @@ They are **structured communication** with:
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 Message is a **product**—  
 it must be versioned, tested, and owned.

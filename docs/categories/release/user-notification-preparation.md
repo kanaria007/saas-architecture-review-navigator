@@ -6,16 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Not all changes are self-evident.  
 Some require explanation. Others require trust.
 
 Designing change delivery is as critical as designing the change itself.
 
----
-
-## 🔔 Typical Scenarios
+When Notification Is Required
 
 - UI or interaction pattern changes  
 - API behavior that silently shifts (e.g., sort order, pagination)  
@@ -24,7 +22,7 @@ Designing change delivery is as critical as designing the change itself.
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Users are surprised by behavior shift (“it used to do this…”)  
 - Docs not updated → support gets overloaded  
@@ -42,7 +40,7 @@ Designing change delivery is as critical as designing the change itself.
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Communication is a design dependency.**  
 If left out, the system *will* behave unpredictably—for humans.

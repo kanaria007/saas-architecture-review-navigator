@@ -5,16 +5,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Security doesn’t come from good intentions.  
 It comes from **explicit decisions about what’s protected, how, and by whom**.
 
 This perspective checks whether **sensitive data, authentication, and authorization** are covered as active design concerns.
 
----
-
-## 🔍 Typical Risk Vectors
+Typical Risk Vectors
 
 - Personal information (PII) and financial data in logs or payloads  
 - API endpoints lacking role-based or tenant-based access control  
@@ -24,7 +22,7 @@ This perspective checks whether **sensitive data, authentication, and authorizat
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - "Hidden in UI" ≠ protected at API level  
 - Sensitive fields exposed in logs or metrics  
@@ -44,7 +42,7 @@ This perspective checks whether **sensitive data, authentication, and authorizat
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Security is not a patch.  
 It’s a set of enforced design boundaries.**

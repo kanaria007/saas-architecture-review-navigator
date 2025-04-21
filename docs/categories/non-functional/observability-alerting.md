@@ -6,15 +6,13 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 If a system fails silently, it fails completely.
 
 This perspective checks whether your monitoring targets are **explicitly defined**, aligned with business risk, and wired to **clear, actionable alerting.**
 
----
-
-## 🔍 Monitoring Must-Haves
+Monitoring Must-Haves
 
 - Request rate, error rate, latency (RED metrics)  
 - Resource saturation: CPU, memory, DB pool, disk  
@@ -24,7 +22,7 @@ This perspective checks whether your monitoring targets are **explicitly defined
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Infra is monitored, but application issues go undetected  
 - No distinction between “warning” and “urgent” alerts  
@@ -44,7 +42,7 @@ This perspective checks whether your monitoring targets are **explicitly defined
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **If it’s not being watched,  
 it’s already broken—you just don’t know it yet.**

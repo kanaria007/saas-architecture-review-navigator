@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What’s Actually Being Asked
+## 🔍 What’s Actually Being Asked
 
 Not “will it work.”
 
@@ -21,7 +21,7 @@ It’s a multi-actor system event—with failure modes.
 
 ---
 
-## 🚨 What Goes Wrong
+## ⚠️ What Goes Wrong
 
 - Adding NOT NULL fields without defaults  
 - Dropping columns used by legacy ETLs  
@@ -41,7 +41,7 @@ It’s a multi-actor system event—with failure modes.
 
 ---
 
-## ⚠️ Design Mindset
+## 🧠 Design Mindset
 
 A migration is a **durable mutation of shared reality**.  
 That’s not deployment. That’s surgery.

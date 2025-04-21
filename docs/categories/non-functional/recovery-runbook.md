@@ -6,16 +6,14 @@
 
 ---
 
-## 🧠 What This Perspective Covers
+## 🔍 What This Perspective Covers
 
 Incidents are inevitable.  
 But how much damage they cause—and how long it lasts—depends on **whether the team knows what to do next**.
 
 This perspective checks whether **your system has recovery steps documented, accessible, and tested under pressure.**
 
----
-
-## 🔍 Situations That Demand Runbooks
+Situations That Demand Runbooks
 
 - Downtime caused by DB overload or network partition  
 - Stuck background jobs, retries, or event queue buildup  
@@ -25,7 +23,7 @@ This perspective checks whether **your system has recovery steps documented, acc
 
 ---
 
-## 🚨 Failure Patterns
+## ⚠️ Failure Patterns
 
 - Only senior devs know how to fix certain issues  
 - Steps to restart a subsystem require tribal knowledge  
@@ -45,7 +43,7 @@ This perspective checks whether **your system has recovery steps documented, acc
 
 ---
 
-## ⚠️ Principle
+## 🧠 Principle
 
 **Recovery is not just reaction.  
 It’s practiced response under pressure.**

@@ -23,10 +23,11 @@ by checking critical architecture perspectives across:
 
 Each perspective is a focused, atomic `.md` file:
 
-- 🔍 Design risk it addresses  
-- ✅ Good examples and practices  
-- ⚠️ Typical failure patterns  
-- ❓ Key FAQ  
+- 🔍 What this perspective asks or covers  
+- ⚠️ Common failure patterns  
+- ✅ Good practices and design strategies  
+- 🧠 Design principles or mental models  
+- ❓ Frequently asked questions  
 - 🔗 Related perspectives
 
 ---

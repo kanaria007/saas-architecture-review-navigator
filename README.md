@@ -23,13 +23,14 @@ It helps teams avoid blind spots and ensure design quality by reviewing critical
 - Logging, observability, and operational resilience  
 - Common design justification and rationale
 
-Each perspective is a Markdown file (e.g. `docs/categories/api/authz-strategy.md`) with:
+Each perspective is a Markdown file (e.g. `docs/categories/api/sync-vs-async-boundaries.md`) with:
 
-- 🔍 Design risks and examples  
-- ✅ Good practices and mitigation  
-- ⚠️ Design principles  
-- ❓ FAQs  
-- 🔗 Related perspectives  
+- 🔍 What this perspective asks or covers  
+- ⚠️ Common failure patterns  
+- ✅ Good practices and design strategies  
+- 🧠 Design principles or mental models  
+- ❓ Frequently asked questions  
+- 🔗 Related perspectives
 
 ---
 
