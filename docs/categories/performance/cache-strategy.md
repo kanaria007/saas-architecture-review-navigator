@@ -56,6 +56,7 @@ It’s a **bet**—that reads will outweigh writes, and that risk is acceptable.
 
 ## 🔗 Related Perspectives
 
-- [ ] Caching and consistency tradeoffs  
-- [ ] Cache-layer observability  
-- [ ] Staleness risk in read-path design  
+- [Is Your Index Strategy Designed—Or Just Inherited?](../data/indexing-strategy.md)
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Is Your Schema Over-Normalized—or Just Not Thinking About It?](../data/normalization-balance.md)

@@ -61,7 +61,7 @@ It’s what could go wrong because we built it.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Rollback readiness  
-- [ ] Schema change validation  
-- [ ] Cross-team change awareness  
-- [ ] Failure simulation before launch  
+- [Is a Rollback Strategy in Place for Critical Changes?](rollback-strategy.md)
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)
+- [Are the Acceptance Criteria Clearly Defined?](../test/acceptance-criteria-definition.md)
+- [Is the Release Strategy Defined and Aligned With Change Impact?](release-strategy-planning.md)

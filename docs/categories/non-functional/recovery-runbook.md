@@ -64,7 +64,7 @@ It’s practiced response under pressure.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Automated diagnostics integration  
-- [ ] Incident communication plans  
-- [ ] Playbook rotation and testing  
-- [ ] Observability tied to recovery scenarios
+- [Are Monitoring Targets Well-Defined and Alerts Properly Configured?](observability-alerting.md)
+- [Is the Operational Flow Designed to Minimize Dev and Support Burden?](operational-burden.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Is the Logging Strategy Sufficient for Troubleshooting?](logging-for-troubleshooting.md)

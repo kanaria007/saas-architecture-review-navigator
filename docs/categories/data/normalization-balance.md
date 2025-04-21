@@ -53,6 +53,7 @@ You choose your poison—but own the symptoms.
 
 ## 🔗 Related Perspectives
 
-- [ ] Schema-as-interface thinking  
-- [ ] Read vs write path divergence  
-- [ ] Data redundancy and synchronization risk  
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Is Caching Helping—or Just Hiding Slowness?](../performance/cache-strategy.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](indexing-strategy.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](index-design.md)

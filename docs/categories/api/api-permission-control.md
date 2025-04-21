@@ -54,6 +54,7 @@ You can’t debug what you never defined.
 
 ## 🔗 Related Perspectives
 
-- [ ] Role/Permission schema governance  
-- [ ] Authorization test coverage  
-- [ ] Security-in-depth for multi-layer enforcement  
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
+- [Does Your System Prevent Privilege Escalation?](privilege-escalation-risk.md)
+- [Is Your Auth Implementation Predictable, Testable, and Isolated?](../security/authn-authz-implementation.md)

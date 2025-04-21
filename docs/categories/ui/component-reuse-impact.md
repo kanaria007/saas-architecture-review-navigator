@@ -54,6 +54,7 @@ Reusable is not the same as **safe to reuse**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Frontend test scope per component  
-- [ ] Shared UI governance  
-- [ ] Multi-product design strategy  
+- [Is the Impact Scope of This Change Clearly Understood?](../test/impact-scope-analysis.md)
+- [Does Your API Design Prevent Breaking Changes?](../api/api-compatibility-strategy.md)
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)

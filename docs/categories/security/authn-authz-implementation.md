@@ -52,6 +52,7 @@ You need **custom enforcement of clear intent.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Token lifecycle management  
-- [ ] Role and scope propagation  
-- [ ] Cross-service identity context  
+- [Is Your API Permission Design Explicit and Secure?](../api/api-permission-control.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
+- [Does Your System Prevent Privilege Escalation?](../api/privilege-escalation-risk.md)

@@ -62,6 +62,7 @@ You’re designing for **who pays the cost of failure—and when**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Failure-aware service boundaries  
-- [ ] Consistency contracts between systems  
-- [ ] Recovery-aware data modeling  
+- [Do You Have a Fallback Plan for Asynchronous Failures?](fallback-strategy.md)
+- [What Happens When the External System Fails?](../async/external-failure-impact.md)
+- [Can Retried Events Introduce Inconsistent State?](retry-consistency.md)
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)

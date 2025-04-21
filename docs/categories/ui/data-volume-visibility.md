@@ -54,6 +54,7 @@ Performance isn’t just speed.
 
 ## 🔗 Related Perspectives
 
-- [ ] Query design for user-facing load  
-- [ ] Async visibility in UI  
-- [ ] Filtering and index alignment  
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](../data/indexing-strategy.md)
+- [Are You Clear About When to Use Sync vs Async APIs?](../api/sync-vs-async-boundaries.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)

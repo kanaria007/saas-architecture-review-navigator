@@ -54,6 +54,7 @@ Schema is **contracted behavior**—and must be designed as such.
 
 ## 🔗 Related Perspectives
 
-- [ ] Schema change management  
-- [ ] API versioning strategy  
-- [ ] Error model consistency  
+- [Does Your API Design Prevent Breaking Changes?](api-compatibility-strategy.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Are You Clear About When to Use Sync vs Async APIs?](sync-vs-async-boundaries.md)
+- [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](../async/cross-service-consistency.md)

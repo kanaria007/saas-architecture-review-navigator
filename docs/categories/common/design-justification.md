@@ -57,3 +57,6 @@ It’s a survival instinct.
 - [ ] Architecture decision records (ADR)  
 - [ ] Review hygiene and design clarity
 
+## 🔗 Related Perspectives
+
+- [All perspectives are expected to reference design justification.]

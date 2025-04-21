@@ -62,7 +62,7 @@ It’s a testable architectural constraint.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Leader election design  
-- [ ] Retry suppression after failover  
-- [ ] State preservation or reconciliation logic  
-- [ ] Alerting on degraded state vs. full recovery
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)
+- [Is the Logging Strategy Sufficient for Troubleshooting?](../non-functional/logging-for-troubleshooting.md)
+- [Is a Data Recovery Plan Considered for Failure Scenarios?](data-recovery-plan.md)
+- [Is the Backup Strategy Well-Defined and Comprehensive?](backup-strategy.md)

@@ -51,6 +51,7 @@ It’s a **contractual boundary** that must be honored under pressure.
 
 ## 🔗 Related Perspectives
 
-- [ ] Load pattern modeling  
-- [ ] Failure rate under stress  
-- [ ] Test-data realism for tail scenarios  
+- [Is Impact Analysis Performed for Critical Changes?](../release/impact-analysis-for-critical-changes.md)
+- [Is Load Behavior Under Stress Explicitly Tested?](high-load-behavior-testing.md)
+- [Are the Acceptance Criteria Clearly Defined?](acceptance-criteria-definition.md)
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)

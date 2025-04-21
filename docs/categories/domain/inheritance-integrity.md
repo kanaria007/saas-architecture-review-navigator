@@ -53,6 +53,7 @@ Are you modeling a reality, or **avoiding effort**?
 
 ## 🔗 Related Perspectives
 
-- [ ] Polymorphism with semantics  
-- [ ] Inheritance vs delegation  
-- [ ] Separation of shape and meaning  
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](domain-permissions.md)
+- [Is the Lifecycle of Your Data Clear—Or Just Assumed?](../data/lifecycle-clarity.md)
+- [Can Your System Even Represent an Invalid State?](invalid-states.md)
+- [Does Your API Design Prevent Breaking Changes?](../api/api-compatibility-strategy.md)

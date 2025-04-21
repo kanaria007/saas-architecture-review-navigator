@@ -54,6 +54,7 @@ Make that choice on purpose.
 
 ## 🔗 Related Perspectives
 
-- [ ] Resource-aware design reviews  
-- [ ] Multi-tenant load shaping  
-- [ ] Background task prioritization  
+- [Is Your Scaling Strategy Designed—or Just Assumed?](scaling-strategy.md)
+- [Is API Latency Acceptable—and Understood?](api-response-latency.md)
+- [Is Load Behavior Under Stress Explicitly Tested?](../test/high-load-behavior-testing.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)

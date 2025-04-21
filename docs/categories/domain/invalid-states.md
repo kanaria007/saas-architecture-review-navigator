@@ -52,6 +52,7 @@ You need fewer ways to go wrong.
 
 ## 🔗 Related Perspectives
 
-- [ ] State machine enforcement  
-- [ ] Eliminating ambiguity in domain states  
-- [ ] Invalid-by-construction prevention  
+- [Is Your Validation Actually Enforced—or Just Wished For?](domain-validation.md)
+- [Is the Domain Separated from the Application Layer—and Does It Mean Anything?](domain-separation.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](domain-permissions.md)
+- [Is the Lifecycle of Your Data Clear—Or Just Assumed?](../data/lifecycle-clarity.md)

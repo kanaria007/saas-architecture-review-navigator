@@ -54,6 +54,7 @@ Async = **a different kind of contract**—one you must make explicit.
 
 ## 🔗 Related Perspectives
 
-- [ ] UX-aware async design  
-- [ ] Async result reconciliation  
-- [ ] Transactional boundaries in event workflows  
+- [Are You Clear About When to Use Sync vs Async APIs?](../api/sync-vs-async-boundaries.md)
+- [What Happens When the External System Fails?](external-failure-impact.md)
+- [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](cross-service-consistency.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)

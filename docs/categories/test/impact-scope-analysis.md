@@ -51,6 +51,7 @@ Good testing is risk tracing.
 
 ## 🔗 Related Perspectives
 
-- [ ] Change impact mapping  
-- [ ] Shared component test planning  
-- [ ] Contextual regression analysis  
+- [Are the Acceptance Criteria Clearly Defined?](acceptance-criteria-definition.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
+- [Is Component Reuse Helping or Hurting Your UI?](../ui/component-reuse-impact.md)
+- [Does Your System Prevent Privilege Escalation?](../api/privilege-escalation-risk.md)

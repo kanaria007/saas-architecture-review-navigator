@@ -55,6 +55,7 @@ It’s about **changing predictably**—and visibly.
 
 ## 🔗 Related Perspectives
 
-- [ ] API versioning and contract testing  
-- [ ] Schema change observability  
-- [ ] Consumer impact forecasting  
+- [Is the API Schema Coherent Across the System?](api-schema-coherence.md)
+- [Is Your API Permission Design Explicit and Secure?](api-permission-control.md)
+- [Is the Release Strategy Defined and Aligned With Change Impact?](../release/release-strategy-planning.md)
+- [Is Component Reuse Helping or Hurting Your UI?](../ui/component-reuse-impact.md)

@@ -56,6 +56,7 @@ If you can’t, neither can your code—or your teammates.
 
 ## 🔗 Related Perspectives
 
-- [ ] Domain events for lifecycle transitions  
-- [ ] Schema design for temporal states  
-- [ ] Record lifecycle awareness in API design  
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Can Your System Even Represent an Invalid State?](../domain/invalid-states.md)
+- [Is Your Validation Actually Enforced—or Just Wished For?](../domain/domain-validation.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](indexing-strategy.md)

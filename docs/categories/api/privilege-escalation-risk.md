@@ -51,6 +51,7 @@ Which is why it **must be tested as a feature**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Role isolation strategy  
-- [ ] API boundary enforcement  
-- [ ] Multi-tenant access validation  
+- [Is Your API Permission Design Explicit and Secure?](api-permission-control.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
+- [Is the Impact Scope of This Change Clearly Understood?](../test/impact-scope-analysis.md)
+- [Is Your Auth Implementation Predictable, Testable, and Isolated?](../security/authn-authz-implementation.md)

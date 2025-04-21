@@ -63,7 +63,7 @@ until the system supports itself.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Alert design and triage flow  
-- [ ] Self-serve administration patterns  
-- [ ] Support tooling and user impact visibility  
-- [ ] Rollback automation and recovery UX
+- [Are Monitoring Targets Well-Defined and Alerts Properly Configured?](observability-alerting.md)
+- [Is the Logging Strategy Sufficient for Troubleshooting?](logging-for-troubleshooting.md)
+- [Are Recovery Steps Clearly Defined for Incidents?](recovery-runbook.md)
+- [Is User Notification Prepared Where Needed?](../release/user-notification-preparation.md)

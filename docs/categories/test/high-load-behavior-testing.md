@@ -52,6 +52,7 @@ A stable system under light load proves nothing.
 
 ## 🔗 Related Perspectives
 
-- [ ] Performance degradation modeling  
-- [ ] Graceful failure design  
-- [ ] Chaos engineering readiness  
+- [Has the Need for Performance Testing Been Assessed?](performance-test-plan.md)
+- [Can You Handle External Load Spikes Gracefully?](../performance/external-pressure-resilience.md)
+- [Are Backend Bottlenecks Designed Out—or Just Discovered Later?](../performance/backend-bottlenecks.md)
+- [Is API Latency Acceptable—and Understood?](../performance/api-response-latency.md)

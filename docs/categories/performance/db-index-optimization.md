@@ -62,6 +62,7 @@ You’re always balancing:
 
 ## 🔗 Related Perspectives
 
-- [ ] Query-first schema evaluation  
-- [ ] Index conflict analysis  
-- [ ] Visibility into query heatmap over time  
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](../data/indexing-strategy.md)
+- [Are Backend Bottlenecks Designed Out—or Just Discovered Later?](backend-bottlenecks.md)
+- [Are Your Indexes Aligned with Query Paths?](indexing-paths.md)

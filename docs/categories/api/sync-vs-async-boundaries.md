@@ -51,6 +51,7 @@ It’s **contract shape and system responsibility**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Async workflow visibility  
-- [ ] API latency contract  
-- [ ] Status model for background jobs  
+- [Is the Sync/Async Split Intentional—or Just Incidental?](../async/sync-async-alignment.md)
+- [Is the API Schema Coherent Across the System?](api-schema-coherence.md)
+- [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)
+- [Is Write Contention Avoided—or Just Left to Luck?](../data/write-contention.md)

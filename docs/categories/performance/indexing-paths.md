@@ -58,6 +58,7 @@ You’re designing **query execution under pressure**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Query heat observability  
-- [ ] Composite index ordering  
-- [ ] Avoiding accidental full scans  
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](../data/indexing-strategy.md)
+- [Have You Designed Query Performance—or Just Hoped the DB “Handles It”?](db-index-optimization.md)
+- [Is Your Scaling Strategy Designed—or Just Assumed?](scaling-strategy.md)

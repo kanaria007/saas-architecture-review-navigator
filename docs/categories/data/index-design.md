@@ -53,6 +53,7 @@ you’re already behind.
 
 ## 🔗 Related Perspectives
 
-- [ ] Read path traceability  
-- [ ] Query performance vs write latency trade-offs  
-- [ ] Index lifecycle awareness  
+- [Is Your Index Strategy Designed—Or Just Inherited?](indexing-strategy.md)
+- [Are Your Indexes Aligned with Query Paths?](../performance/indexing-paths.md)
+- [Have You Designed Query Performance—or Just Hoped the DB “Handles It”?](../performance/db-index-optimization.md)
+- [Is Your Validation Actually Enforced—or Just Wished For?](../domain/domain-validation.md)

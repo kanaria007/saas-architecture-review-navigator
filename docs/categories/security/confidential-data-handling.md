@@ -57,6 +57,7 @@ Data doesn’t become sensitive at runtime.
 
 ## 🔗 Related Perspectives
 
-- [ ] Data classification and tagging  
-- [ ] PII-aware schema design  
-- [ ] Observability with privacy in mind  
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
+- [Is the Backup Strategy Well-Defined and Comprehensive?](../availability/backup-strategy.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Are You Clear About When to Use Sync vs Async APIs?](../api/sync-vs-async-boundaries.md)

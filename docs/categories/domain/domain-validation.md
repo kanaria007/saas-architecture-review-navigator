@@ -54,6 +54,7 @@ It’s about who owns the truth.
 
 ## 🔗 Related Perspectives
 
-- [ ] Immutable domain construction  
-- [ ] Type-driven error encoding  
-- [ ] Fail-fast principle in model creation  
+- [Can Your System Even Represent an Invalid State?](invalid-states.md)
+- [Is the Domain Separated from the Application Layer—and Does It Mean Anything?](domain-separation.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](domain-permissions.md)

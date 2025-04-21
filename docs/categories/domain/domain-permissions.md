@@ -51,6 +51,7 @@ It’s about controlling access to *business consequences*.
 
 ## 🔗 Related Perspectives
 
-- [ ] Responsibility split: domain vs application  
-- [ ] Policy-based permission models  
-- [ ] Deny-by-default philosophy  
+- [Is Your API Permission Design Explicit and Secure?](../api/api-permission-control.md)
+- [Is the Domain Separated from the Application Layer—and Does It Mean Anything?](domain-separation.md)
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)

@@ -51,6 +51,7 @@ They’re not infra. They’re interface.
 
 ## 🔗 Related Perspectives
 
-- [ ] Access pattern-driven schema  
-- [ ] Hot path identification  
-- [ ] Post-migration index validation  
+- [Is Your Index Designed—or Just Added After It Got Slow?](index-design.md)
+- [Is Caching Helping—or Just Hiding Slowness?](../performance/cache-strategy.md)
+- [Are Your Indexes Aligned with Query Paths?](../performance/indexing-paths.md)
+- [Have You Designed Query Performance—or Just Hoped the DB “Handles It”?](../performance/db-index-optimization.md)

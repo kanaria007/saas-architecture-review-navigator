@@ -58,6 +58,7 @@ it should do so in a way that helps you recover meaningfully.
 
 ## 🔗 Related Perspectives
 
-- [ ] Retry control and backoff strategies  
-- [ ] Observability in async workflows  
-- [ ] Recovery paths for non-idempotent events  
+- [What Happens When the External System Fails?](../async/external-failure-impact.md)
+- [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)
+- [Have You Deliberately Decided Whether You Need Distributed Transactions?](distributed-transaction-design.md)
+- [Can Retried Events Introduce Inconsistent State?](retry-consistency.md)

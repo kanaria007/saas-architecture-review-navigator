@@ -56,6 +56,7 @@ It’s about knowing **which limits come first—and who they’ll hurt.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Bottleneck detection across features  
-- [ ] Tenant isolation vs pooled limits  
-- [ ] Graceful degradation strategies  
+- [Are Backend Bottlenecks Designed Out—or Just Discovered Later?](backend-bottlenecks.md)
+- [Can You Handle External Load Spikes Gracefully?](external-pressure-resilience.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](../data/index-design.md)
+- [Are Your Indexes Aligned with Query Paths?](indexing-paths.md)

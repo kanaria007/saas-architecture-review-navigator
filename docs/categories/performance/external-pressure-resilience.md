@@ -56,6 +56,7 @@ It’s the **default condition of internet-scale systems**.
 
 ## 🔗 Related Perspectives
 
-- [ ] Circuit breaking vs fail-slow vs fail-fast  
-- [ ] Load shedding and queuing theory  
-- [ ] Third-party dependency observability  
+- [What Happens When the External System Fails?](../async/external-failure-impact.md)
+- [Is Load Behavior Under Stress Explicitly Tested?](../test/high-load-behavior-testing.md)
+- [Is Your Scaling Strategy Designed—or Just Assumed?](scaling-strategy.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)

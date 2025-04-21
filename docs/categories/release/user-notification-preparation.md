@@ -61,6 +61,7 @@ If left out, the system *will* behave unpredictably—for humans.
 
 ## 🔗 Related Perspectives
 
-- [ ] Release scope classification  
-- [ ] Translation-aware UI planning  
-- [ ] Alerting user-facing behavior regressions  
+- [Is Downtime Minimized Where Unavoidable?](minimize-downtime.md)
+- [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](../async/cross-service-consistency.md)
+- [What Happens When the External System Fails?](../async/external-failure-impact.md)
+- [Is the Operational Flow Designed to Minimize Dev and Support Burden?](../non-functional/operational-burden.md)

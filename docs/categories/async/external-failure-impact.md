@@ -52,6 +52,7 @@ It means **control how the failure manifests.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Third-party dependency fallback  
-- [ ] Async error surface design  
-- [ ] Queue and retry containment  
+- [Can You Handle External Load Spikes Gracefully?](../performance/external-pressure-resilience.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)
+- [Is the Sync/Async Split Intentional—or Just Incidental?](sync-async-alignment.md)
+- [Have You Deliberately Decided Whether You Need Distributed Transactions?](../data/distributed-transaction-design.md)

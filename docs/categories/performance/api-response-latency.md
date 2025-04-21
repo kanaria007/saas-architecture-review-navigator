@@ -55,6 +55,7 @@ It’s a **conversation between client pain and backend design.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Tail latency and p99 thinking  
-- [ ] Budgeting for retries and fallback  
-- [ ] Observability aligned with user pain  
+- [Are Backend Bottlenecks Designed Out—or Just Discovered Later?](backend-bottlenecks.md)
+- [Can You Handle External Load Spikes Gracefully?](external-pressure-resilience.md)
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)
+- [Is Load Behavior Under Stress Explicitly Tested?](../test/high-load-behavior-testing.md)

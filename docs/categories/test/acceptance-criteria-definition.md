@@ -51,6 +51,7 @@ It’s just **opinion validation.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Testable requirement writing  
-- [ ] Contract-driven QA  
-- [ ] Edge case coverage discussion  
+- [Is the Impact Scope of This Change Clearly Understood?](impact-scope-analysis.md)
+- [Has the Need for Performance Testing Been Assessed?](performance-test-plan.md)
+- [Is Notification Design Translation-Ready?](../ui/notification-localization.md)
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)

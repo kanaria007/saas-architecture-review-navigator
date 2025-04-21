@@ -63,7 +63,7 @@ it’s already broken—you just don’t know it yet.**
 
 ## 🔗 Related Perspectives
 
-- [ ] SLO/SLA/SLI alignment  
-- [ ] Alert fatigue and deduplication  
-- [ ] Observability for async workflows  
-- [ ] On-call response design and routing
+- [Are Recovery Steps Clearly Defined for Incidents?](recovery-runbook.md)
+- [Is the Logging Strategy Sufficient for Troubleshooting?](logging-for-troubleshooting.md)
+- [Is the Operational Flow Designed to Minimize Dev and Support Burden?](operational-burden.md)
+- [Is Load Behavior Under Stress Explicitly Tested?](../test/high-load-behavior-testing.md)

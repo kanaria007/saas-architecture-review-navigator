@@ -62,7 +62,7 @@ But user surprise and prolonged recovery are not.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Safe schema migration  
-- [ ] Rollback rehearsal  
-- [ ] Deployment observability  
-- [ ] Real-time user impact alerting
+- [Is User Notification Prepared Where Needed?](user-notification-preparation.md)
+- [Is the Release Strategy Defined and Aligned With Change Impact?](release-strategy-planning.md)
+- [Is a Data Recovery Plan Considered for Failure Scenarios?](../availability/data-recovery-plan.md)
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)

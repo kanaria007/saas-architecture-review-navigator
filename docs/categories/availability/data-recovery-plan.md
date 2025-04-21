@@ -64,7 +64,7 @@ Recovery means: consistent, complete, and usable.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Backup integrity testing  
-- [ ] Event replay and idempotency logic  
-- [ ] Partial restore for multi-tenant architecture  
-- [ ] Disaster simulation planning
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)
+- [Is the Backup Strategy Well-Defined and Comprehensive?](backup-strategy.md)
+- [Is Downtime Minimized Where Unavoidable?](../release/minimize-downtime.md)
+- [Are Monitoring Targets Well-Defined and Alerts Properly Configured?](../non-functional/observability-alerting.md)

@@ -54,6 +54,7 @@ Or are you just hoping the system “should handle it”?
 
 ## 🔗 Related Perspectives
 
-- [ ] Idempotency design patterns  
-- [ ] Event replay safety  
-- [ ] State mutation and retry coupling  
+- [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](../async/cross-service-consistency.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](fallback-strategy.md)
+- [Have You Deliberately Decided Whether You Need Distributed Transactions?](distributed-transaction-design.md)
+- [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)

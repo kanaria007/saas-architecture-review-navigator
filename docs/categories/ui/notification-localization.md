@@ -56,6 +56,7 @@ it must be versioned, tested, and owned.
 
 ## 🔗 Related Perspectives
 
-- [ ] Message contract schema  
-- [ ] Translation-safe notification pipelines  
-- [ ] Multilingual staging support  
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)
+- [Are the Acceptance Criteria Clearly Defined?](../test/acceptance-criteria-definition.md)
+- [Is the Impact Scope of This Change Clearly Understood?](../test/impact-scope-analysis.md)
+- [Is User Notification Prepared Where Needed?](../release/user-notification-preparation.md)

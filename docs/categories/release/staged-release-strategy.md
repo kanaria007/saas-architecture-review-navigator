@@ -61,7 +61,7 @@ Speed is in safe, observable rollout.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Tenant-based deployment design  
-- [ ] Feature toggle management  
-- [ ] Rollback plan per cohort  
-- [ ] Coordinated release communication  
+- [Is the Release Strategy Defined and Aligned With Change Impact?](release-strategy-planning.md)
+- [Is a Rollback Strategy in Place for Critical Changes?](rollback-strategy.md)
+- [Has the Need for Performance Testing Been Assessed?](../test/performance-test-plan.md)
+- [Is Impact Analysis Performed for Critical Changes?](impact-analysis-for-critical-changes.md)

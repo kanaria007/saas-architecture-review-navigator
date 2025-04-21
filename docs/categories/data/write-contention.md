@@ -60,6 +60,7 @@ Designers who pretend otherwise are just borrowing time—from ops, and from use
 
 ## 🔗 Related Perspectives
 
-- [ ] Isolation level strategies  
-- [ ] Retry semantics in async flows  
-- [ ] Preventing silent overwrite of writes  
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)
+- [Are You Clear About When to Use Sync vs Async APIs?](../api/sync-vs-async-boundaries.md)
+- [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)
+- [What Happens When the External System Fails?](../async/external-failure-impact.md)

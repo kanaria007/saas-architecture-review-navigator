@@ -55,6 +55,7 @@ Don’t assume the system is consistent.
 
 ## 🔗 Related Perspectives
 
-- [ ] Eventual consistency strategy  
-- [ ] Consistency lag visibility  
-- [ ] Schema versioning between services  
+- [Can Retried Events Introduce Inconsistent State?](../data/retry-consistency.md)
+- [Is the Sync/Async Split Intentional—or Just Incidental?](sync-async-alignment.md)
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)
+- [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](event-retry-delay.md)

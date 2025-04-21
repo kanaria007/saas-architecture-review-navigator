@@ -63,7 +63,7 @@ they’re just expensive noise.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Traceability across services  
-- [ ] Log format standardization  
-- [ ] Alerting from log signals  
-- [ ] Redaction and audit compliance
+- [Are Monitoring Targets Well-Defined and Alerts Properly Configured?](observability-alerting.md)
+- [Is the Backup Strategy Well-Defined and Comprehensive?](../availability/backup-strategy.md)
+- [Is the Operational Flow Designed to Minimize Dev and Support Burden?](operational-burden.md)
+- [Are Recovery Steps Clearly Defined for Incidents?](recovery-runbook.md)

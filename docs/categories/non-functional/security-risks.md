@@ -63,7 +63,7 @@ It’s a set of enforced design boundaries.**
 
 ## 🔗 Related Perspectives
 
-- [ ] API authorization enforcement  
-- [ ] Logging and redaction strategy  
-- [ ] Role and permission model design  
-- [ ] Data classification and encryption scopes
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](../domain/domain-permissions.md)
+- [Is Your API Permission Design Explicit and Secure?](../api/api-permission-control.md)
+- [Does Your System Prevent Privilege Escalation?](../api/privilege-escalation-risk.md)
+- [Is the Impact Scope of This Change Clearly Understood?](../test/impact-scope-analysis.md)

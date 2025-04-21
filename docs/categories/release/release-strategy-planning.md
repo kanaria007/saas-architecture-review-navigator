@@ -67,7 +67,7 @@ Release ≠ Code Delivery
 
 ## 🔗 Related Perspectives
 
-- [ ] High-load behavior test planning  
-- [ ] Asynchronous system exposure strategy  
-- [ ] Schema compatibility and zero-downtime rollout  
-- [ ] Emergency rollback rehearsal
+- [Is a Staged Release Strategy in Place?](staged-release-strategy.md)
+- [Is a Rollback Strategy in Place for Critical Changes?](rollback-strategy.md)
+- [Does Your API Design Prevent Breaking Changes?](../api/api-compatibility-strategy.md)
+- [Is Downtime Minimized Where Unavoidable?](minimize-downtime.md)

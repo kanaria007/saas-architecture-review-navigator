@@ -60,6 +60,7 @@ That’s not deployment. That’s surgery.
 
 ## 🔗 Related Perspectives
 
-- [ ] Deployment strategy for shared state  
-- [ ] Rollback-aware schema evolution  
-- [ ] Observability of schema-level changes  
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)
+- [Is Your Index Strategy Designed—Or Just Inherited?](indexing-strategy.md)
+- [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](../async/cross-service-consistency.md)
+- [Is Your Index Designed—or Just Added After It Got Slow?](index-design.md)

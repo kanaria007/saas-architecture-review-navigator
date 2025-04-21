@@ -55,6 +55,7 @@ Now answer this:
 
 ## 🔗 Related Perspectives
 
-- [ ] Domain responsibility boundaries  
-- [ ] State transition modeling  
-- [ ] Behavior-driven validation  
+- [Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?](domain-permissions.md)
+- [Is Your Validation Actually Enforced—or Just Wished For?](domain-validation.md)
+- [Can Your System Even Represent an Invalid State?](invalid-states.md)
+- [Is the API Schema Coherent Across the System?](../api/api-schema-coherence.md)

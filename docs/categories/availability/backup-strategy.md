@@ -64,7 +64,7 @@ A broken promise at recovery time is a system failure.**
 
 ## 🔗 Related Perspectives
 
-- [ ] Recovery playbook validation  
-- [ ] Cross-region failure scenarios  
-- [ ] Restore access control and auditing  
-- [ ] Legal and audit trace preservation
+- [Is a Data Recovery Plan Considered for Failure Scenarios?](data-recovery-plan.md)
+- [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)
+- [Is the Logging Strategy Sufficient for Troubleshooting?](../non-functional/logging-for-troubleshooting.md)
+- [Are Security Risks Considered?](../non-functional/security-risks.md)
