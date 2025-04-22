@@ -3,6 +3,10 @@
 > A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers  
 > **50+ perspectives / 12 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
 
+[![Docs](https://img.shields.io/badge/docs-online-green)](https://kanaria007.github.io/saas-architecture-review-navigator/)
+[![GitHub stars](https://img.shields.io/github/stars/kanaria007/saas-architecture-review-navigator.svg)](https://github.com/kanaria007/saas-architecture-review-navigator/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](https://github.com/kanaria007/saas-architecture-review-navigator/pulls)
+
 ---
 
 ## 🧭 What Is This?
@@ -129,7 +133,20 @@ https://zenn.dev/kanaria007/articles/101e51dbcf2135
 
 ---
 
-## 🧭 Want to Contribute?
+## 🧑‍💻 Language and Translation Note
 
-See `CONTRIBUTING.md`.  
-Pull requests for improvement, new perspectives, or formatting corrections are welcome.
+This project was originally authored in Japanese, and translated and refined using AI tools (e.g., ChatGPT).
+If you spot awkward expressions or unclear phrasing, feel free to submit a PR or open an issue — your help is always welcome.
+
+## 🤝 Want to Contribute?
+
+We're looking for:
+- New perspectives from your experience
+- FAQ and edge cases
+- Translation or adaptation
+- Clarification or fixes
+
+AI assistance is welcome — if curated and aligned with the project’s structure and philosophy.
+
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and the [perspective template](./docs/perspective-template.md) to get started.
+

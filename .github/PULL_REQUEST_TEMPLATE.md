@@ -1,35 +1,47 @@
 # 🛠 Pull Request Template
 
-Thank you for contributing to SaaS Architecture Review Navigator.
-
-Before submitting, please confirm the following:
+Thank you for contributing to the **SaaS Architecture Review Navigator**!
 
 ---
 
-## ✅ What this PR does
+## ✅ What does this PR do?
 
-<!-- Write a short summary of your proposed changes -->
+<!-- Short summary. For example: Adds a new perspective about cache write strategy. -->
 
 ---
 
-## ✅ Checklist
+## ✍️ Type of Change
 
-- [ ] This PR fixes spelling, grammar, or expression without altering meaning
-- [ ] This PR improves formatting, structure, or navigation clarity
-- [ ] This PR links or aligns related perspectives where appropriate
-- [ ] This PR does **not** alter the structural philosophy or core design logic
-- [ ] This PR follows the guidelines in `CONTRIBUTING.md`
+> Select all that apply:
+
+- [ ] New perspective (e.g. `performance/cache-write-design.md`)
+- [ ] Improve an existing perspective
+- [ ] Add or clarify FAQ
+- [ ] Fix spelling, grammar, or phrasing
+- [ ] Improve formatting or structure
+- [ ] Improve navigation or related links
+- [ ] Infrastructure/tooling update
+
+---
+
+## 🔍 Guidelines Check
+
+> Please confirm:
+
+- [ ] The contribution respects the project’s structure and style
+- [ ] If adding a new perspective, I followed the suggested format (What, Failures, Design, FAQ...)
+- [ ] I’ve reviewed `CONTRIBUTING.md` and followed relevant instructions
 
 ---
 
 ## 🧠 Notes (Optional)
 
-<!-- If you want to explain intent, context, or edge cases, do it here -->
+<!-- Anything to help reviewers understand context, intention, edge cases -->
 
 ---
 
-### ⚠️ Reminder
+### 🙌 Thank You
 
-This project is opinionated and non-neutral by design.  
-If your suggestion is not merged, please don't take it personally — forks are welcome!
+This navigator exists because people like you help make it better.  
+We welcome forks and discussions too — let us know how you're using it!
 
