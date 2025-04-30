@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/api-schema-coherence/">
+        <link rel="canonical" href="https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/privilege-escalation-risk/">
       
       
-        <link rel="prev" href="../api-permission-control/">
+        <link rel="prev" href="../api-schema-coherence/">
       
       
-        <link rel="next" href="../privilege-escalation-risk/">
+        <link rel="next" href="../sync-vs-async-boundaries/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Is the API Schema Coherent Across the System? - SaaS Architecture Review Navigator (English)</title>
+        <title>Does Your System Prevent Privilege Escalation? - SaaS Architecture Review Navigator (English)</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#is-the-api-schema-coherent-across-the-system" class="md-skip">
+        <a href="#does-your-system-prevent-privilege-escalation" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Is the API Schema Coherent Across the System?
+              Does Your System Prevent Privilege Escalation?
             
           </span>
         </div>
@@ -992,6 +992,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../api-schema-coherence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Is the API Schema Coherent Across the System?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1009,7 +1032,7 @@
   
   
   <span class="md-ellipsis">
-    Is the API Schema Coherent Across the System?
+    Does Your System Prevent Privilege Escalation?
     
   </span>
   
@@ -1022,7 +1045,7 @@
   
   
   <span class="md-ellipsis">
-    Is the API Schema Coherent Across the System?
+    Does Your System Prevent Privilege Escalation?
     
   </span>
   
@@ -1045,36 +1068,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-this-perspective-asks" class="md-nav__link">
+  <a href="#what-this-perspective-covers" class="md-nav__link">
     <span class="md-ellipsis">
-      🔍 What This Perspective Asks
+      🔍 What This Perspective Covers
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#common-anti-patterns" class="md-nav__link">
+  <a href="#common-escalation-paths" class="md-nav__link">
     <span class="md-ellipsis">
-      ⚠️ Common Anti-Patterns
+      ⚠️ Common Escalation Paths
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#healthier-schema-design" class="md-nav__link">
+  <a href="#safer-authorization-design" class="md-nav__link">
     <span class="md-ellipsis">
-      ✅ Healthier Schema Design
+      ✅ Safer Authorization Design
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#principle" class="md-nav__link">
+  <a href="#key-insight" class="md-nav__link">
     <span class="md-ellipsis">
-      🧠 Principle
+      🧠 Key Insight
     </span>
   </a>
   
@@ -1102,29 +1125,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../privilege-escalation-risk/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Does Your System Prevent Privilege Escalation?
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2616,60 +2616,56 @@
   
 
 
-<h1 id="is-the-api-schema-coherent-across-the-system">Is the API Schema Coherent Across the System?<a class="headerlink" href="#is-the-api-schema-coherent-across-the-system" title="Permanent link">&para;</a></h1>
+<h1 id="does-your-system-prevent-privilege-escalation">Does Your System Prevent Privilege Escalation?<a class="headerlink" href="#does-your-system-prevent-privilege-escalation" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Type: Structure<br />
+<p>Type: DeepDive<br />
 Category: API<br />
-Audience: Backend engineers, API designers, frontend integrators</p>
+Audience: Security architects, API reviewers, backend engineers in multi-tenant SaaS</p>
 </blockquote>
 <hr />
-<h2 id="what-this-perspective-asks">🔍 What This Perspective Asks<a class="headerlink" href="#what-this-perspective-asks" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Are schemas consistent across endpoints and services?  </li>
-<li>Do field names and nesting follow clear rules?  </li>
-<li>Can clients <em>rely</em> on structure—or must they guess each time?</li>
-</ul>
-<p>This isn’t about correctness. It’s about <strong>legibility and trust</strong>.</p>
+<h2 id="what-this-perspective-covers">🔍 What This Perspective Covers<a class="headerlink" href="#what-this-perspective-covers" title="Permanent link">&para;</a></h2>
+<p>Not all security breaches are intrusions.<br />
+Some are misdesigns—where the system lets users access more than they should.</p>
 <hr />
-<h2 id="common-anti-patterns">⚠️ Common Anti-Patterns<a class="headerlink" href="#common-anti-patterns" title="Permanent link">&para;</a></h2>
+<h2 id="common-escalation-paths">⚠️ Common Escalation Paths<a class="headerlink" href="#common-escalation-paths" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Same concept → different names on different endpoints  </li>
-<li>Inconsistent casing, nesting, nullability defaults  </li>
-<li>Error formats differ per service  </li>
-<li>Schema evolution breaks old clients due to lack of compatibility design</li>
+<li>“Readonly” roles can perform side effects through indirect APIs  </li>
+<li>Shared tenants leak access when tenant IDs aren't strictly checked  </li>
+<li>Admin-only endpoints get exposed via misconfigured gateways  </li>
+<li>Logic flaws confuse “ownership” with “visibility”</li>
 </ul>
 <hr />
-<h2 id="healthier-schema-design">✅ Healthier Schema Design<a class="headerlink" href="#healthier-schema-design" title="Permanent link">&para;</a></h2>
+<h2 id="safer-authorization-design">✅ Safer Authorization Design<a class="headerlink" href="#safer-authorization-design" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Enforce global schema conventions (naming, nesting, status codes)  </li>
-<li>Use shared schema libraries or contract tooling (e.g. OpenAPI, Protobuf)  </li>
-<li>Explicitly version schemas—even internally  </li>
-<li>Separate transport schema (API) from domain model (logic layer)  </li>
-<li>Validate schema diffs in CI with backward compatibility checks</li>
+<li>Use explicit permission checks at entrypoint—not deep inside logic  </li>
+<li>Validate resource ownership for every operation—not just access  </li>
+<li>Treat tenant boundaries as isolation contracts, not just filters  </li>
+<li>Audit for privilege elevation paths (e.g. role-switch, token leakage)  </li>
+<li>Test for “silent escalation” via combination of API calls</li>
 </ul>
 <hr />
-<h2 id="principle">🧠 Principle<a class="headerlink" href="#principle" title="Permanent link">&para;</a></h2>
-<p>Schema is not documentation.<br />
-Schema is <strong>contracted behavior</strong>—and must be designed as such.</p>
+<h2 id="key-insight">🧠 Key Insight<a class="headerlink" href="#key-insight" title="Permanent link">&para;</a></h2>
+<p>Privilege escalation doesn’t feel like a bug.<br />
+Which is why it <strong>must be tested as a feature</strong>.</p>
 <hr />
 <h2 id="faq">❓ FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong>Q: Can we evolve schemas without breaking clients?</strong><br />
-<strong>A:</strong> Only if you design versioning and fallback into the contract.</p>
+<p><strong>Q: Can’t we rely on role-based checks alone?</strong><br />
+<strong>A:</strong> Not if actions depend on data ownership or context.</p>
 </li>
 <li>
-<p><strong>Q: Isn’t schema just data shape?</strong><br />
-<strong>A:</strong> No. It’s a long-term interface between independent actors.</p>
+<p><strong>Q: Should every access path be tested manually?</strong><br />
+<strong>A:</strong> Automate for known paths. Red-team for the unknown ones.</p>
 </li>
 </ul>
 <hr />
 <h2 id="related-perspectives">🔗 Related Perspectives<a class="headerlink" href="#related-perspectives" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../api-compatibility-strategy/">Does Your API Design Prevent Breaking Changes?</a></li>
-<li><a href="../../domain/domain-permissions/">Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?</a></li>
-<li><a href="../sync-vs-async-boundaries/">Are You Clear About When to Use Sync vs Async APIs?</a></li>
-<li><a href="../../async/cross-service-consistency/">Is Cross-Service Consistency Guaranteed—or Just Hoped For?</a></li>
+<li><a href="../api-permission-control/">Is Your API Permission Design Explicit and Secure?</a></li>
+<li><a href="../../non-functional/security-risks/">Are Security Risks Considered?</a></li>
+<li><a href="../../test/impact-scope-analysis/">Is the Impact Scope of This Change Clearly Understood?</a></li>
+<li><a href="../../security/authn-authz-implementation/">Is Your Auth Implementation Predictable, Testable, and Isolated?</a></li>
 </ul>
 
 

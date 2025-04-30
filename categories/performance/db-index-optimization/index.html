@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/api-schema-coherence/">
+        <link rel="canonical" href="https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/db-index-optimization/">
       
       
-        <link rel="prev" href="../api-permission-control/">
+        <link rel="prev" href="../cache-strategy/">
       
       
-        <link rel="next" href="../privilege-escalation-risk/">
+        <link rel="next" href="../external-pressure-resilience/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Is the API Schema Coherent Across the System? - SaaS Architecture Review Navigator (English)</title>
+        <title>Have You Designed Query Performance—or Just Hoped the DB “Handles It”? - SaaS Architecture Review Navigator (English)</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#is-the-api-schema-coherent-across-the-system" class="md-skip">
+        <a href="#have-you-designed-query-performanceor-just-hoped-the-db-handles-it" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Is the API Schema Coherent Across the System?
+              Have You Designed Query Performance—or Just Hoped the DB “Handles It”?
             
           </span>
         </div>
@@ -903,8 +903,6 @@
                 
   
   
-    
-  
   
   
     
@@ -915,11 +913,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
         
           
           <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
@@ -935,7 +933,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_4">
             <span class="md-nav__icon md-icon"></span>
             Api
@@ -949,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-compatibility-strategy/" class="md-nav__link">
+      <a href="../../api/api-compatibility-strategy/" class="md-nav__link">
         
   
   
@@ -972,7 +970,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-permission-control/" class="md-nav__link">
+      <a href="../../api/api-permission-control/" class="md-nav__link">
         
   
   
@@ -992,32 +990,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Is the API Schema Coherent Across the System?
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../api/api-schema-coherence/" class="md-nav__link">
         
   
   
@@ -1028,80 +1004,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-this-perspective-asks" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔍 What This Perspective Asks
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-anti-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚠️ Common Anti-Patterns
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#healthier-schema-design" class="md-nav__link">
-    <span class="md-ellipsis">
-      ✅ Healthier Schema Design
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#principle" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧠 Principle
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#faq" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❓ FAQ
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-perspectives" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔗 Related Perspectives
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1114,7 +1016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../privilege-escalation-risk/" class="md-nav__link">
+      <a href="../../api/privilege-escalation-risk/" class="md-nav__link">
         
   
   
@@ -1137,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sync-vs-async-boundaries/" class="md-nav__link">
+      <a href="../../api/sync-vs-async-boundaries/" class="md-nav__link">
         
   
   
@@ -1306,6 +1208,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1316,11 +1220,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
         
           
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
@@ -1336,7 +1240,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
             Performance
@@ -1350,7 +1254,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/api-response-latency/" class="md-nav__link">
+      <a href="../api-response-latency/" class="md-nav__link">
         
   
   
@@ -1373,7 +1277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/backend-bottlenecks/" class="md-nav__link">
+      <a href="../backend-bottlenecks/" class="md-nav__link">
         
   
   
@@ -1396,7 +1300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/cache-strategy/" class="md-nav__link">
+      <a href="../cache-strategy/" class="md-nav__link">
         
   
   
@@ -1416,10 +1320,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../performance/db-index-optimization/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Have You Designed Query Performance—or Just Hoped the DB “Handles It”?
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1430,6 +1356,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-this-perspective-covers" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 What This Perspective Covers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-goes-wrong-in-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ What Goes Wrong in Practice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#healthier-performance-thinking" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Healthier Performance Thinking
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-tradeoffs" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Core Tradeoffs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❓ FAQ
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-perspectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Related Perspectives
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1442,7 +1442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/external-pressure-resilience/" class="md-nav__link">
+      <a href="../external-pressure-resilience/" class="md-nav__link">
         
   
   
@@ -1465,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/indexing-paths/" class="md-nav__link">
+      <a href="../indexing-paths/" class="md-nav__link">
         
   
   
@@ -1488,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/scaling-strategy/" class="md-nav__link">
+      <a href="../scaling-strategy/" class="md-nav__link">
         
   
   
@@ -2616,60 +2616,68 @@
   
 
 
-<h1 id="is-the-api-schema-coherent-across-the-system">Is the API Schema Coherent Across the System?<a class="headerlink" href="#is-the-api-schema-coherent-across-the-system" title="Permanent link">&para;</a></h1>
+<h1 id="have-you-designed-query-performanceor-just-hoped-the-db-handles-it">Have You Designed Query Performance—or Just Hoped the DB “Handles It”?<a class="headerlink" href="#have-you-designed-query-performanceor-just-hoped-the-db-handles-it" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Type: Structure<br />
-Category: API<br />
-Audience: Backend engineers, API designers, frontend integrators</p>
+<p>Type: DeepDive<br />
+Category: Performance<br />
+Audience: Engineers dealing with growing tables, slow dashboards, or unexplained latency</p>
 </blockquote>
 <hr />
-<h2 id="what-this-perspective-asks">🔍 What This Perspective Asks<a class="headerlink" href="#what-this-perspective-asks" title="Permanent link">&para;</a></h2>
+<h2 id="what-this-perspective-covers">🔍 What This Perspective Covers<a class="headerlink" href="#what-this-perspective-covers" title="Permanent link">&para;</a></h2>
+<p>This is not just about “adding indexes.”<br />
+It’s about <strong>designing for how queries behave under growth and concurrency.</strong></p>
+<p>This touches:</p>
 <ul>
-<li>Are schemas consistent across endpoints and services?  </li>
-<li>Do field names and nesting follow clear rules?  </li>
-<li>Can clients <em>rely</em> on structure—or must they guess each time?</li>
-</ul>
-<p>This isn’t about correctness. It’s about <strong>legibility and trust</strong>.</p>
-<hr />
-<h2 id="common-anti-patterns">⚠️ Common Anti-Patterns<a class="headerlink" href="#common-anti-patterns" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Same concept → different names on different endpoints  </li>
-<li>Inconsistent casing, nesting, nullability defaults  </li>
-<li>Error formats differ per service  </li>
-<li>Schema evolution breaks old clients due to lack of compatibility design</li>
+<li>Index choice and placement  </li>
+<li>Query patterns (joins, filters, pagination)  </li>
+<li>Read amplification and disk cost  </li>
+<li>Cache invalidation and fallback paths</li>
 </ul>
 <hr />
-<h2 id="healthier-schema-design">✅ Healthier Schema Design<a class="headerlink" href="#healthier-schema-design" title="Permanent link">&para;</a></h2>
+<h2 id="what-goes-wrong-in-practice">⚠️ What Goes Wrong in Practice<a class="headerlink" href="#what-goes-wrong-in-practice" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Enforce global schema conventions (naming, nesting, status codes)  </li>
-<li>Use shared schema libraries or contract tooling (e.g. OpenAPI, Protobuf)  </li>
-<li>Explicitly version schemas—even internally  </li>
-<li>Separate transport schema (API) from domain model (logic layer)  </li>
-<li>Validate schema diffs in CI with backward compatibility checks</li>
+<li>Latency spikes on pages nobody thought were critical  </li>
+<li>Multiple indexes fighting over the same table  </li>
+<li>Joins optimized for logic, not I/O locality  </li>
+<li>Filters on low-cardinality fields that kill index usefulness  </li>
+<li>No clear plan for data aging or pruning</li>
 </ul>
 <hr />
-<h2 id="principle">🧠 Principle<a class="headerlink" href="#principle" title="Permanent link">&para;</a></h2>
-<p>Schema is not documentation.<br />
-Schema is <strong>contracted behavior</strong>—and must be designed as such.</p>
+<h2 id="healthier-performance-thinking">✅ Healthier Performance Thinking<a class="headerlink" href="#healthier-performance-thinking" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Design queries from access pattern—not schema shape  </li>
+<li>Monitor “query heat” over time, not just in load tests  </li>
+<li>Write-specific indexes for read-heavy endpoints  </li>
+<li>Embrace partial indexes or filtered indexes where applicable  </li>
+<li>Plan index lifecycle: create, evolve, retire</li>
+</ul>
+<hr />
+<h2 id="core-tradeoffs">🧠 Core Tradeoffs<a class="headerlink" href="#core-tradeoffs" title="Permanent link">&para;</a></h2>
+<p>You’re always balancing:</p>
+<ul>
+<li>Storage vs speed  </li>
+<li>Index maintenance cost vs query benefit  </li>
+<li>Latency variance vs code complexity</li>
+</ul>
 <hr />
 <h2 id="faq">❓ FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p><strong>Q: Can we evolve schemas without breaking clients?</strong><br />
-<strong>A:</strong> Only if you design versioning and fallback into the contract.</p>
+<p><strong>Q: What if I don’t know which queries matter yet?</strong><br />
+<strong>A:</strong> Then build for observability first—optimize later.</p>
 </li>
 <li>
-<p><strong>Q: Isn’t schema just data shape?</strong><br />
-<strong>A:</strong> No. It’s a long-term interface between independent actors.</p>
+<p><strong>Q: Can’t the ORM optimize this for us?</strong><br />
+<strong>A:</strong> It can write queries. It can’t make them good.</p>
 </li>
 </ul>
 <hr />
 <h2 id="related-perspectives">🔗 Related Perspectives<a class="headerlink" href="#related-perspectives" title="Permanent link">&para;</a></h2>
 <ul>
-<li><a href="../api-compatibility-strategy/">Does Your API Design Prevent Breaking Changes?</a></li>
-<li><a href="../../domain/domain-permissions/">Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?</a></li>
-<li><a href="../sync-vs-async-boundaries/">Are You Clear About When to Use Sync vs Async APIs?</a></li>
-<li><a href="../../async/cross-service-consistency/">Is Cross-Service Consistency Guaranteed—or Just Hoped For?</a></li>
+<li><a href="../../data/index-design/">Is Your Index Designed—or Just Added After It Got Slow?</a></li>
+<li><a href="../../data/indexing-strategy/">Is Your Index Strategy Designed—Or Just Inherited?</a></li>
+<li><a href="../backend-bottlenecks/">Are Backend Bottlenecks Designed Out—or Just Discovered Later?</a></li>
+<li><a href="../indexing-paths/">Are Your Indexes Aligned with Query Paths?</a></li>
 </ul>
 
 
