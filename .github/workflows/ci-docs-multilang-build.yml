@@ -13,6 +13,9 @@ on:
       - 'mkdocs.*.yml'
       - '.github/workflows/**'
 
+permissions:
+  contents: write
+
 jobs:
   build-docs:
     name: Build docs + landing page
