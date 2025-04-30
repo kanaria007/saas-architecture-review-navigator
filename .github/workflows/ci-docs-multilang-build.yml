@@ -1,0 +1,88 @@
+name: CI – Build Multi-language Docs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.*.yml'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.*.yml'
+      - '.github/workflows/**'
+
+jobs:
+  ##----------------------------------------
+  ## 1) 共有セットアップ（コードチェック／Lint 等は既存ワークフローを継続）
+  ##----------------------------------------
+
+  build-docs:
+    name: Build EN / JA docs + landing page
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. リポジトリ取得
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Python & MkDocs 環境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install MkDocs dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install \
+            mkdocs-material \
+            mkdocs-awesome-pages-plugin
+
+      # 3-A. 英語サイトを site/en へ
+      - name: Build English site
+        run: |
+          mkdocs build --config-file mkdocs.en.yml --site-dir site/en
+
+      # 3-B. 日本語サイトを site/ja へ
+      - name: Build Japanese site
+        run: |
+          mkdocs build --config-file mkdocs.ja.yml --site-dir site/ja
+
+      # 4. ルート (/index.html) にランディングページを生成
+      - name: Create language-switch landing page
+        run: |
+          cat > site/index.html <<'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <title>SaaS Architecture Review Navigator</title>
+            <script>
+              const lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+              if (lang.startsWith('ja')) location.replace('./ja/');
+              else location.replace('./en/');
+            </script>
+            <style>
+              body{font-family:sans-serif;text-align:center;margin-top:12vh}
+              a{font-size:1.25rem;margin:0 1.4rem;text-decoration:none}
+            </style>
+          </head>
+          <body>
+            <h1>SaaS Architecture Review Navigator</h1>
+            <p>
+              <a href="./en/">English →</a>
+              <a href="./ja/">日本語 →</a>
+            </p>
+            <p><small>Auto-redirects by browser locale</small></p>
+          </body>
+          </html>
+          EOF
+
+      # 5. (任意) 生成物をアーティファクトとして保存
+      - name: Upload built site
+        uses: actions/upload-artifact@v3
+        with:
+          name: docs-site
+          path: site
