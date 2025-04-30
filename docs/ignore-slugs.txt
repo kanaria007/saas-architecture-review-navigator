@@ -1,0 +1,4 @@
+weekly-reflection-log-guide.md
+db-index-optimization.md
+indexing-paths.md
+daily-reflection-log-guide.md

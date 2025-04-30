@@ -36,6 +36,9 @@ jobs:
       run: |
         markdownlint docs/**/*.md
 
+    - name: Validate structure
+      run: python scripts/validate_structure.py
+
     - name: Build documentation
       run: mkdocs build --strict
 
