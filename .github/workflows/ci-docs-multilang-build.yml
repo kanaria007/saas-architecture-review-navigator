@@ -14,23 +14,14 @@ on:
       - '.github/workflows/**'
 
 jobs:
-  ##----------------------------------------
-  ## 1) 共有セットアップ
-  ##    Shared setup (linting and other checks are in other workflows)
-  ##----------------------------------------
-
   build-docs:
     name: Build docs + landing page
     runs-on: ubuntu-22.04
 
     steps:
-      # 1. リポジトリ取得
-      #    Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Python & MkDocs 環境構築
-      #    Set up Python and install MkDocs dependencies
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -43,25 +34,17 @@ jobs:
             mkdocs-material \
             mkdocs-awesome-pages-plugin
 
-      # 3. ドキュメント構造を検証
-      #    Validate the structure of the documentation
       - name: Validate structure
         run: python scripts/validate_structure.py
 
-      # 4-A. 英語サイトを site/en にビルド
-      #      Build English site into site/en
       - name: Build English site
         run: |
           mkdocs build --config-file mkdocs.en.yml --site-dir site/en
 
-      # 4-B. 日本語サイトを site/ja にビルド
-      #      Build Japanese site into site/ja
       - name: Build Japanese site
         run: |
           mkdocs build --config-file mkdocs.ja.yml --site-dir site/ja
 
-      # 5. ランディングページ (index.html) を生成
-      #    Create landing page that redirects based on browser locale
       - name: Create language-switch landing page
         run: |
           cat > site/index.html <<'EOF'
@@ -91,19 +74,19 @@ jobs:
           </html>
           EOF
 
-      # 6. (任意) 生成されたサイトをアーティファクトとして保存
-      #    (Optional) Upload built site as an artifact
       - name: Upload built site
         uses: actions/upload-artifact@v3
         with:
           name: docs-site
           path: site
 
-      # 7. GitHub Pages へデプロイ
-      #    Deploy to GitHub Pages
+      - name: Debug: List contents of site/
+        run: ls -laR site
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
+          enable_jekyll: false
