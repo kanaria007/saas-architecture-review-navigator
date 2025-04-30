@@ -71,7 +71,7 @@ Use the following sections to guide each entry:
 ### 💬 Mentor Feedback (Optional)
 
 > Mentors may add:
-> 
+>
 > - Observations on patterns or blind spots
 > - Suggestions for reframing or expanding the thinker’s lens
 > - Triggers for deeper trade-off awareness or strategic alignment

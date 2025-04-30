@@ -73,7 +73,7 @@
 
 ---
 
-# 🌐 系列連携
+## 🌐 系列連携
 
 本記事は「構造で育てる思考シリーズ」の一環です。
 
@@ -81,5 +81,5 @@
 - [構造で育てるメンタリング：新卒を自律・戦略人材に導く設計ガイド](https://zenn.dev/kanaria007/articles/0cc9d4ed1a898a)
 - [構造で育てる思考：新卒エンジニアを自律・戦略人材に導く自己ふりかえりフレーム](https://zenn.dev/kanaria007/articles/a6fa4eef6cccb9)
 - 構造で育てる思考：日次振り返りテンプレート（このページ）
-    - [構造で育てる思考：日次の振り返りから成長を加速する実践ログ](https://zenn.dev/kanaria007/articles/a1ac72292d9ef3)
+  - [構造で育てる思考：日次の振り返りから成長を加速する実践ログ](https://zenn.dev/kanaria007/articles/a1ac72292d9ef3)
 - [構造で育てる思考：週次振り返りテンプレート](https://zenn.dev/kanaria007/articles/d179586ae619c4)

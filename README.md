@@ -143,7 +143,7 @@ If you spot awkward expressions or unclear phrasing, feel free to submit a PR or
 
 ## 📁 Repository Structure
 
-```
+``` text
 docs/
   ├─ ja/        # Japanese content
   └─ en/        # English content
@@ -165,5 +165,5 @@ Use, fork, share, or extend freely. Attribution is welcome.
 ## 🛠 Maintainers & Source
 
 Created by [kanaria007 (Zenn)](https://zenn.dev/kanaria007)  
-Original articles and use cases: 
+Original articles and use cases:
 https://zenn.dev/kanaria007/articles/101e51dbcf2135

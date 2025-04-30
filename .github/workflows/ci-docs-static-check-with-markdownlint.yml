@@ -34,7 +34,7 @@ jobs:
 
     - name: Run markdownlint
       run: |
-        npx markdownlint "docs/**/*.md"
+        npx markdownlint "docs/**/*.md" "README.md" "CONTRIBUTING.md"
 
     - name: Validate structure
       run: python scripts/validate_structure.py
