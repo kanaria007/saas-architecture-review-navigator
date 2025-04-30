@@ -1,235 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/contributing/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/contributing/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/navigation-map/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/navigation-map/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/structure-vs-deepdive/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/perspective-template/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/api/api-compatibility-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/structure-vs-deepdive/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/api/api-permission-control/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/api-compatibility-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/api/api-schema-coherence/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/api-permission-control/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/api/privilege-escalation-risk/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/api-schema-coherence/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/api/sync-vs-async-boundaries/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/privilege-escalation-risk/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/async/cross-service-consistency/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/api/sync-vs-async-boundaries/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/async/event-retry-delay/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/async/cross-service-consistency/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/async/external-failure-impact/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/async/event-retry-delay/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/async/sync-async-alignment/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/async/external-failure-impact/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/availability/backup-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/async/sync-async-alignment/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/availability/data-recovery-plan/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/availability/backup-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/availability/failover-design/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/availability/data-recovery-plan/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/common/design-justification/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/availability/failover-design/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/distributed-transaction-design/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/common/design-justification/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/fallback-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/distributed-transaction-design/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/index-design/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/fallback-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/indexing-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/index-design/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/lifecycle-clarity/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/indexing-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/migration-impact/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/lifecycle-clarity/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/normalization-balance/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/migration-impact/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/retry-consistency/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/normalization-balance/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/data/write-contention/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/retry-consistency/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/domain/domain-permissions/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/data/write-contention/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/domain/domain-separation/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/domain/domain-permissions/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/domain/domain-validation/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/domain/domain-separation/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/domain/inheritance-integrity/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/domain/domain-validation/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/domain/invalid-states/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/domain/inheritance-integrity/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/non-functional/logging-for-troubleshooting/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/domain/invalid-states/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/non-functional/observability-alerting/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/daily-reflection-log-example/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/non-functional/operational-burden/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/daily-reflection-log-guide/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/non-functional/recovery-runbook/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/daily-reflection-template/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/non-functional/security-risks/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/growth-framework-design/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/api-response-latency/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/mentorship-structuring/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/backend-bottlenecks/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/self-reflection-framework/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/cache-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/weekly-reflection-log-guide/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/db-index-optimization/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/human/weekly-reflection-template/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/external-pressure-resilience/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/non-functional/logging-for-troubleshooting/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/indexing-paths/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/non-functional/observability-alerting/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/performance/scaling-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/non-functional/operational-burden/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/impact-analysis-for-critical-changes/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/non-functional/recovery-runbook/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/minimize-downtime/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/non-functional/security-risks/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/release-strategy-planning/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/api-response-latency/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/rollback-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/backend-bottlenecks/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/staged-release-strategy/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/cache-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/release/user-notification-preparation/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/db-index-optimization/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/security/authn-authz-implementation/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/external-pressure-resilience/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/security/confidential-data-handling/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/indexing-paths/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/test/acceptance-criteria-definition/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/performance/scaling-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/test/high-load-behavior-testing/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/impact-analysis-for-critical-changes/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/test/impact-scope-analysis/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/minimize-downtime/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/test/performance-test-plan/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/release-strategy-planning/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/ui/component-reuse-impact/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/rollback-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/ui/data-volume-visibility/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/staged-release-strategy/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
     <url>
-         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/categories/ui/notification-localization/</loc>
-         <lastmod>2025-04-21</lastmod>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/release/user-notification-preparation/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/security/authn-authz-implementation/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/security/confidential-data-handling/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/test/acceptance-criteria-definition/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/test/high-load-behavior-testing/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/test/impact-scope-analysis/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/test/performance-test-plan/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/ui/component-reuse-impact/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/ui/data-volume-visibility/</loc>
+         <lastmod>2025-04-30</lastmod>
+    </url>
+    <url>
+         <loc>https://kanaria007.github.io/saas-architecture-review-navigator/en/categories/ui/notification-localization/</loc>
+         <lastmod>2025-04-30</lastmod>
     </url>
 </urlset>
