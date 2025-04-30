@@ -1,0 +1,28 @@
+# markdownlint rules config – Pragmatic and minimalist
+
+# ✅ Style violations we ignore intentionally
+MD002: false
+MD012: false
+MD013: false
+MD022: false
+MD026: false
+MD031: false
+MD033: false
+MD034: false
+MD036: false
+MD041: false
+MD043: false
+MD047: false
+
+# ✅ Minimal hygiene rules we still apply
+MD001: true
+MD005:
+  style: consistent
+MD007:
+  indent: 2
+MD009:
+  br_spaces: 2
+  strict: false
+MD010: true
+MD049:
+  style: asterisk

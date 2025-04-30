@@ -28,13 +28,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-static-i18n
 
-    - name: Install markdownlint
+    - name: Install dependencies for markdownlint
       run: |
-        npm install -g markdownlint-cli
+        npm ci
 
     - name: Run markdownlint
       run: |
-        markdownlint docs/**/*.md
+        npx markdownlint "docs/**/*.md"
 
     - name: Validate structure
       run: python scripts/validate_structure.py

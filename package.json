@@ -1,0 +1,28 @@
+{
+  "name": "saas-architecture-review-navigator",
+  "version": "1.0.0",
+  "description": "> A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers   > **50+ perspectives / 12 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "markdownlint \"docs/**/*.md\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanaria007/saas-architecture-review-navigator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanaria007/saas-architecture-review-navigator/issues"
+  },
+  "homepage": "https://github.com/kanaria007/saas-architecture-review-navigator#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.44.0"
+  }
+}
