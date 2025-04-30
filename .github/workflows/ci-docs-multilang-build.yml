@@ -32,7 +32,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install \
             mkdocs-material \
-            mkdocs-awesome-pages-plugin
+            mkdocs-awesome-pages-plugin \
+            mkdocs-git-revision-date-localized-plugin
 
       - name: Validate structure
         run: python scripts/validate_structure.py

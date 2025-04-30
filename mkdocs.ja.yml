@@ -28,7 +28,7 @@ markdown_extensions:
 plugins:
   - search:
       lang: ['ja']
-  - git-revision-date
+  - git-revision-date-localized
   - awesome-pages
 
 docs_dir: docs/ja
