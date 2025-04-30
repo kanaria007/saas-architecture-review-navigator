@@ -105,8 +105,8 @@ Each perspective file is intentionally minimal but powerful:
 Explore the live documentation site here:  
 📘 [SaaS Review Navigator Site](https://kanaria007.github.io/saas-architecture-review-navigator/)
 
-- [Navigation Map](./docs/navigation-map.md)
-- [Structure vs DeepDive](./docs/structure-vs-deepdive.md)
+- [Navigation Map](./docs/en/navigation-map.md)
+- [Structure vs DeepDive](./docs/en/structure-vs-deepdive.md)
 
 ---
 
