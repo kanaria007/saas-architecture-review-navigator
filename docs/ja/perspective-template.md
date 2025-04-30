@@ -39,6 +39,6 @@ A. ユーザー体験や業務フローと照らし、具体的な秒数・分�
 
 ## 🔗 Related
 
-- [another-perspective.md](../...)
+- another-perspective.md
 
 > 関連観点があるとネットワーク的に知識が繋がり応用が効きます

@@ -46,4 +46,4 @@ Common questions and clarifications.
 
 ## 🔗 Related
 
-- [another-perspective.md](../...)
+- another-perspective.md
