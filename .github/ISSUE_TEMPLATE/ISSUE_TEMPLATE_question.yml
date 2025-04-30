@@ -1,0 +1,12 @@
+name: Question or Discussion
+description: Ask a question or start a discussion
+title: "[Question]: "
+labels: [question]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic or Question
+      description: What would you like to ask or discuss?
+    validations:
+      required: true

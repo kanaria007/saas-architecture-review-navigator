@@ -26,9 +26,9 @@
 
 ## API
 
-- 📐 [Api Compatibility Strategy](categories/api/api-compatibility-strategy.md)
-- 📐 [Api Permission Control](categories/api/api-permission-control.md)
-- 📐 [Api Schema Coherence](categories/api/api-schema-coherence.md)
+- 📐 [API Compatibility Strategy](categories/api/api-compatibility-strategy.md)
+- 📐 [API Permission Control](categories/api/api-permission-control.md)
+- 📐 [API Schema Coherence](categories/api/api-schema-coherence.md)
 - 🔬 [Privilege Escalation Risk](categories/api/privilege-escalation-risk.md)
 - 📐 [Sync Vs Async Boundaries](categories/api/sync-vs-async-boundaries.md)
 
@@ -41,7 +41,7 @@
 
 ## Performance
 
-- 📐 [Api Response Latency](categories/performance/api-response-latency.md)
+- 📐 [API Response Latency](categories/performance/api-response-latency.md)
 - 🔬 [Backend Bottlenecks](categories/performance/backend-bottlenecks.md)
 - 📐 [Cache Strategy](categories/performance/cache-strategy.md)
 - 🔬 [Db Index Optimization](categories/performance/db-index-optimization.md)
@@ -89,3 +89,14 @@
 
 - 🔬 [Authn Auth Implementation](categories/security/authn-authz-implementation.md)
 - 🔬 [Confidential Data Handling](categories/security/confidential-data-handling.md)
+
+## Human
+
+- 📘 [Growth Framework Design](categories/human/growth-framework-design.md)
+- 📘 [Self Reflection Framework](categories/human/self-reflection-framework.md)
+- 📘 [Mentorship Structuring](categories/human/mentorship-structuring.md)
+- 📘 [Daily Reflection Template](categories/human/daily-reflection-template.md)
+- 📘 [Daily Reflection Log Guide](categories/human/daily-reflection-log-guide.md)
+- 📘 [Daily Reflection Log Example](categories/human/daily-reflection-log-example.md)
+- 📘 [Weekly Reflection Template](categories/human/weekly-reflection-template.md)
+- 📘 [Weekly Reflection Log Guide](categories/human/weekly-reflection-log-guide.md)

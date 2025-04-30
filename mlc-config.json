@@ -1,0 +1,8 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://github.com/.*/(edit|issues)/" },
+    { "pattern": "^mailto:" }
+  ],
+  "ignoreWarnings": true,
+  "checkModifiedFilesOnly": false
+}

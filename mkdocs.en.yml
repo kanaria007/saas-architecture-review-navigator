@@ -1,0 +1,35 @@
+site_name: SaaS Architecture Review Navigator (English)
+site_url: https://kanaria007.github.io/saas-architecture-review-navigator/en/
+repo_url: https://github.com/kanaria007/saas-architecture-review-navigator
+repo_name: GitHub
+edit_uri: edit/main/docs/en/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - meta
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - def_list
+  - tables
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search:
+      lang: ['en']
+  - git-revision-date
+  - awesome-pages
+
+docs_dir: docs/en
+site_dir: site/en

@@ -30,6 +30,37 @@ Each perspective is a focused, atomic `.md` file:
 - ❓ Frequently asked questions  
 - 🔗 Related perspectives
 
+### 🧠 About the Human Category
+
+The Human category deliberately goes beyond pure technical architecture.
+It provides frameworks for:
+
+- Structuring personal growth as an intentional system
+- Building self-directed improvement loops
+- Designing mentorship and leadership development pathways
+
+Unlike other categories, these files do not strictly follow the "perspective checklist" format.
+Instead, they serve as cognitive scaffolding—to accelerate the long-term, systemic growth of both individual engineers and engineering organizations.
+
+---
+
+## 🚀 How to Use
+
+### 1. During Design Phase
+
+Use the [Navigation Map](navigation-map.md) to explore critical perspectives.  
+Start with relevant categories (domain, data, API, etc.) and review the questions before you write code.
+
+### 2. While Reviewing Code or Specs
+
+Point to relevant `.md` files directly in pull requests or review templates.  
+They provide shared checklists to align authors and reviewers.
+
+### 3. After Incidents or Failures
+
+Check `availability/` or `non-functional/` for recovery, alerting, observability, and failover strategies.  
+Use these perspectives in postmortems and RCA sessions.
+
 ---
 
 ## 📂 Categories
@@ -46,6 +77,7 @@ Each perspective is a focused, atomic `.md` file:
 - 🔰 [`Availability`](categories/availability/failover-design.md) — failure response, backup, recovery  
 - 🛡 [`Non-functional`](categories/non-functional/security-risks.md) — monitoring, security, ops  
 - 🔐 [`Security`](categories/security/authn-authz-implementation.md) — authn/authz, sensitive data  
+- 🧠 [`Human`](categories/human/growth-framework-design.md) — growth systems, reflection, mentorship
 
 ---
 
@@ -58,17 +90,17 @@ Use the sidebar or top navigation to explore perspectives by category or concept
 
 ---
 
-## 💬 Meta
-
-- Created by [Kanaria](https://zenn.dev/kanaria007)  
-- Authored in Japanese, translated to English via AI  
-- Licensed under MIT  
-- Contributions welcome (see [CONTRIBUTING.md](contributing.md))
-
----
-
 ## 🧠 Design Philosophy
 
 > This is not a tutorial.  
 > It is a design navigator.  
 > Built to help teams **ask better questions** before code is written.
+
+---
+
+## 💬 Meta
+
+- Created by [Kanaria](https://zenn.dev/kanaria007)  
+- Originally authored in Japanese and carefully translated with AI assistance  
+- Licensed under MIT  
+- Contributions welcome (see [CONTRIBUTING.md](contributing.md))

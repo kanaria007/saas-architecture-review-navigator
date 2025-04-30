@@ -1,0 +1,6 @@
+# Set default reviewer for all files
+*       @kanaria007
+
+# Assign specific reviewers for categories example
+# /docs/en/categories/security/  @kanaria007
+# /docs/en/categories/data/      @kanaria007

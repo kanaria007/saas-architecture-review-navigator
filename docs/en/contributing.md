@@ -24,7 +24,8 @@ The following types of contributions are welcome:
   Rewording for precision or developer comprehension, if meaning is preserved.
 
 - ✅ **Improving GitHub workflow integration**  
-  Enhancements like better `mkdocs.yml` config, GitHub Pages setup, or contributor tooling.
+  Enhancements such as better `mkdocs.yml` configuration, GitHub Pages setup, or contributor tooling are welcome.
+  (Note: I'm personally not very familiar with these areas, so contributions here would be especially appreciated.)
 
 ---
 

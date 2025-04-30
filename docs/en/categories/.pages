@@ -1,0 +1,14 @@
+nav:
+  - common
+  - domain
+  - data
+  - api
+  - async
+  - performance
+  - ui
+  - test
+  - release
+  - availability
+  - non-functional
+  - security
+  - human

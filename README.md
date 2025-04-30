@@ -27,14 +27,13 @@ It helps teams avoid blind spots and ensure design quality by reviewing critical
 - Logging, observability, and operational resilience  
 - Common design justification and rationale
 
-Each perspective is a Markdown file (e.g. `docs/categories/api/sync-vs-async-boundaries.md`) with:
+In addition, the Human category offers cognitive frameworks for:
 
-- 🔍 What this perspective asks or covers  
-- ⚠️ Common failure patterns  
-- ✅ Good practices and design strategies  
-- 🧠 Design principles or mental models  
-- ❓ Frequently asked questions  
-- 🔗 Related perspectives
+- Structuring sustainable personal and team growth
+- Designing mentorship models
+- Building self-directed learning architectures
+
+(These guides do not strictly follow the technical checklist format; they support long-term capability development across engineering organizations.)
 
 ---
 
@@ -54,6 +53,7 @@ Each perspective is a Markdown file (e.g. `docs/categories/api/sync-vs-async-bou
 | `ui` | Display limits, translation, component reuse |
 | `security` | Authentication, authorization, sensitive data protection |
 | `common` | Cross-cutting design rationale, justification |
+| `human` | Growth frameworks, self-reflection templates, mentorship architecture |
 
 ---
 
@@ -69,23 +69,75 @@ Each perspective is a Markdown file (e.g. `docs/categories/api/sync-vs-async-bou
 ## 🚀 How to Use
 
 ### 1. Design Phase
+
 Use the category list to check for blind spots.  
 Each `.md` file gives you examples, failure modes, and questions to answer in your spec.
 
 ### 2. Review Prep
+
 Mark relevant perspectives in your pull request or spec template.  
 Link to `.md` files as shared criteria for structured review.
 
 ### 3. Incident/Postmortem
+
 Browse `availability/` or `non-functional/` to audit failure handling quality.
 
 ---
 
-## 🧠 Design Axes & Perspective Guides
+## 🧠 Navigator Philosophy
 
-See `/docs/` for deeper cross-cutting guides across multiple perspectives:
+> This is not a tutorial. It is a navigator.  
+> Designed to help teams **ask better questions** before they write code.
 
-- [Navigation Map (Full Index)](./docs/navigation-map.md)
+Each perspective file is intentionally minimal but powerful:
+
+- 🔍 What it asks or reveals
+- ⚠️ Common mistakes or fragilities
+- ✅ Patterns and recommendations
+- 🧠 Design principles
+- ❓ FAQ
+- 🔗 Links to other views
+
+---
+
+## 🌐 Docs Site & Navigation
+
+Explore the live documentation site here:  
+📘 [SaaS Review Navigator Site](https://kanaria007.github.io/saas-architecture-review-navigator/)
+
+- [Navigation Map](./docs/navigation-map.md)
+- [Structure vs DeepDive](./docs/structure-vs-deepdive.md)
+
+---
+
+## 🛠 Run Locally
+
+```bash
+pip install mkdocs-material mkdocs-static-i18n mkdocs-awesome-pages-plugin
+mkdocs serve
+```
+
+---
+
+## 🤝 Want to Contribute?
+
+We're looking for:
+
+- New perspectives from your experience
+- FAQ and edge cases
+- Translation or adaptation
+- Clarification or fixes
+
+AI assistance is welcome — if curated and aligned with the project’s structure and philosophy.
+
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and the [perspective template](./docs/en/perspective-template.md) to get started.
+
+---
+
+## 🧑‍💻 Language and Translation Note
+
+This project was originally authored in Japanese, and translated and refined using AI tools (e.g., ChatGPT).  
+If you spot awkward expressions or unclear phrasing, feel free to submit a PR or open an issue — your help is always welcome.
 
 ---
 
@@ -93,23 +145,8 @@ See `/docs/` for deeper cross-cutting guides across multiple perspectives:
 
 ```
 docs/
-  ├─ index.md
-  ├─ contributing.md
-  ├─ navigation-map.md
-  ├─ structure-vs-deepdive.md
-  └─ /categories/
-              ├─ common/
-              ├─ domain/
-              ├─ data/
-              ├─ api/
-              ├─ event/
-              ├─ performance/
-              ├─ ui/
-              ├─ test/
-              ├─ release/
-              ├─ availability/
-              ├─ non-functional/
-              └─ security/
+  ├─ ja/        # Japanese content
+  └─ en/        # English content
 README.md
 LICENSE
 CONTRIBUTING.md
@@ -128,25 +165,5 @@ Use, fork, share, or extend freely. Attribution is welcome.
 ## 🛠 Maintainers & Source
 
 Created by [kanaria007 (Zenn)](https://zenn.dev/kanaria007)  
-Original articles and use cases:  
+Original articles and use cases: 
 https://zenn.dev/kanaria007/articles/101e51dbcf2135
-
----
-
-## 🧑‍💻 Language and Translation Note
-
-This project was originally authored in Japanese, and translated and refined using AI tools (e.g., ChatGPT).
-If you spot awkward expressions or unclear phrasing, feel free to submit a PR or open an issue — your help is always welcome.
-
-## 🤝 Want to Contribute?
-
-We're looking for:
-- New perspectives from your experience
-- FAQ and edge cases
-- Translation or adaptation
-- Clarification or fixes
-
-AI assistance is welcome — if curated and aligned with the project’s structure and philosophy.
-
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines and the [perspective template](./docs/perspective-template.md) to get started.
-

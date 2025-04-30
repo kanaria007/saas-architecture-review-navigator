@@ -1,0 +1,21 @@
+name: Feature / Perspective Proposal
+description: Suggest a new perspective or enhancement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome new perspective ideas or design structure suggestions.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What do you propose?
+      description: Describe your idea and why it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact or Use Case
+      description: Describe the benefit or situation this improves.

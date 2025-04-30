@@ -1,0 +1,25 @@
+name: Bug Report
+description: Report an issue in a perspective, doc, or site behavior
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Please help us fix it by describing it clearly.
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: What is wrong or broken?
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: Affected File (if known)
+      placeholder: e.g. categories/api/sync-vs-async-boundaries.md
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Fix or Note (optional)
