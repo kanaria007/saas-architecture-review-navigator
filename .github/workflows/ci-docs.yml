@@ -1,0 +1,75 @@
+name: CI – Docs Validate & Build
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'docs/**'
+      - 'mkdocs.*.yml'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.*.yml'
+      - '.github/workflows/**'
+
+permissions:
+  contents: write
+
+jobs:
+  link-check:
+    name: Check Markdown Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install -g markdown-link-check
+      - run: |
+          find docs -name "*.md" | while read file; do
+            echo "Checking $file"
+            markdown-link-check "$file" --quiet --config .mlc-config.json || exit 1
+          done
+
+  markdownlint:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    needs: link-check
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npx markdownlint "**/*.md" --config .markdownlint.yaml
+
+  build-docs:
+    name: Build and Deploy Docs
+    runs-on: ubuntu-latest
+    needs: markdownlint
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: |
+          python -m pip install --upgrade pip
+          pip install \
+            mkdocs-material \
+            mkdocs-awesome-pages-plugin \
+            mkdocs-git-revision-date-localized-plugin
+      - run: python scripts/validate_structure.py
+      - run: mkdocs build --config-file mkdocs.en.yml --site-dir site/en
+      - run: mkdocs build --config-file mkdocs.ja.yml --site-dir site/ja
+      - run: |
+          cat > site/index.html <<'EOF'
+          <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>SaaS Architecture Review Navigator</title><script>const lang=(navigator.language||navigator.userLanguage||'').toLowerCase();if(lang.startsWith('ja'))location.replace('./ja/');else location.replace('./en/');</script><style>body{font-family:sans-serif;text-align:center;margin-top:12vh}a{font-size:1.25rem;margin:0 1.4rem;text-decoration:none}</style></head><body><h1>SaaS Architecture Review Navigator</h1><p><a href="./en/">English →</a><a href="./ja/">日本語 →</a></p><p><small>Auto-redirects by browser locale</small></p></body></html>
+          EOF
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+          enable_jekyll: false
