@@ -80,7 +80,7 @@ jobs:
           name: docs-site
           path: site
 
-      - name: Debug: List contents of site/
+      - name: Debug List contents of site/
         run: ls -laR site
 
       - name: Deploy to GitHub Pages
