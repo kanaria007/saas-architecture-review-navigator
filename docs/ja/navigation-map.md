@@ -84,7 +84,7 @@
 
 ## Security
 
-- 🔬 [Privilege Escalation Risk](categories/api/privilege-escalation-risk.md)
+- 🔬 [Privilege Escalation Risk](categories/security/privilege-escalation-risk.md)
 - 🔬 [Authn Auth Implementation](categories/security/authn-authz-implementation.md)
 - 🔬 [Confidential Data Handling](categories/security/confidential-data-handling.md)
 
