@@ -94,7 +94,7 @@ jobs:
       # 6. (任意) 生成されたサイトをアーティファクトとして保存
       #    (Optional) Upload built site as an artifact
       - name: Upload built site
-        uses: actions/upload-artifact@v3.1.3
+        uses: actions/upload-artifact@v3
         with:
           name: docs-site
           path: site
