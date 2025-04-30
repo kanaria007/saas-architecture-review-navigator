@@ -21,7 +21,7 @@ jobs:
 
   build-docs:
     name: Build docs + landing page
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       # 1. リポジトリ取得
@@ -94,7 +94,7 @@ jobs:
       # 6. (任意) 生成されたサイトをアーティファクトとして保存
       #    (Optional) Upload built site as an artifact
       - name: Upload built site
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3.1.3
         with:
           name: docs-site
           path: site
