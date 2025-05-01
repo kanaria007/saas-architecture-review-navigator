@@ -113,7 +113,7 @@ Explore the live documentation site here:
 ---
 
 ## 📘 For AI tools and structured readers:
-→ [Structured Reading Guide](./docs/structured-reading.md)
+→ [Structured Reading Guide](./docs/ai-guidance/structured-reading.md)
 
 ---
 
