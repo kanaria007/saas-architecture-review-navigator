@@ -62,9 +62,9 @@
 
 ## 🔗 Related Perspectives
 
-- [example.md](../performance/api-response-latency.md)  
-- [example.md](../async/external-failure-impact.md)  
-- [example.md](../non-functional/logging-for-troubleshooting.md)
+- [example.md](categories/performance/api-response-latency.md)  
+- [example.md](categories/async/external-failure-impact.md)  
+- [example.md](categories/non-functional/logging-for-troubleshooting.md)
 
 ---
 

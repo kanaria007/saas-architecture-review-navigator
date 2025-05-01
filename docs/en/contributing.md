@@ -10,7 +10,7 @@ This project thrives on thoughtful insights, practical experience, and collabora
 We welcome contributions that strengthen the navigator as a **thinking tool**, not just a checklist.
 
 - **New Perspectives**  
-  Add a new `.md` file following the [Perspective Template](./docs/perspective-template.md).  
+  Add a new `.md` file following the [Perspective Template](https://github.com/kanaria007/saas-architecture-review-navigator/blob/main/docs/en/perspective-template.md).  
   Think in terms of:  
   > What design tension does this help resolve?
 

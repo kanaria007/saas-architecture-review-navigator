@@ -10,7 +10,7 @@
 ## ✅ 望ましい変更
 
 - **新しい観点ファイル**
-  - [テンプレート](./docs/perspective-template.md)に沿って `.md` ファイルを追加してください。
+  - [テンプレート](https://github.com/kanaria007/saas-architecture-review-navigator/blob/main/docs/ja/perspective-template.md)に沿って `.md` ファイルを追加してください。
   - ポイント：
     > この観点はどんな設計上のジレンマを扱うか？
 - **既存観点の改善**
