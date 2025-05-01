@@ -1,5 +1,7 @@
 # SaaS Architecture Review Navigator
 
+> Why this Navigator exists: [Read the Manifesto](./manifesto.md)
+>
 > A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers  
 > **50+ perspectives / 12 + 1 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
 

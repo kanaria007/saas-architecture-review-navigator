@@ -1,5 +1,7 @@
 # SaaS Architecture Review Navigator
 
+> なぜこれが存在するのか？: [Read the Manifesto](../../manifesto.md)
+>
 > 分散システム設計における思考の盲点を減らすための、設計観点ナビゲーター
 > 実務でよく聞かれる質問・盲点も交えながら、設計品質を上げる観点を体系的にまとめる試みです
 > **50+ perspectives / 12 categories / 2 structural levels** — all mapped and linked.
