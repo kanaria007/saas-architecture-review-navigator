@@ -1,82 +1,78 @@
-# Contributing
+# 🛠 Contributing to SaaS Architecture Review Navigator
 
-Thank you for considering contributing to the **SaaS Architecture Review Navigator**!
-Your efforts help make architectural knowledge more usable, practical, and collaborative.
-
----
-
-## ✅ Accepted Contributions
-
-We welcome:
-
-- ✅ **New design perspectives**  
-  You are welcome to contribute new `.md` files in a consistent structure.  
-  Use existing perspectives as reference, or check the [perspective template](./docs/perspective-template.md).
-
-- ✅ **Improvements to existing perspectives**  
-  Better phrasing, clearer logic, stronger examples, or added design rationale.
-
-- ✅ **Additional FAQ**  
-  Especially from real-world design discussions, incidents, or reviews.
-
-- ✅ **Translation and internationalization**  
-  Other languages (e.g. Japanese, Spanish) are welcome — just keep them separate from the core `docs/en/` folder.
-
-- ✅ **AI-assisted writing — if curated**  
-  You may use AI tools (ChatGPT, Grammarly, etc.) as long as the result is thoughtfully reviewed, edited, and aligns with the project's tone and structure.
+Thank you for considering a contribution.  
+This project thrives on thoughtful insights, practical experience, and collaborative refinement.
 
 ---
 
-## ❌ Not Accepted
+## ✅ What You Can Contribute
 
-To maintain coherence and clarity, we generally avoid:
+We welcome contributions that strengthen the navigator as a **thinking tool**, not just a checklist.
 
-- ❌ Pure style rewrites or rewordings that don't add clarity
-- ❌ Alternate philosophical structures (please fork instead)
-- ❌ Marketing links, product placements, SEO content
-- ❌ Injecting uncurated AI-generated content
+- **New Perspectives**  
+  Add a new `.md` file following the [Perspective Template](./docs/perspective-template.md).  
+  Think in terms of:  
+  > What design tension does this help resolve?
 
----
+- **Improvements to Existing Perspectives**  
+  Clarify, correct, or extend content.  
+  For example:  
+  - Better phrasing or logic  
+  - Clearer examples or diagrams  
+  - Stronger design justification
 
-## ✨ Want to Add a Perspective?
+- **Real-World FAQ Additions**  
+  If you’ve faced a recurring question in postmortems or design reviews—capture it here.
 
-You can! Please:
+- **Translations**  
+  Additional languages are welcome. Place translated content in a language-specific subfolder (e.g. `docs/ja/`).
 
-- Browse existing perspectives in `docs/categories/<category>/`
-- Copy the [perspective template](./docs/perspective-template.md) to start
-- Keep sections: What This Covers / Unsafe Patterns / Safer Design / FAQ
-- Submit your `.md` file via PR with category placement
-
-Not sure if your idea fits? Open a GitHub Issue and let's discuss it.
-
----
-
-## 🎯 Balance of Philosophy and Flexibility
-
-This navigator follows a consistent style and logic — but it's not dogmatic.
-
-We accept:
-
-- Slightly different phrasing styles
-- New perspectives even if adjacent to existing ones
-- Clarifying or extending design reasoning
-- Practical additions from postmortems or onboarding experience
-
-If you're unsure whether your idea fits — open an issue or a draft PR. We'll work it out together.
+- **AI-Assisted Writing (If Reviewed)**  
+  You may use tools like ChatGPT or Grammarly to draft or revise content—**but human curation is required**.
 
 ---
 
-## ✍️ Tone and Respect
+## ❌ What We Avoid
 
-This project is written in English but originated in Japanese. Some phrasing may be unusual. PRs to improve clarity are appreciated.
+To keep the navigator focused and coherent, we do not accept:
 
+- Pure rewrites that reduce clarity  
+- Style-only edits with no semantic gain  
+- Alternate philosophy proposals (please fork instead)  
+- SEO-driven or promotional content  
+- Raw, unedited AI dumps
+
+---
+
+## 🧭 Contribution Principles
+
+> This project is structured—but not dogmatic.
+
+We encourage:
+
+- Multiple phrasing styles, if they clarify insight  
+- Similar perspectives with distinct trade-offs  
+- Concrete examples drawn from real systems  
+- Expansion of architectural reasoning—not just syntax or convention
+
+---
+
+## ✍️ Tone, Clarity, and Respect
+
+This project originated in Japanese and was translated for global readability.  
 We value:
 
-- Clear and direct expression
-- Respect for contributors' intent
-- Improvement without ego
+- Precision over polish  
+- Clarity over cleverness  
+- Insight over opinion
 
-Thank you for helping improve this navigator.
+---
 
-🧭
+## 🛠 Local preview
 
+```bash
+pip install \
+  mkdocs-material \
+  mkdocs-awesome-pages-plugin \
+  mkdocs-git-revision-date-localized-plugin
+mkdocs serve --config-file mkdocs.en.yml

@@ -2,7 +2,7 @@
 
 > A structured, field-tested design perspective navigator  
 > for SaaS architects, engineers, and reviewers.  
-> **50+ perspectives / 12 categories / 2 structural levels** — all mapped and linked.
+> **50+ perspectives / 12 + 1 categories / 2 structural levels** — all mapped and linked.
 
 ---
 
@@ -96,6 +96,12 @@ Use the sidebar or top navigation to explore perspectives by category or concept
 > It is a design navigator.  
 > Built to help teams **ask better questions** before code is written.
 
+Architecture is not only about structure.  
+It is about **thinking in constraints, tradeoffs, and long-term system evolution**.
+
+This project exists to help teams  
+**ask sharper questions before committing to irreversible decisions.**
+
 ---
 
 ## 💬 Meta
@@ -104,3 +110,9 @@ Use the sidebar or top navigation to explore perspectives by category or concept
 - Originally authored in Japanese and carefully translated with AI assistance  
 - Licensed under MIT  
 - Contributions welcome (see [CONTRIBUTING.md](contributing.md))
+
+> Note:  
+> Category mappings differ slightly across languages by design.  
+> For example, "Indexing Strategy" is treated under `data/` in English (schema lifecycle),  
+> but under `performance/` in Japanese (query efficiency and runtime costs).  
+> This reflects regional modeling emphasis and usage context.

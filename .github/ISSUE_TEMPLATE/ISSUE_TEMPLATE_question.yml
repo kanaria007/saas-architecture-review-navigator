@@ -1,12 +1,18 @@
 name: Question or Discussion
-description: Ask a question or start a discussion
+description: Ask a thoughtful question or open a design discussion
 title: "[Question]: "
 labels: [question]
 body:
   - type: textarea
-    id: topic
+    id: question
     attributes:
-      label: Topic or Question
-      description: What would you like to ask or discuss?
-    validations:
-      required: true
+      label: What Would You Like to Explore or Clarify?
+      description: Ask your question, and share relevant context. The clearer your framing, the better the response.
+      placeholder: |
+        Example: In `domain/domain-permissions.md`, what’s the best way to represent scope-based auth if scopes overlap by tenant?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context or Use Case (Optional)
+      description: Describe where this question emerged (e.g., in review, design doc, onboarding)

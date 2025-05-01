@@ -1,72 +1,81 @@
-# Contribution Guidelines
+# 🛠 Contributing to SaaS Architecture Review Navigator
 
-Thanks for your interest in improving this design navigator.
-
-This repository aims to provide a **clear, opinionated, and minimally biased design perspective framework**.  
-All contributions are appreciated, but some boundaries are enforced to preserve its structural and philosophical intent.
+Thank you for considering a contribution.  
+This project thrives on thoughtful insights, practical experience, and collaborative refinement.
 
 ---
 
-## ✅ Accepted Contributions
+## ✅ What You Can Contribute
 
-The following types of contributions are welcome:
+We welcome contributions that strengthen the navigator as a **thinking tool**, not just a checklist.
 
-- ✅ **Spelling, grammar, and clarity fixes**  
-  Improve readability or phrasing in English without altering meaning.
+- **New Perspectives**  
+  Add a new `.md` file following the [Perspective Template](./docs/perspective-template.md).  
+  Think in terms of:  
+  > What design tension does this help resolve?
 
-- ✅ **Formatting or structural consistency**  
-  Aligning Markdown conventions, improving navigation links, or anchor fixes.
+- **Improvements to Existing Perspectives**  
+  Clarify, correct, or extend content.  
+  For example:  
+  - Better phrasing or logic  
+  - Clearer examples or diagrams  
+  - Stronger design justification
 
-- ✅ **Linking related perspectives**  
-  Adding or correcting internal references between design documents.
+- **Real-World FAQ Additions**  
+  If you’ve faced a recurring question in postmortems or design reviews—capture it here.
 
-- ✅ **Minor content clarification**  
-  Rewording for precision or developer comprehension, if meaning is preserved.
+- **Translations**  
+  Additional languages are welcome. Place translated content in a language-specific subfolder (e.g. `docs/ja/`).
 
-- ✅ **Improving GitHub workflow integration**  
-  Enhancements such as better `mkdocs.yml` configuration, GitHub Pages setup, or contributor tooling are welcome.
-  (Note: I'm personally not very familiar with these areas, so contributions here would be especially appreciated.)
-
----
-
-## 🚫 Not Accepted
-
-The following changes are unlikely to be merged:
-
-- ❌ **Rewriting design logic or structure**  
-  This repository reflects a specific architectural worldview.  
-  Alternate philosophies should be developed in forks.
-
-- ❌ **Turning the content into tutorials or textbooks**  
-  The goal is decision-making scaffolding, not step-by-step guides.
-
-- ❌ **Adding product/vendor-specific patterns**  
-  This navigator is intended to be SaaS-agnostic and structurally general.
-
-- ❌ **Injecting AI-generated or templated content** without human curation  
-  All content must be conceptually and structurally vetted.
+- **AI-Assisted Writing (If Reviewed)**  
+  You may use tools like ChatGPT or Grammarly to draft or revise content—**but human curation is required**.
 
 ---
 
-## 🧭 If You're Unsure
+## ❌ What We Avoid
 
-If you're not sure whether your idea fits, open a GitHub Discussion or Issue.  
-We're happy to give guidance as long as the project philosophy is respected.
+To keep the navigator focused and coherent, we do not accept:
 
----
-
-## 🤝 Tone and Respect
-
-Please be kind and constructive.  
-This is a project written by a non-native English speaker, with the help of AI, to share knowledge across language barriers.  
-Your suggestions are welcome — and so is your patience.
+- Pure rewrites that reduce clarity  
+- Style-only edits with no semantic gain  
+- Alternate philosophy proposals (please fork instead)  
+- SEO-driven or promotional content  
+- Raw, unedited AI dumps
 
 ---
 
-## 🛠 Local Setup (for devs)
+## 🧭 Contribution Principles
 
-To preview or run the documentation site locally:
+> This project is structured—but not dogmatic.
+
+We encourage:
+
+- ✳️ **Concrete insights grounded in real-world design experience**  
+  > We welcome contributions based on real incidents, trade-offs, or architectural decisions—  
+  > as long as the insight generalizes beyond a specific tech stack.
+
+- Multiple phrasing styles, if they clarify thinking  
+- Similar perspectives that highlight different trade-offs  
+- Expansion of architectural reasoning—not just syntax or naming
+
+---
+
+## ✍️ Tone, Clarity, and Respect
+
+This project originated in Japanese and was translated for global readability.  
+We value:
+
+- Precision over polish  
+- Clarity over cleverness  
+- Insight over opinion
+
+---
+
+## 🛠 Local preview
 
 ```bash
-pip install mkdocs-material
-mkdocs serve
+pip install \
+  mkdocs-material \
+  mkdocs-awesome-pages-plugin \
+  mkdocs-git-revision-date-localized-plugin
+mkdocs serve --config-file mkdocs.en.yml

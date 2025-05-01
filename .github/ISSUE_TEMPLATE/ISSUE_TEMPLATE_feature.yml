@@ -1,21 +1,26 @@
-name: Feature / Perspective Proposal
-description: Suggest a new perspective or enhancement
-title: "[Feature]: "
+name: Feature or New Perspective Proposal
+description: Suggest a new architectural perspective or design improvement
+title: "[Proposal]: "
 labels: [enhancement]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        We welcome new perspective ideas or design structure suggestions.
   - type: textarea
-    id: idea
+    id: proposal
     attributes:
-      label: What do you propose?
-      description: Describe your idea and why it matters.
-    validations:
-      required: true
+      label: What Perspective or Change Do You Propose?
+      description: Clearly describe the proposed topic, its architectural scope, and why it matters.
+      placeholder: |
+        Example: Add a new perspective on multi-tenant feature flag architecture under `release/`.
+
   - type: textarea
-    id: impact
+    id: motivation
     attributes:
-      label: Impact or Use Case
-      description: Describe the benefit or situation this improves.
+      label: Why Does It Matter?
+      description: Describe the real-world design confusion, incident, or gap that this proposal addresses.
+      placeholder: |
+        Example: We've seen incidents where flag rollout broke production for one tenant but others were unaffected...
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Suggested Coverage or File Structure
+      description: Suggest file name, placement category, or relation to existing perspectives (optional)

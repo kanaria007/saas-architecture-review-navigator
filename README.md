@@ -1,7 +1,7 @@
 # SaaS Architecture Review Navigator
 
 > A structured, field-tested design perspective navigator for SaaS architects, developers, and reviewers  
-> **50+ perspectives / 12 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
+> **50+ perspectives / 12 + 1 categories / 2 structural levels** — fully mapped, English-translated, and production-aligned.
 
 [![Docs](https://img.shields.io/badge/docs-online-green)](https://kanaria007.github.io/saas-architecture-review-navigator/)
 [![GitHub stars](https://img.shields.io/github/stars/kanaria007/saas-architecture-review-navigator.svg)](https://github.com/kanaria007/saas-architecture-review-navigator/stargazers)

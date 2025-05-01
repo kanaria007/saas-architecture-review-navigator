@@ -1,47 +1,56 @@
-# 🛠 Pull Request Template
+# 🛠 Pull Request: SaaS Architecture Review Navigator
 
-Thank you for contributing to the **SaaS Architecture Review Navigator**!
-
----
-
-## ✅ What does this PR do?
-
-<!-- Short summary. For example: Adds a new perspective about cache write strategy. -->
+Thank you for contributing to this thinking system.  
+Whether you're adding new insight or refining existing ones — your effort helps teams design better, together.
 
 ---
 
-## ✍️ Type of Change
+## ✅ What’s in this PR?
+
+<!-- A clear, 1–3 sentence summary. Example: Adds a new performance perspective on cache write patterns. -->
+
+---
+
+## ✍️ Type of Contribution
 
 > Select all that apply:
 
-- [ ] New perspective (e.g. `performance/cache-write-design.md`)
-- [ ] Improve an existing perspective
-- [ ] Add or clarify FAQ
-- [ ] Fix spelling, grammar, or phrasing
-- [ ] Improve formatting or structure
-- [ ] Improve navigation or related links
-- [ ] Infrastructure/tooling update
+- [ ] Add a new perspective (`e.g. performance/cache-write-design.md`)
+- [ ] Improve clarity or structure of existing content
+- [ ] Add real-world FAQ or design rationale
+- [ ] Correct grammar, examples, or phrasing
+- [ ] Improve cross-linking or navigation
+- [ ] Tooling or metadata update (non-content)
 
 ---
 
-## 🔍 Guidelines Check
+## 📖 Context and Intent
 
-> Please confirm:
+> Why this change matters.  
+> If it's based on a real scenario, architectural review, or postmortem — describe it briefly.
 
-- [ ] The contribution respects the project’s structure and style
-- [ ] If adding a new perspective, I followed the suggested format (What, Failures, Design, FAQ...)
-- [ ] I’ve reviewed `CONTRIBUTING.md` and followed relevant instructions
-
----
-
-## 🧠 Notes (Optional)
-
-<!-- Anything to help reviewers understand context, intention, edge cases -->
+<!-- e.g. This design pattern came up in a review of queue retry logic under partial outages. -->
 
 ---
 
-### 🙌 Thank You
+## 🧭 Alignment Check
 
-This navigator exists because people like you help make it better.  
-We welcome forks and discussions too — let us know how you're using it!
+> Please check all that apply:
 
+- [ ] I followed the perspective format (What / Failure / Safer / Principle / FAQ)
+- [ ] The tone and phrasing align with the project’s intent and structure
+- [ ] If AI tools were used, I reviewed and refined the output manually
+
+---
+
+## 🧠 Additional Notes (Optional)
+
+> Anything else you want reviewers to know.  
+> (Open questions, uncertainties, edge cases, alternate ideas...)
+
+---
+
+## 🙌 Final Note
+
+This navigator improves because contributors like you think carefully, write clearly, and care about quality.  
+Thank you.

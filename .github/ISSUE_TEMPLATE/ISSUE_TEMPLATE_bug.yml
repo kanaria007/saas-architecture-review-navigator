@@ -1,25 +1,34 @@
 name: Bug Report
-description: Report an issue in a perspective, doc, or site behavior
+description: Report a bug in a perspective file, documentation, or navigation structure
 title: "[Bug]: "
 labels: [bug]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for reporting a problem. Please help us fix it by describing it clearly.
   - type: textarea
-    id: description
+    id: problem
     attributes:
       label: Problem Description
-      description: What is wrong or broken?
+      description: What seems incorrect or broken? What behavior did you observe?
+      placeholder: |
+        Example: In `performance/api-response-latency.md`, the design suggestion contradicts the earlier stated principle.
     validations:
       required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Did You Expect?
+      description: Describe what you think the correct behavior, wording, or logic should be.
+      placeholder: |
+        Example: The safer design should emphasize timeout budgeting before suggesting retries.
+
   - type: input
     id: file
     attributes:
       label: Affected File (if known)
-      placeholder: e.g. categories/api/sync-vs-async-boundaries.md
+      placeholder: e.g. categories/performance/api-response-latency.md
+
   - type: textarea
     id: suggestion
     attributes:
-      label: Suggested Fix or Note (optional)
+      label: Suggested Fix (optional)
+      description: Any fix or reasoning you'd like to propose

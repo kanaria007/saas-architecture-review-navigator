@@ -1,49 +1,74 @@
-# [Perspective Title Here]
+# 📄 Perspective Template – *SaaS Architecture Review Navigator Aligned*
 
-## 🔍 What This Perspective Covers
+> A refined, production-grade format for scalable architectural insight  
+> Focus: *Causal clarity / Failure realism / Design principles / Contextual framing*
 
-This section explains the scope of this perspective.
-For example:
-> This perspective covers how asynchronous APIs handle message delivery and retries.
+---
 
-It should answer:
+## 🔍 What This Perspective Examines
 
-- What kind of design decisions are involved here?
-- Why does this topic matter in SaaS architecture?
+- What class of **architectural concern** or **systemic failure mode** does this relate to?  
+- Why is this **non-obvious but high-impact** in real SaaS systems?
 
-## ⚠️ Unsafe Patterns
+> *Example framing:*  
+> This perspective examines how retry logic without bounded scope or observability can silently convert transient errors into cascading systemic degradation.
 
-List common design mistakes or failure modes.
-For example:
+---
 
-- Retrying without backoff leads to cascading failures
-- Missing idempotency in message consumers
+## ⚠️ Failure-Pattern Recognition
 
-## ✅ Safer Design Patterns
+- What design patterns are **commonly observed in production** that silently degrade resilience, correctness, or clarity?  
+- Which **anti-patterns seem valid in tests but fail in production-shaped reality**?
 
-Describe recommended patterns and strategies.
-For example:
+> *Example:*
+>
+> - Retry logic with no cap or jitter  
+> - Conflating error visibility with observability  
+> - Client-side retries causing server overload during downstream degradation
 
-- Use exponential backoff and jitter
-- Persist retry states in durable storage
+---
 
-Include trade-offs if relevant.
+## ✅ Healthier Design Framing
 
-## 🧠 Design Principle
+- What structural practices mitigate these risks?
+- Where are the trade-offs—latency, consistency, UX degradation?
 
-Mention the key architectural principle or mental model.
-For example:
-> Favor eventual consistency with observability over strict synchronization when cross-system reliability is required.
+> *Example patterns:*
+>
+> - Use **bounded retries with exponential backoff + jitter**  
+> - Treat **retry attempts as observability events**, not silent background recovery  
+> - Design fallback paths with **explicit UX trade-offs**
 
-## ❓ FAQ
+---
 
-Common questions and clarifications.
+## 🧠 Underlying Design Principle
 
-- Q: Should retries be infinite?
-  A: No, retries must be bounded and observable.
-- Q: When to use event sourcing instead?
-  A: When full history and mutation replay are needed.
+> *One sentence, causal and provocative. Not a slogan.*
+>
+> *Example:*  
+> **Retries are not recovery—they're deferred risk. Design them as failure paths, not optimism.**
 
-## 🔗 Related
+---
 
-- another-perspective.md
+## ❓ Reasoning-Driven FAQs
+
+- **Q: Why not retry infinitely?**  
+  **A:** Because unbounded retries hide unrecoverable states and cause systemic coupling under pressure.
+
+- **Q: Should fallback always show error?**  
+  **A:** Only if silent degradation causes more harm than visible failure.
+
+---
+
+## 🔗 Related Perspectives
+
+- [example.md](../performance/api-response-latency.md)  
+- [example.md](../async/external-failure-impact.md)  
+- [example.md](../non-functional/logging-for-troubleshooting.md)
+
+---
+
+## 🧭 Author’s Note *(Optional)*
+
+> This perspective originated from real-world incidents in system X, where optimistic retry logic caused unbounded SQS buildup during a downstream auth outage.  
+> Retrospective analysis revealed insufficient isolation and missing observability around retry volume.
