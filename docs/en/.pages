@@ -1,5 +1,6 @@
 nav:
+  - index.md
   - navigation-map.md
   - structure-vs-deepdive.md
-  - categories    
+  - categories
   - contributing.md
