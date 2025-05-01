@@ -2,118 +2,158 @@
 """
 validate_structure.py
 ---------------------
-- Scans Markdown files under docs/<lang> dynamically per language
-- Detects duplicate slugs (file names) within each language
-- Verifies all files are listed in navigation-map.md (unless excluded via .navignore)
-- Detects missing translations based on slug matching (excluding those in ignore-slugs.txt)
+Static structure validator for the multi‑lingual docs/ tree.
 
-Exits with code 1 if validation fails.
+* Checks for duplicate slugs (same filename) inside each language directory.
+* Ensures every Markdown file is referenced from navigation‑map.md, unless
+  explicitly listed in .navignore.
+* Compares the *base* language (default: `en`) with every other language
+  directory and reports missing / extra translations **except** for directories
+  that are intentionally single‑language only (e.g. ai‑guidance).
+
+Exit status is **0** when no issues are found; otherwise prints a readable list
+of problems and exits with **1** so CI fails fast.
 """
+
+from __future__ import annotations
 
 import sys
 import pathlib
 import re
 from collections import defaultdict
+from typing import Dict, List, Set
+
+# ────────────────────────────────────────────────────────────────────────────────
+# Configuration ─ tweak here if your repo layout changes
+# ────────────────────────────────────────────────────────────────────────────────
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS_ROOT = ROOT / "docs"
+BASE_LANG = "en"  # language thatすerves as the "translation source"
+
+# Top‑level directories under docs/ that are *single‑language* and therefore
+# should be **excluded from translation comparison**.
+EXCLUDE_TRANSLATION_LANGS: Set[str] = {"ai-guidance"}
+
+# Regex to capture Markdown link targets – we only care about *.md inside ()
 LINK_RE = re.compile(r"\(([^)]+\.md)\)")
 
-def collect_markdown(root: pathlib.Path) -> dict:
+# ────────────────────────────────────────────────────────────────────────────────
+# Helpers
+# ────────────────────────────────────────────────────────────────────────────────
+
+def collect_markdown(root: pathlib.Path) -> Dict[pathlib.PurePosixPath, pathlib.Path]:
+    """Return mapping of *relative* Posix path → absolute path for *.md files."""
     return {
         pathlib.PurePosixPath(p.relative_to(root).as_posix()): p
         for p in root.rglob("*.md")
     }
 
+
 def slug(p: pathlib.PurePosixPath) -> str:
     return p.name.lower()
 
-def load_nav_map(lang_root: pathlib.Path) -> set:
-    nav = lang_root / "navigation-map.md"
-    if not nav.exists():
+
+def load_plain_list(file_path: pathlib.Path) -> Set[str]:
+    if not file_path.exists():
         return set()
-    links = set()
-    for line in nav.read_text(encoding="utf-8").splitlines():
+    return {line.strip() for line in file_path.read_text(encoding="utf-8").splitlines() if line.strip()}
+
+
+# Files that may legitimately be missing from navigation‑map.md
+NAV_IGNORE: Set[pathlib.PurePosixPath] = {
+    pathlib.PurePosixPath(p) for p in load_plain_list(DOCS_ROOT / ".navignore")
+}
+
+# Slugs that should be ignored in the translation comparison step
+IGNORE_SLUGS: Set[str] = {s.lower() for s in load_plain_list(DOCS_ROOT / "ignore-slugs.txt")}
+
+
+def load_nav_map(lang_root: pathlib.Path) -> Set[pathlib.PurePosixPath]:
+    nav_file = lang_root / "navigation-map.md"
+    if not nav_file.exists():
+        return set()
+    links: Set[pathlib.PurePosixPath] = set()
+    for line in nav_file.read_text(encoding="utf-8").splitlines():
         for match in LINK_RE.findall(line):
             links.add(pathlib.PurePosixPath(match))
     return links
 
-def load_nav_ignore() -> set:
-    f = DOCS_ROOT / ".navignore"
-    if not f.exists():
-        return set()
-    return {
-        pathlib.PurePosixPath(line.strip())
-        for line in f.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    }
 
-def load_ignore_slugs() -> set:
-    f = DOCS_ROOT / "ignore-slugs.txt"
-    if not f.exists():
-        return set()
-    return {
-        line.strip().lower()
-        for line in f.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    }
-
-def find_lang_dirs(root: pathlib.Path) -> dict:
+def find_lang_dirs(root: pathlib.Path) -> Dict[str, pathlib.Path]:
+    """Return mapping like { 'en': Path('docs/en'), 'ja': Path('docs/ja'), … }"""
     return {p.name: p for p in root.iterdir() if p.is_dir()}
 
-def main() -> None:
-    errors = []
 
-    nav_ignore = load_nav_ignore()
-    ignore_slugs = load_ignore_slugs()
+# ────────────────────────────────────────────────────────────────────────────────
+# Main validation logic
+# ────────────────────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    errors: List[str] = []
 
     lang_dirs = find_lang_dirs(DOCS_ROOT)
     files_by_lang = {lang: collect_markdown(path) for lang, path in lang_dirs.items()}
-    slug_map = {lang: defaultdict(list) for lang in lang_dirs}
 
+    # Build slug map so we can catch duplicates easily
+    slug_map: Dict[str, Dict[str, List[pathlib.PurePosixPath]]] = {
+        lang: defaultdict(list) for lang in lang_dirs
+    }
+
+    # ── 1. Per‑language checks ────────────────────────────────────────────────
     for lang, files in files_by_lang.items():
+        # 1‑A Duplicate slugs inside one language
         for rel in files:
             slug_map[lang][slug(rel)].append(rel)
-
-        # Duplicate slugs within one language
         for s, lst in slug_map[lang].items():
             if len(lst) > 1:
-                joined = ", ".join(map(str, lst))
-                errors.append(f"[{lang.upper()}] Duplicate slug '{s}': {joined}")
+                errors.append(
+                    f"[{lang.upper()}] Duplicate slug '{s}': {', '.join(map(str, lst))}"
+                )
 
-        # Navigation map check (excluding .navignore files)
+        # 1‑B navigation‑map coverage (unless '.navignore' says otherwise)
         nav_links = load_nav_map(lang_dirs[lang])
         for rel in files:
-            if rel in nav_ignore:
+            if rel in NAV_IGNORE:
                 continue
             if rel not in nav_links:
                 errors.append(f"{rel} is not listed in {lang}/navigation-map.md")
 
-    # Missing translations (slug-based, ignoring those in ignore-slugs.txt)
-    base_lang = "en"
-    if base_lang not in slug_map:
-        errors.append(f"Base language '{base_lang}' is missing")
+    # ── 2. Translation completeness check ─────────────────────────────────────
+    if BASE_LANG not in slug_map:
+        errors.append(f"Base language '{BASE_LANG}' is missing")
     else:
-        base_slugs = set(slug_map[base_lang])
-        for lang in slug_map:
-            if lang == base_lang:
-                continue
-            target_slugs = set(slug_map[lang])
-            for s in sorted(base_slugs - target_slugs):
-                if s in ignore_slugs:
-                    continue
-                errors.append(f"[{base_lang.upper()}→{lang.upper()}] Missing translation for slug '{s}'")
-            for s in sorted(target_slugs - base_slugs):
-                if s in ignore_slugs:
-                    continue
-                errors.append(f"[{lang.upper()}→{base_lang.upper()}] Extra slug '{s}' has no base translation")
+        base_slugs = set(slug_map[BASE_LANG])
+        for lang, slugs_dict in slug_map.items():
+            if lang == BASE_LANG or lang in EXCLUDE_TRANSLATION_LANGS:
+                continue  # skip base and intentionally single‑language dirs
 
+            target_slugs = set(slugs_dict)
+
+            # 2‑A Missing in target language
+            for s in sorted(base_slugs - target_slugs):
+                if s in IGNORE_SLUGS:
+                    continue
+                errors.append(
+                    f"[{BASE_LANG.upper()}→{lang.upper()}] Missing translation for slug '{s}'"
+                )
+
+            # 2‑B Extra in target language
+            for s in sorted(target_slugs - base_slugs):
+                if s in IGNORE_SLUGS:
+                    continue
+                errors.append(
+                    f"[{lang.upper()}→{BASE_LANG.upper()}] Extra slug '{s}' has no base translation"
+                )
+
+    # ── 3. Result output ──────────────────────────────────────────────────────
     if errors:
         print("❌  Structure validation failed:")
         print("\n".join(f"  - {e}" for e in errors))
         sys.exit(1)
 
     print("✅  Documentation structure is valid.")
+
 
 if __name__ == "__main__":
     main()
