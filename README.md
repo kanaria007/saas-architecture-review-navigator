@@ -112,6 +112,11 @@ Explore the live documentation site here:
 
 ---
 
+## 📘 For AI tools and structured readers:
+→ [Structured Reading Guide](./docs/structured-reading.md)
+
+---
+
 ## 🛠 Run Locally
 
 ```bash
@@ -147,8 +152,9 @@ If you spot awkward expressions or unclear phrasing, feel free to submit a PR or
 
 ``` text
 docs/
-  ├─ ja/        # Japanese content
-  └─ en/        # English content
+  ├─ ai-guidance/  # ai guidance
+  └─ ja/           # Japanese content
+  └─ en/           # English content
 README.md
 LICENSE
 CONTRIBUTING.md
