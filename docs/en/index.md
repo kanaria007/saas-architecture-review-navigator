@@ -1,5 +1,7 @@
 # SaaS Architecture Review Navigator
 
+> Why this Navigator exists: [Read the Manifesto](https://github.com/kanaria007/saas-architecture-review-navigator/blob/main/manifesto.md)
+>
 > A structured, field-tested design perspective navigator  
 > for SaaS architects, engineers, and reviewers.  
 > **50+ perspectives / 12 + 1 categories / 2 structural levels** — all mapped and linked.
