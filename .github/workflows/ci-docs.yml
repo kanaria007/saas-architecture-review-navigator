@@ -67,9 +67,11 @@ jobs:
           <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>SaaS Architecture Review Navigator</title><script>const lang=(navigator.language||navigator.userLanguage||'').toLowerCase();if(lang.startsWith('ja'))location.replace('./ja/');else location.replace('./en/');</script><style>body{font-family:sans-serif;text-align:center;margin-top:12vh}a{font-size:1.25rem;margin:0 1.4rem;text-decoration:none}</style></head><body><h1>SaaS Architecture Review Navigator</h1><p><a href="./en/">English →</a><a href="./ja/">日本語 →</a></p><p><small>Auto-redirects by browser locale</small></p></body></html>
           EOF
       - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
           enable_jekyll: false
+
