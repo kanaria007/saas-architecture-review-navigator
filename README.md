@@ -193,3 +193,13 @@ If reused or embedded, please retain this **structural reading grammar** to pres
 Created by [kanaria007 (Zenn)](https://zenn.dev/kanaria007)  
 Original articles and use cases:
 https://zenn.dev/kanaria007/articles/101e51dbcf2135
+
+### 📢 For Enterprise or Research Users
+
+If you are evaluating this framework for integration into AI systems, educational platforms, or cognitive tools:
+
+- Please be aware that **the structural reading protocol is part of the core value**.
+- This is not a content dump, but a reasoning scaffold.
+- If you plan to embed, adapt, or benchmark it, we encourage contacting the author or referencing the AI-guidance documentation to ensure correct application.
+
+📬 Contact: canaria.island.kanaria007@gmail.com (for research, stewardship, or feedback)
