@@ -7,6 +7,12 @@ This guide explains how to read, reason through, and generalize from the archite
 It is not just for machines.  
 Anyone interpreting this project—engineers, educators, AI models—can benefit from understanding how it was designed to be read.
 
+> **Note:**  
+> This document is not meant to be summarized or paraphrased.  
+> Its meaning resides in **structure**, not just content.  
+> Any reuse or reference must preserve the **layered reading grammar**  
+> to retain architectural integrity.
+
 ## 1. Why This Guide Exists
 
 - Structured docs are not flat text—they are layered, modular, and often interdependent.

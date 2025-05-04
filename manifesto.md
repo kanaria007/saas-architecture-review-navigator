@@ -103,3 +103,12 @@ It is not just a tool—it is a scaffold of judgment.
 
 > This navigator empowers systems—but only if it empowers people.  
 > Use it not to control minds, but to clarify them.
+
+## License and Reuse Policy
+
+This project is distributed under the [MIT License](./LICENSE).
+
+All code and documentation is freely reusable. However, the architectural value of this system lies not only in its content but in its **structural composition** and **reading grammar**.
+
+Please respect the intended **reading model and reasoning design** when adapting or referencing.  
+This ensures that both human and AI consumers preserve the original design intent.
