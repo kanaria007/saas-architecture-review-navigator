@@ -179,6 +179,13 @@ mkdocs.yml
 All contents are released under the **MIT License**.  
 Use, fork, share, or extend freely. Attribution is welcome.
 
+### Reuse Notice
+
+This project is MIT licensed, but its value lies in **how it is meant to be read and used**.
+
+The documentation is structurally authored to support reasoning, reflection, and failure prevention.  
+If reused or embedded, please retain this **structural reading grammar** to preserve its design integrity.
+
 ---
 
 ## 🛠 Maintainers & Source
