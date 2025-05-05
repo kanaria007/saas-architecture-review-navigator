@@ -1,3 +1,12 @@
+---
+title: Handling External System Failures
+layer: [Structure]
+category: async
+tags: [external-dependency, degradation, fallback]
+bloom_level: Apply
+license: MIT
+---
+
 # What Happens When the External System Fails?
 
 > Type: Structure  

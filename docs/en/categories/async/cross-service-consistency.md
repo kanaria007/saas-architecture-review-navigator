@@ -1,6 +1,15 @@
+---
+title: Cross-Service Consistency
+layer: [Structure, DeepDive]
+category: async
+tags: [consistency, eventual, orchestration]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Cross-Service Consistency Guaranteed—or Just Hoped For?
 
-> Type: Structure  
+> Type: Structure, DeepDive
 > Category: Async  
 > Audience: Engineers working on service integration, microservice orchestration, or eventual consistency design
 

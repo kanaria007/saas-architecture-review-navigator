@@ -1,3 +1,12 @@
+---
+title: Sync vs Async Alignment
+layer: [Structure]
+category: async
+tags: [contract, orchestration, workflow]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the Sync/Async Split Intentional—or Just Incidental?
 
 > Type: Structure  

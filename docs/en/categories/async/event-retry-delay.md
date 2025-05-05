@@ -1,3 +1,12 @@
+---
+title: Designing for Event Retries and Delays
+layer: [Structure]
+category: async
+tags: [retry, delay, drift, event-driven]
+bloom_level: Apply
+license: MIT
+---
+
 # Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?
 
 > Type: Structure  
