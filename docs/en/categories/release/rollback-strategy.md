@@ -1,3 +1,12 @@
+---
+title: Rollback Strategy
+layer: [Structure]
+category: release
+tags: [rollback, recovery, fail-safety]
+bloom_level: Apply
+license: MIT
+---
+
 # Is a Rollback Strategy in Place for Critical Changes?
 
 > Type: DeepDive  
