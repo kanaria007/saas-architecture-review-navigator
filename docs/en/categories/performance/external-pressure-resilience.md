@@ -1,3 +1,12 @@
+---
+title: Resilience Under External Load
+layer: [DeepDive]
+category: performance
+tags: [resilience, external-load, fault-isolation]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Can You Handle External Load Spikes Gracefully?
 
 > Type: DeepDive  

@@ -1,6 +1,15 @@
+---
+title: API Latency Profiling
+layer: [Structure]
+category: performance
+tags: [latency, response-time, measurement]
+bloom_level: Apply
+license: MIT
+---
+
 # Is API Latency Acceptable—and Understood?
 
-> Type: DeepDive  
+> Type: Structure  
 > Category: Performance  
 > Audience: Engineers designing APIs, monitoring behavior, or debugging UX issues
 
