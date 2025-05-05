@@ -1,6 +1,15 @@
+---
+title: Authentication and Authorization Implementation
+layer: [Structure, DeepDive]
+category: security
+tags: [authn, authz, access-control]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Your Auth Implementation Predictable, Testable, and Isolated?
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: Security  
 > Audience: Engineers implementing login, session, token, or permissions in SaaS systems
 
