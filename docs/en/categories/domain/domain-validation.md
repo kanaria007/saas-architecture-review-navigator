@@ -1,3 +1,12 @@
+---
+title: Domain Validation Enforcement
+layer: [Structure]
+category: domain
+tags: [validation, domain-model, safety]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Your Validation Actually Enforced—or Just Wished For?
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: Minimizing Downtime
+layer: [DeepDive]
+category: release
+tags: [downtime, reliability, recovery]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is Downtime Minimized Where Unavoidable?
 
 > Type: DeepDive  

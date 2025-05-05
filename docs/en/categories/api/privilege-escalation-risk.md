@@ -1,3 +1,12 @@
+---
+title: Privilege Escalation Risk
+layer: [DeepDive]
+category: security
+tags: [access-control, security-risk, role-isolation]
+bloom_level: Analyze
+license: MIT
+---
+
 # Does Your System Prevent Privilege Escalation?
 
 > Type: DeepDive  

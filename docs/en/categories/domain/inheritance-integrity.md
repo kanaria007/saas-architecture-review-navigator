@@ -1,3 +1,12 @@
+---
+title: Inheritance Structure Integrity
+layer: [Structure]
+category: domain
+tags: [inheritance, modeling, composition]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Your Inheritance a Design Model—or Just a Field Merger?
 
 > Type: Structure  

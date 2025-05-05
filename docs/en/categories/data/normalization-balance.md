@@ -1,3 +1,12 @@
+---
+title: Normalization Balance in Data Design
+layer: [Structure]
+category: data
+tags: [normalization, tradeoff, schema-design]
+bloom_level: Understand
+license: MIT
+---
+
 # Is Your Schema Over-Normalized—or Just Not Thinking About It?
 
 > Type: Structure  

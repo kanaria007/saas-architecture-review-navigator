@@ -1,3 +1,12 @@
+---
+title: Acceptance Criteria Definition
+layer: [Structure]
+category: test
+tags: [acceptance, criteria, scope-definition]
+bloom_level: Apply
+license: MIT
+---
+
 # Are the Acceptance Criteria Clearly Defined?
 
 > Type: Structure  

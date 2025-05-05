@@ -1,3 +1,12 @@
+---
+title: Resilience Under External Load
+layer: [DeepDive]
+category: performance
+tags: [resilience, external-load, fault-isolation]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Can You Handle External Load Spikes Gracefully?
 
 > Type: DeepDive  
@@ -59,4 +68,4 @@ It’s the **default condition of internet-scale systems**.
 - [What Happens When the External System Fails?](../async/external-failure-impact.md)
 - [Is Load Behavior Under Stress Explicitly Tested?](../test/high-load-behavior-testing.md)
 - [Is Your Scaling Strategy Designed—or Just Assumed?](scaling-strategy.md)
-- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../async/fallback-strategy.md)
