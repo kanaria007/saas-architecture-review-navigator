@@ -1,3 +1,12 @@
+---
+title: Failover Strategy Design
+layer: [DeepDive]
+category: availability
+tags: [failover, high-availability, chaos-engineering]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is a Failover Strategy in Place for Critical Operations?
 
 > Type: DeepDive  

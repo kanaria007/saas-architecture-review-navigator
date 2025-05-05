@@ -1,3 +1,12 @@
+---
+title: Backup Strategy Definition
+layer: [StruDeepDivecture]
+category: availability
+tags: [backup, fault-tolerance, disaster-recovery]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the Backup Strategy Well-Defined and Comprehensive?
 
 > Type: DeepDive  
