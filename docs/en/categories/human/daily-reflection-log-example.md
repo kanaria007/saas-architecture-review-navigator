@@ -1,3 +1,12 @@
+---
+title: Daily Reflection Log – Scalable Thinking Patterns
+layer: [DeepDive]
+category: human
+tags: [apprenticeship, mentoring, judgment]
+bloom_level: Analyze
+license: MIT
+---
+
 # 📘 Example: Daily Reflection Log – Architecting Thinking for Scalable Growth
 
 > Type: Practice Example  

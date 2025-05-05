@@ -1,3 +1,12 @@
+---
+title: Self-Reflection Framework
+layer: [Structure]
+category: human
+tags: [meta-cognition, awareness, design-thinking]
+bloom_level: Apply
+license: MIT
+---
+
 # 📄 A Self-Reflection Framework for New Engineers to Become Strategic and Self-Directed
 
 > Type: Practical Framework  

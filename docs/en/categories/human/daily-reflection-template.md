@@ -1,3 +1,12 @@
+---
+title: Daily Reflection Template
+layer: [Structure]
+category: human
+tags: [reflection, journaling, self-improvement]
+bloom_level: Apply
+license: MIT
+---
+
 # 📄 Daily Reflection Template – Architecting Growth Through Structured Thinking
 
 > Type: Practical Template  

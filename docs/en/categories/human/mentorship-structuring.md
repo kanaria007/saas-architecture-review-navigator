@@ -1,3 +1,12 @@
+---
+title: Mentorship Structuring
+layer: [Structure]
+category: human
+tags: [mentoring, scaffolding, talent-growth]
+bloom_level: Apply
+license: MIT
+---
+
 # 📄 Structuring Mentorship for Self-Directed Growth
 
 > Type: Guide  
