@@ -1,3 +1,12 @@
+---
+title: Notification Design and Translation Readiness
+layer: [Structure]
+category: ui
+tags: [notification, localization, translation-readiness]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Notification Design Translation-Ready?
 
 > Type: Structure  

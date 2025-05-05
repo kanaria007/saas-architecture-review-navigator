@@ -1,3 +1,12 @@
+---
+title: Data Volume and Structural Visibility
+layer: [DeepDive]
+category: data
+tags: [volume, structure, visibility, data-quality]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Your UI Designed to Handle Large Data Volumes Gracefully?
 
 > Type: Structure  
