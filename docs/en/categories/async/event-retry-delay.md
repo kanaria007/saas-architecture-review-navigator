@@ -64,7 +64,7 @@ They fail **later and invisibly**—unless you design them not to.
 
 ## 🔗 Related Perspectives
 
-- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../async/fallback-strategy.md)
 - [What Happens When the External System Fails?](external-failure-impact.md)
 - [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](cross-service-consistency.md)
 - [Is the Sync/Async Split Intentional—or Just Incidental?](sync-async-alignment.md)

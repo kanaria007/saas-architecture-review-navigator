@@ -62,4 +62,4 @@ It’s an engineered return path.**
 - [Is a Data Recovery Plan Considered for Failure Scenarios?](../availability/data-recovery-plan.md)
 - [Is Impact Analysis Performed for Critical Changes?](impact-analysis-for-critical-changes.md)
 - [Is the Release Strategy Defined and Aligned With Change Impact?](release-strategy-planning.md)
-- [Do You Have a Fallback Plan for Asynchronous Failures?](../data/fallback-strategy.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../async/fallback-strategy.md)

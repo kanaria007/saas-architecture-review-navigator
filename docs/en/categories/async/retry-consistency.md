@@ -1,7 +1,16 @@
+---
+title: Retry Consistency and State Safety
+layer: [DeepDive]
+category: async
+tags: [retry, consistency, side-effects]
+bloom_level: Analyze
+license: MIT
+---
+
 # Can Retried Events Introduce Inconsistent State?
 
 > Type: DeepDive  
-> Category: Data  
+> Category: Async  
 > Audience: Engineers working on async pipelines, retries, and eventual consistency
 
 ---
@@ -59,5 +68,5 @@ If you can't replay it safely, you never controlled it.
 
 - [Is Cross-Service Consistency Guaranteed—or Just Hoped For?](../async/cross-service-consistency.md)
 - [Do You Have a Fallback Plan for Asynchronous Failures?](fallback-strategy.md)
-- [Have You Deliberately Decided Whether You Need Distributed Transactions?](distributed-transaction-design.md)
+- [Have You Deliberately Decided Whether You Need Distributed Transactions?](../async/distributed-transaction-design.md)
 - [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)

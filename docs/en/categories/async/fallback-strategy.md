@@ -1,7 +1,16 @@
+---
+title: Fallback Strategy for Async Failures
+layer: [DeepDive]
+category: async
+tags: [fallback, async-failure, error-recovery]
+bloom_level: Analyze
+license: MIT
+---
+
 # Do You Have a Fallback Plan for Asynchronous Failures?
 
 > Type: DeepDive  
-> Category: Data  
+> Category: Async  
 > Audience: Engineers designing event pipelines, retries, and error handling
 
 ---
@@ -61,4 +70,4 @@ it should do so in a way that helps you recover meaningfully.
 - [What Happens When the External System Fails?](../async/external-failure-impact.md)
 - [Are Event Delays and Retries Part of Your Design—or Just Runtime Surprises?](../async/event-retry-delay.md)
 - [Have You Deliberately Decided Whether You Need Distributed Transactions?](distributed-transaction-design.md)
-- [Can Retried Events Introduce Inconsistent State?](retry-consistency.md)
+- [Can Retried Events Introduce Inconsistent State?](../async/retry-consistency.md)
