@@ -1,3 +1,12 @@
+---
+title: API Schema Coherence
+layer: [Structure]
+category: api
+tags: [schema, contract, design-consistency]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the API Schema Coherent Across the System?
 
 > Type: Structure  
