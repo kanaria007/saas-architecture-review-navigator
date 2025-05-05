@@ -1,3 +1,12 @@
+---
+title: Index Design as Intent, Not Patch
+layer: [Structure]
+category: data
+tags: [indexing, query-performance, db-optimization]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Your Index Designed—or Just Added After It Got Slow?
 
 > Type: Structure  
