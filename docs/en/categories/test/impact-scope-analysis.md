@@ -1,6 +1,15 @@
+---
+title: Impact Scope Analysis
+layer: [Structure, DeepDive]
+category: test
+tags: [impact, regression, test-boundaries]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is the Impact Scope of This Change Clearly Understood?
 
-> Type: Structure  
+> Type: Structure, DeepDive
 > Category: Test  
 > Audience: Engineers writing tests, reviewers checking risk, or teams preparing releases
 
