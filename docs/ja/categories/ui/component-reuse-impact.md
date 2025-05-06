@@ -1,3 +1,12 @@
+---
+title: 変更の影響範囲が整理され、必要なコンポーネントの再利用が考慮されているか？
+layer: [Structure]
+category: UI・通知  
+tags: [component-reuse, design-maintainability, modular-ui]
+bloom_level: Analyze
+license: MIT
+---
+
 # 変更の影響範囲が整理され、必要なコンポーネントの再利用が考慮されているか？
 
 > Type: Structure  
