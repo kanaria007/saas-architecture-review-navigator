@@ -751,7 +751,7 @@
   
   
   <span class="md-ellipsis">
-    非同期処理のフォールバック戦略が設計されているか？（失敗時の再実行順序やデータの重複生成防止などの考慮）
+    非同期処理のフォールバック戦略が設計されているか？
     
   </span>
   
@@ -984,7 +984,7 @@
   
   
   <span class="md-ellipsis">
-    APIの権限管理が適切に設計されているか？
+    APIと内部の権限制御が一致しているか？
     
   </span>
   
@@ -1007,7 +1007,7 @@
   
   
   <span class="md-ellipsis">
-    API のスキーマが適切に設計され、他の API との整合性があるか？
+    APIスキーマがシステム全体で一貫しているか？
     
   </span>
   
@@ -1030,7 +1030,7 @@
   
   
   <span class="md-ellipsis">
-    非同期処理と同期処理の適用範囲が適切か？
+    処理の同期・非同期の分離が設計上適切か？
     
   </span>
   
@@ -1125,7 +1125,7 @@
   
   
   <span class="md-ellipsis">
-    非同期イベントの遅延やリトライ処理の影響を考慮した設計になっているか？
+    イベントのリトライ設計と遅延の影響が考慮されているか？
     
   </span>
   
@@ -1876,7 +1876,7 @@
   
   
   <span class="md-ellipsis">
-    バックアップ戦略が整理されているか？
+    バックアップ戦略が定義されているか？
     
   </span>
   
@@ -2516,6 +2516,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🤝 コミュニケーションのお願い">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Markdown ファイル形式について（日本語）
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -2622,6 +2637,19 @@ MITなので自由にForkし改変してください</p>
 <li>作者は純日本人なので英語はAIパワーで書いていますが、日本語でのコミュニケーションは結構できます</li>
 </ul>
 <hr />
+<h3 id="markdown">📄 Markdown ファイル形式について（日本語）<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h3>
+<p>すべての観点 <code>.md</code> ファイルには、以下のような YAML フロントマター（ファイル冒頭の <code>---</code> ブロック）が必要です：</p>
+<pre><code class="language-yaml">---
+title: 適切なタイトル（日本語）
+layer: [Structure または DeepDive または両方]
+category: カテゴリ名（例: api, data など）
+tags: [設計キーワードの配列]
+bloom_level: Apply / Analyze / Evaluate のいずれか
+license: MIT
+---
+</code></pre>
+<p>これにより、ナビゲーター内での自動分類・検索・ナビゲーションが正しく動作します。</p>
+<hr />
 <h2 id="_7">🛠 ローカルプレビュー（開発者向け）<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
 <p>```bash
 pip install \
@@ -2649,7 +2677,7 @@ mkdocs serve --config-file mkdocs.ja.yml</p>
     <span class="md-icon" title="最終更新日">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2025年5月4日 06:20:17">2025年5月4日</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="2025年5月6日 07:54:16">2025年5月6日</span>
   </span>
 
     
