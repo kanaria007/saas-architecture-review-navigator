@@ -1,3 +1,12 @@
+---
+title: 外部サービスの負荷増大時の影響を最小限にするための設計があるか？
+layer: [DeepDive]
+category: パフォーマンス・スケーラビリティ 
+tags: [load, throttle, resilience]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 外部サービスの負荷増大時の影響を最小限にするための設計があるか？
 
 > Type: DeepDive  

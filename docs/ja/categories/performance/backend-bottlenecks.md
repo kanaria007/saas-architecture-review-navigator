@@ -1,6 +1,15 @@
+---
+title: バックエンドのボトルネックが発生しない設計になっているか？
+layer: [Structure, DeepDive]
+category: パフォーマンス・スケーラビリティ
+tags: [backend, throughput, system-limits]
+bloom_level: Analyze
+license: MIT
+---
+
 # バックエンドのボトルネックが発生しない設計になっているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: パフォーマンス・スケーラビリティ  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

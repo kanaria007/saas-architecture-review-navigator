@@ -1,6 +1,15 @@
+---
+title: キャッシュ戦略が適切に考慮されているか？
+layer: [Structure, DeepDive ]
+category: パフォーマンス・スケーラビリティ 
+tags: [caching, latency, redundancy]
+bloom_level: Apply
+license: MIT
+---
+
 # キャッシュ戦略が適切に考慮されているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: パフォーマンス・スケーラビリティ  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 
