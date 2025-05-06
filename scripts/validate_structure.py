@@ -10,6 +10,8 @@ Static structure validator for the multi‑lingual docs/ tree.
 * Compares the *base* language (default: `en`) with every other language
   directory and reports missing / extra translations **except** for directories
   that are intentionally single‑language only (e.g. ai‑guidance).
+* Validates that all .md files contain correct YAML frontmatter (`title`, `layer`).
+* Ignores frontmatter validation for files listed in .navignore.
 
 Exit status is **0** when no issues are found; otherwise prints a readable list
 of problems and exits with **1** so CI fails fast.
@@ -23,13 +25,15 @@ import re
 from collections import defaultdict
 from typing import Dict, List, Set
 
+import frontmatter
+
 # ────────────────────────────────────────────────────────────────────────────────
 # Configuration ─ tweak here if your repo layout changes
 # ────────────────────────────────────────────────────────────────────────────────
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS_ROOT = ROOT / "docs"
-BASE_LANG = "en"  # language thatすerves as the "translation source"
+BASE_LANG = "en"  # language that serves as the "translation source"
 
 # Top‑level directories under docs/ that are *single‑language* and therefore
 # should be **excluded from translation comparison**.
@@ -37,6 +41,8 @@ EXCLUDE_TRANSLATION_LANGS: Set[str] = {"ai-guidance"}
 
 # Regex to capture Markdown link targets – we only care about *.md inside ()
 LINK_RE = re.compile(r"\(([^)]+\.md)\)")
+
+REQUIRED_YAML_FIELDS = {"title", "layer"}
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Helpers
@@ -49,16 +55,13 @@ def collect_markdown(root: pathlib.Path) -> Dict[pathlib.PurePosixPath, pathlib.
         for p in root.rglob("*.md")
     }
 
-
 def slug(p: pathlib.PurePosixPath) -> str:
     return p.name.lower()
-
 
 def load_plain_list(file_path: pathlib.Path) -> Set[str]:
     if not file_path.exists():
         return set()
     return {line.strip() for line in file_path.read_text(encoding="utf-8").splitlines() if line.strip()}
-
 
 # Files that may legitimately be missing from navigation‑map.md
 NAV_IGNORE: Set[pathlib.PurePosixPath] = {
@@ -67,7 +70,6 @@ NAV_IGNORE: Set[pathlib.PurePosixPath] = {
 
 # Slugs that should be ignored in the translation comparison step
 IGNORE_SLUGS: Set[str] = {s.lower() for s in load_plain_list(DOCS_ROOT / "ignore-slugs.txt")}
-
 
 def load_nav_map(lang_root: pathlib.Path) -> Set[pathlib.PurePosixPath]:
     nav_file = lang_root / "navigation-map.md"
@@ -79,11 +81,23 @@ def load_nav_map(lang_root: pathlib.Path) -> Set[pathlib.PurePosixPath]:
             links.add(pathlib.PurePosixPath(match))
     return links
 
-
 def find_lang_dirs(root: pathlib.Path) -> Dict[str, pathlib.Path]:
     """Return mapping like { 'en': Path('docs/en'), 'ja': Path('docs/ja'), … }"""
     return {p.name: p for p in root.iterdir() if p.is_dir()}
 
+def check_yaml_frontmatter(md_path: pathlib.Path, rel_path: pathlib.PurePosixPath) -> List[str]:
+    errors = []
+    if rel_path in NAV_IGNORE:
+        return errors  # skip YAML check for ignored files
+    try:
+        with open(md_path, encoding="utf-8") as f:
+            post = frontmatter.load(f)
+        for field in REQUIRED_YAML_FIELDS:
+            if field not in post:
+                errors.append(f"{rel_path} is missing YAML field `{field}`")
+    except Exception as e:
+        errors.append(f"{rel_path} has malformed YAML frontmatter: {e}")
+    return errors
 
 # ────────────────────────────────────────────────────────────────────────────────
 # Main validation logic
@@ -113,11 +127,14 @@ def main() -> None:
 
         # 1‑B navigation‑map coverage (unless '.navignore' says otherwise)
         nav_links = load_nav_map(lang_dirs[lang])
-        for rel in files:
+        for rel, full_path in files.items():
             if rel in NAV_IGNORE:
                 continue
             if rel not in nav_links:
                 errors.append(f"{rel} is not listed in {lang}/navigation-map.md")
+
+            # 1‑C YAML frontmatter validation
+            errors.extend(check_yaml_frontmatter(full_path, rel))
 
     # ── 2. Translation completeness check ─────────────────────────────────────
     if BASE_LANG not in slug_map:
@@ -148,11 +165,11 @@ def main() -> None:
 
     # ── 3. Result output ──────────────────────────────────────────────────────
     if errors:
-        print("❌  Structure validation failed:")
+        print("❌ Structure validation failed:")
         print("\n".join(f"  - {e}" for e in errors))
         sys.exit(1)
 
-    print("✅  Documentation structure is valid.")
+    print("✅ Documentation structure is valid.")
 
 
 if __name__ == "__main__":
