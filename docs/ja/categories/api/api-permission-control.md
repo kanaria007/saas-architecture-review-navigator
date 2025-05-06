@@ -1,3 +1,12 @@
+---
+title: APIと内部の権限制御が一致しているか？
+layer: [Structure]
+category: API・権限・セキュリティ
+tags: [認可, ドメインロジック, 一貫性]
+bloom_level: Analyze
+license: MIT
+---
+
 # APIの権限管理が適切に設計されているか？
 
 > Type: Structure  
