@@ -1,3 +1,12 @@
+---
+title: 負荷増加時のスケールアップ・スケールアウトの方針が整理されているか？
+layer: [DeepDive]
+category: パフォーマンス・スケーラビリティ
+tags: [スケーリング, 分散処理, ボトルネック]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 負荷増加時のスケールアップ・スケールアウトの方針が整理されているか？
 
 > Type: DeepDive  
