@@ -1,3 +1,12 @@
+---
+title: 障害時のデータ復旧手順が考慮されているか？
+layer: [DeepDive]
+category: 災害対策・可用性
+tags: [recovery, data-loss, fault-resilience]
+bloom_level: Apply
+license: MIT
+---
+
 # 障害時のデータ復旧手順が考慮されているか？
 
 > Type: DeepDive  

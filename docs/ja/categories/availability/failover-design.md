@@ -1,3 +1,12 @@
+---
+title: 重要な処理において、フェイルオーバー設計が組み込まれているか？
+layer: [DeepDive]
+category: 災害対策・可用性
+tags: [failover, redundancy, availability]
+bloom_level: Analyze
+license: MIT
+---
+
 # 重要な処理において、フェイルオーバー設計が組み込まれているか？
 
 > Type: DeepDive  

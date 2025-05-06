@@ -1,6 +1,15 @@
+---
+title: バックアップ戦略が定義されているか？
+layer: [Structure, DeepDive]
+category: 災害対策・可用性
+tags: [backup, fault-tolerance, disaster-recovery]
+bloom_level: Apply
+license: MIT
+---
+
 # バックアップ戦略が整理されているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: 災害対策・可用性  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 
