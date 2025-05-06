@@ -1,3 +1,12 @@
+---
+title: 構造で育てる思考：再現可能な成長フレームを設計する
+layer: [Structure, DeepDive]
+category: human
+tags: [growth, feedback, self-directed-learning]
+bloom_level: Analyze
+license: MIT
+---
+
 # **構造で育てる思考：再現可能な成長フレームを設計する**
 
 ## はじめに

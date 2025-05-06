@@ -1,3 +1,12 @@
+---
+title: 構造で育てるメンタリング：新卒を自律・戦略人材に導く設計ガイド
+layer: [Structure]
+category: human
+tags: [mentoring, education-design, onboarding]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 構造で育てるメンタリング：新卒を自律・戦略人材に導く設計ガイド
 
 ---

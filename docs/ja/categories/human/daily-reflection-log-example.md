@@ -1,3 +1,12 @@
+---
+title: 構造で育てる思考：日次の振り返りから成長を加速する実践ログ
+layer: [DeepDive]
+category: human
+tags: [reflection, learning-process, ai-collaboration]
+bloom_level: Analyze
+license: MIT
+---
+
 # 構造で育てる思考：日次の振り返りから成長を加速する実践ログ
 
 ---
