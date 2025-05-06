@@ -1,3 +1,12 @@
+---
+title: 主要なエンティティのインデックス設計が適切か？
+layer: [Structure]
+category: データ
+tags: [index, performance, query-optimization]
+bloom_level: Apply
+license: MIT
+---
+
 # 主要なエンティティのインデックス設計が適切か？
 
 > Type: Structure  

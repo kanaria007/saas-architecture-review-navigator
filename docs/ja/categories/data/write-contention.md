@@ -1,6 +1,15 @@
+---
+title: データ更新時の排他制御・ロック戦略が適切に設計されているか？
+layer: [Structure, DeepDive]
+category: データ
+tags: [concurrency, locking, contention]
+bloom_level: Analyze
+license: MIT
+---
+
 # データ更新時の排他制御・ロック戦略が適切に設計されているか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: データ  
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 
