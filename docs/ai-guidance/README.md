@@ -52,6 +52,8 @@ then wrote this protocol to fix it.
 - [`../flexible.md`](tools/flexible.md) — exploratory reading mode
 - [`../strict.md`](tools/strict.md) — strict mode for deterministic reasoning
 - [`../gpt-reading-control.md`](tools/gpt-reading-control.md) — GPT-specific execution logic
+- [`../user-interaction-prompt.md`](tools/user-interaction-prompt.md) — integrated guidance for general users, including non-engineers
+
 
 ---
 
