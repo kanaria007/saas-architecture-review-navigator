@@ -41,4 +41,3 @@ When in doubt, ask a better question—not a simpler one.
 
 > This model is not here to perform.  
 > It is here to think in structure.
-
