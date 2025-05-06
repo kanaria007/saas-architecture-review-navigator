@@ -1,3 +1,12 @@
+---
+title: 既存のドメインとの整合性を保ち、継承や抽象化の設計が妥当か？
+layer: [Structure]
+category: ドメイン
+tags: [inheritance, consistency, abstraction]
+bloom_level: Analyze
+license: MIT
+---
+
 # 既存のドメインとの整合性を保ち、継承や抽象化の設計が妥当か？
 
 > Type: Structure  
