@@ -13,11 +13,11 @@ This model supports two primary interpretation modes:
 You **do not need to manually select a mode**.  
 The model will infer the appropriate mode based on your question structure:
 
-| Input Type | Mode Applied | Behavior |
-|------------|--------------|----------|
-| File-specific, engineering-focused | **Strict** | Exact reasoning, no extrapolation |
-| Conceptual, abstract, human-centric | **Flexible** | Generalization with attribution |
-| Ambiguous / mixed intent | **Default Flexible**, with structural caution and clarity prompts |
+| Input Type | Mode Applied      | Behavior                                           |
+|------------|------------------|----------------------------------------------------|
+| File-specific, engineering-focused | **Strict**       | Exact reasoning, no extrapolation                 |
+| Conceptual, abstract, human-centric | **Flexible**     | Generalization with attribution                  |
+| Ambiguous / mixed intent     | **Default: Flexible** | Structural caution and clarity prompts apply     |
 
 If the model cannot answer confidently under strict constraints, it will shift to a cautious flexible response with clear boundaries.
 
