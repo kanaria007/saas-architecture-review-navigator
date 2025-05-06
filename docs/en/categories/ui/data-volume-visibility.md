@@ -1,6 +1,15 @@
+---
+title: Data Volume and Structural Visibility
+layer: [Structure, DeepDive]
+category: ui
+tags: [volume, structure, visibility, data-quality]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Your UI Designed to Handle Large Data Volumes Gracefully?
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: UI  
 > Audience: Frontend engineers, product designers, and backend engineers defining pagination or filters
 

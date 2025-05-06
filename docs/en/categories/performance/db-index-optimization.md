@@ -1,3 +1,12 @@
+---
+title: Query Performance Optimization via Index Design
+layer: [DeepDive]
+category: performance
+tags: [database, indexing, performance]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Have You Designed Query Performance—or Just Hoped the DB “Handles It”?
 
 > Type: DeepDive  

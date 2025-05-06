@@ -1,6 +1,15 @@
+---
+title: 監視対象が適切に設計され、異常時の通知が設定されているか？
+layer: [Structure, DeepDive]
+category: 非機能要件・運用
+tags: [observability, alerting, monitoring]
+bloom_level: Apply
+license: MIT
+---
+
 # 監視対象が適切に設計され、異常時の通知が設定されているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: 非機能要件・運用
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

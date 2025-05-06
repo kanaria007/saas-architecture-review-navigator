@@ -1,3 +1,12 @@
+---
+title: Write Contention Strategy
+layer: [Structure]
+category: data
+tags: [concurrency, locking, consistency]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Write Contention Avoided—or Just Left to Luck?
 
 > Type: Structure  

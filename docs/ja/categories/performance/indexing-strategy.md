@@ -1,6 +1,15 @@
+---
+title: データベースのインデックス戦略が適切で、クエリの最適化がされているか？
+layer: [Structure, DeepDive]
+category: パフォーマンス・スケーラビリティ  
+tags: [index, query, performance]
+bloom_level: Analyze
+license: MIT
+---
+
 # データベースのインデックス戦略が適切で、クエリの最適化がされているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: パフォーマンス・スケーラビリティ  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

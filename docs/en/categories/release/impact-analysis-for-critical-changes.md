@@ -1,3 +1,12 @@
+---
+title: Impact Analysis for Critical Changes
+layer: [DeepDive]
+category: release
+tags: [impact, risk-analysis, scope-definition]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is Impact Analysis Performed for Critical Changes?
 
 > Type: DeepDive  

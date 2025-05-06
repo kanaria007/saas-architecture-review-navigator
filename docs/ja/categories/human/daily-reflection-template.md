@@ -1,3 +1,12 @@
+---
+title: 構造で育てる思考：日次振り返りテンプレート
+layer: [Structure]
+category: human
+tags: [reflection, daily-log, growth]
+bloom_level: Apply
+license: MIT
+---
+
 # 構造で育てる思考：日次振り返りテンプレート
 
 ---

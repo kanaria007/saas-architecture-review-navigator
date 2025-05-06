@@ -1,3 +1,12 @@
+---
+title: Staged Release Strategy
+layer: [DeepDive]
+category: release
+tags: [staged-deploy, traffic-control, risk-reduction]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is a Staged Release Strategy in Place?
 
 > Type: DeepDive  

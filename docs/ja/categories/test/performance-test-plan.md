@@ -1,3 +1,12 @@
+---
+title: パフォーマンステストの実施有無が決定されているか？
+layer: [Structure]
+category: テスト
+tags: [性能試験, 非機能要件, スロークエリ]
+bloom_level: Apply
+license: MIT
+---
+
 # パフォーマンステストの実施有無が決定されているか？
 
 > Type: Structure  

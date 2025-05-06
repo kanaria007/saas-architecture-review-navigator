@@ -1,3 +1,12 @@
+---
+title: 構造で育てる思考：新卒エンジニアを自律・戦略人材に導く自己ふりかえりフレーム
+layer: [Structure, DeepDive]
+category: human
+tags: [reflection, meta-cognition, autonomy]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 構造で育てる思考：新卒エンジニアを自律・戦略人材に導く自己ふりかえりフレーム
 
 ---

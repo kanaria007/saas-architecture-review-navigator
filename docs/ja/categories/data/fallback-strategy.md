@@ -1,3 +1,12 @@
+---
+title: 非同期処理のフォールバック戦略が設計されているか？
+layer: [DeepDive]
+category: データ
+tags: [fallback, retry, ordering]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 非同期処理のフォールバック戦略が設計されているか？（失敗時の再実行順序やデータの重複生成防止などの考慮）
 
 > Type: DeepDive  

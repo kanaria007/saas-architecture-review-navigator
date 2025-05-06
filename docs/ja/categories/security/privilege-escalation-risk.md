@@ -1,3 +1,12 @@
+---
+title: アクセス制御が適切に設定されており、権限昇格リスクがないか？
+layer: [DeepDive]
+category: API・権限・セキュリティ 
+tags: [authorization, privilege-escalation, access-control]
+bloom_level: Evaluate
+license: MIT
+---
+
 # アクセス制御が適切に設定されており、権限昇格リスクがないか？
 
 > Type: DeepDive  

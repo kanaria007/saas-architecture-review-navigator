@@ -1,6 +1,15 @@
+---
+title: Cache Strategy Design
+layer: [Structure]
+category: performance
+tags: [cache, performance, consistency]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Caching Helping—or Just Hiding Slowness?
 
-> Type: DeepDive  
+> Type: Structure  
 > Category: Performance  
 > Audience: Engineers using cache layers, CDN, or performance tuning techniques
 

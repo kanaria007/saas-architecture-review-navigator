@@ -1,3 +1,12 @@
+---
+title: Domain Separation Clarity
+layer: [Structure]
+category: domain
+tags: [architecture, clean-code, layering]
+bloom_level: Understand
+license: MIT
+---
+
 # Is the Domain Separated from the Application Layer—and Does It Mean Anything?
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: Preventing Breaking API Changes
+layer: [Structure]
+category: api
+tags: [compatibility, schema-evolution, versioning]
+bloom_level: Apply
+license: MIT
+---
+
 # Does Your API Design Prevent Breaking Changes?
 
 > Type: Structure  

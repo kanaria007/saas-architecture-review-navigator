@@ -1,3 +1,12 @@
+---
+title: Daily Reflection Log Guide
+layer: [DeepDive]
+category: human
+tags: [cognitive-design, feedback-loop, growth-strategy]
+bloom_level: Analyze
+license: MIT
+---
+
 # 📘 Guide: Designing Daily Reflection Logs for Growth-Driven Engineering
 
 > Type: Guide  

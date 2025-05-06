@@ -1,6 +1,15 @@
+---
+title: サービス間のデータ整合性が保証されているか？
+layer: [Structure, DeepDive]
+category: イベント・非同期処理
+tags: [分散整合性, イベント設計, 非同期]
+bloom_level: Evaluate
+license: MIT
+---
+
 # サービス間のデータ整合性が保証されているか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: イベント・非同期処理  
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 

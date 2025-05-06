@@ -1,3 +1,12 @@
+---
+title: 機密データの取り扱いにおいて、適切な暗号化やトークナイゼーションが実装されているか？
+layer: [DeepDive]
+category: API・権限・セキュリティ 
+tags: [encryption, tokenization, sensitive-data]
+bloom_level: Analyze
+license: MIT
+---
+
 # 機密データの取り扱いにおいて、適切な暗号化やトークナイゼーションが実装されているか？
 
 > Type: DeepDive  

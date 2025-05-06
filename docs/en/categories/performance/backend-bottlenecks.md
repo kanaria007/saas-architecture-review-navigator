@@ -1,3 +1,12 @@
+---
+title: Backend Bottleneck Identification
+layer: [DeepDive]
+category: performance
+tags: [bottleneck, load-distribution, async-boundaries]
+bloom_level: Analyze
+license: MIT
+---
+
 # Are Backend Bottlenecks Designed Out—or Just Discovered Later?
 
 > Type: DeepDive  

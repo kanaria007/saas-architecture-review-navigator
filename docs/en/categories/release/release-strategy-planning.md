@@ -1,3 +1,12 @@
+---
+title: Release Strategy Planning
+layer: [Structure]
+category: release
+tags: [release, change-management, coordination]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the Release Strategy Defined and Aligned With Change Impact?
 
 > Type: Structure  

@@ -1,4 +1,14 @@
-# Are Security Risks Considered?  
+---
+title: Security Risk Awareness
+layer: [Structure]
+category: non-functional
+tags: [security, access-control, sensitive-data]
+bloom_level: Apply
+license: MIT
+---
+
+# Are Security Risks Considered?
+
 > Type: Structure  
 > Category: Non-functional  
 > Audience: Security engineers, reviewers, backend/API owners

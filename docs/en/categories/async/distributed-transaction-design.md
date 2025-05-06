@@ -1,7 +1,16 @@
+---
+title: Distributed Transaction Design
+layer: [DeepDive]
+category: async
+tags: [transaction, coordination, boundary]
+bloom_level: Analyze
+license: MIT
+---
+
 # Have You Deliberately Decided Whether You Need Distributed Transactions?
 
 > Type: DeepDive  
-> Category: Data  
+> Category: Async  
 > Audience: Engineers dealing with microservices, cross-DB workflows, or async state
 
 ---
@@ -58,7 +67,7 @@ You’re designing for **who pays the cost of failure—and when**.
 
 ## 🔗 Related Perspectives
 
-- [Do You Have a Fallback Plan for Asynchronous Failures?](fallback-strategy.md)
+- [Do You Have a Fallback Plan for Asynchronous Failures?](../async/fallback-strategy.md)
 - [What Happens When the External System Fails?](../async/external-failure-impact.md)
-- [Can Retried Events Introduce Inconsistent State?](retry-consistency.md)
+- [Can Retried Events Introduce Inconsistent State?](../async/retry-consistency.md)
 - [Is a Rollback Strategy in Place for Critical Changes?](../release/rollback-strategy.md)

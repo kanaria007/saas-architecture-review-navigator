@@ -1,3 +1,12 @@
+---
+title: Explicit and Secure API Permissions
+layer: [Structure]
+category: api
+tags: [authorization, RBAC, access-control]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Your API Permission Design Explicit and Secure?
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: Data Lifecycle Clarity
+layer: [Structure]
+category: data
+tags: [lifecycle, data-modeling, domain-clarity]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the Lifecycle of Your Data Clear—Or Just Assumed?
 
 > Type: Structure  

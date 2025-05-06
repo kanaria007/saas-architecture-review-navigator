@@ -1,3 +1,12 @@
+---
+title: 不整合なデータが発生しないように、適切なバリデーションが行われているか？
+layer: [Structure]
+category: ドメイン
+tags: [validation, domain-logic, data-integrity]
+bloom_level: Apply
+license: MIT
+---
+
 # 不整合なデータが発生しないように、適切なバリデーションが行われているか？
 
 > Type: Structure  

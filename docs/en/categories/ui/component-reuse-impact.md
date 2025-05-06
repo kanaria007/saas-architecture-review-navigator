@@ -1,3 +1,12 @@
+---
+title: Component Reuse and UI Fragility
+layer: [Structure]
+category: ui
+tags: [component-design, reuse, ui-risk]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is Component Reuse Helping or Hurting Your UI?
 
 > Type: Structure  

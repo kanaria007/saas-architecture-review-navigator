@@ -1,3 +1,12 @@
+---
+title: Weekly Reflection Log Guide
+layer: [DeepDive]
+category: human
+tags: [growth-systems, priority-design, feedback-integration]
+bloom_level: Analyze
+license: MIT
+---
+
 # 📘 Guide: How to Use the Weekly Reflection Template for Scalable Growth
 
 > Type: Practical Guide  

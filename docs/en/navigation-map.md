@@ -15,13 +15,10 @@
 ## Data
 
 - 📐 [Index Design](categories/data/index-design.md)
-- 🔬 [Distributed Transaction Design](categories/data/distributed-transaction-design.md)
-- 🔬 [Fallback Strategy](categories/data/fallback-strategy.md)
 - 📐 [Indexing Strategy](categories/data/indexing-strategy.md)
 - 📐 [Lifecycle Clarity](categories/data/lifecycle-clarity.md)
 - 📐 [Migration Impact](categories/data/migration-impact.md)
 - 📐 [Normalization Balance](categories/data/normalization-balance.md)
-- 🔬 [Retry Consistency](categories/data/retry-consistency.md)
 - 🔬 [Write Contention](categories/data/write-contention.md)
 
 ## API
@@ -36,8 +33,11 @@
 
 - 📐 [Cross Service Consistency](categories/async/cross-service-consistency.md)
 - 🔬 [Event Retry Delay](categories/async/event-retry-delay.md)
+- 🔬 [Retry Consistency](categories/async/retry-consistency.md)
 - 🔬 [External Failure Impact](categories/async/external-failure-impact.md)
 - 📐 [Sync Async Alignment](categories/async/sync-async-alignment.md)
+- 🔬 [Fallback Strategy](categories/async/fallback-strategy.md)
+- 🔬 [Distributed Transaction Design](categories/async/distributed-transaction-design.md)
 
 ## Performance
 

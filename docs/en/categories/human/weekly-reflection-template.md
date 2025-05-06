@@ -1,3 +1,12 @@
+---
+title: Weekly Reflection Template
+layer: [Structure]
+category: human
+tags: [reflection, meta-cognition, habit-formation]
+bloom_level: Apply
+license: MIT
+---
+
 # 📄 Weekly Reflection Template: Structured Thinking for Sustainable Growth
 
 > Type: Practical Template  

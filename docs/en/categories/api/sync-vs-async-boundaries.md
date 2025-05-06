@@ -1,6 +1,15 @@
+---
+title: Sync vs Async Boundary Design
+layer: [Structure, DeepDive]
+category: async
+tags: [latency, retries, coupling]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Are You Clear About When to Use Sync vs Async APIs?
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: API  
 > Audience: Engineers defining API contracts, frontend/backend flows, or task orchestration
 

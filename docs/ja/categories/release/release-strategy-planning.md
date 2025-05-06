@@ -1,3 +1,12 @@
+---
+title: 段階的リリースが可能な設計になっているか？
+layer: [DeepDive]
+category: リリース・ロールバック
+tags: [staged-release, feature-flags, coordination]
+bloom_level: Analyze
+license: MIT
+---
+
 # 段階的リリースが可能な設計になっているか？
 
 > Type: DeepDive  

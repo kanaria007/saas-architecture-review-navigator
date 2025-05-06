@@ -1,3 +1,12 @@
+---
+title: Scaling Strategy Design
+layer: [DeepDive]
+category: performance
+tags: [scaling, elasticity, horizontal-scaling]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is Your Scaling Strategy Designed—or Just Assumed?
 
 > Type: DeepDive  

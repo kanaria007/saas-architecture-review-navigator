@@ -1,6 +1,16 @@
+---
+title: Confidential Data Handling Design
+layer: [Structure, DeepDive]
+category: security
+tags: [data-protection, pii, encryption]
+bloom_level: Apply
+license: MIT
+---
+
+
 # Is Confidential Data Being Handled Safely—Not Just Accessed?
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: Security  
 > Audience: Engineers working on authentication, API design, database access, or log inspection
 
