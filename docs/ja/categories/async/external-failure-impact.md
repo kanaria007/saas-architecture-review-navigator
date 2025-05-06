@@ -1,3 +1,12 @@
+---
+title: 依存する外部サービスの障害時の影響を考慮しているか？
+layer: [Structure]
+category: イベント・非同期処理
+tags: [外部依存, フェイルセーフ, 障害耐性]
+bloom_level: Apply
+license: MIT
+---
+
 # 依存する外部サービスの障害時の影響を考慮しているか？
 
 > Type: Structure  
