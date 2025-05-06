@@ -1,3 +1,12 @@
+---
+title: 障害発生時のリカバリ手順が整理されているか？
+layer: [DeepDive]
+category: 非機能要件・運用
+tags: [recovery, fault-tolerance, runbook]
+bloom_level: Analyze
+license: MIT
+---
+
 # 障害発生時のリカバリ手順が整理されているか？
 
 > Type: DeepDive  

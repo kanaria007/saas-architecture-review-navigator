@@ -1,6 +1,15 @@
+---
+title: ログの記録方法が適切であり、トラブルシューティングに必要な情報が取得できるか？
+layer: [Structure, DeepDive]
+category: 非機能要件・運用
+tags: [logging, debug, traceability]
+bloom_level: Apply
+license: MIT
+---
+
 # ログの記録方法が適切であり、トラブルシューティングに必要な情報が取得できるか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: 非機能要件・運用
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

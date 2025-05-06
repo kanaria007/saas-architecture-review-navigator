@@ -1,3 +1,12 @@
+---
+title: セキュリティリスク（機密データの取り扱い、認証・認可）が考慮されているか？
+layer: [Structure]
+category: 非機能要件・運用
+tags: [security, authorization, encryption]
+bloom_level: Analyze
+license: MIT
+---
+
 # セキュリティリスク（機密データの取り扱い、認証・認可）が考慮されているか？
 
 > Type: Structure  
