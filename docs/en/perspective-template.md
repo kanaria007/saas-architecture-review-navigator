@@ -1,3 +1,12 @@
+---
+title: [Your Perspective Title Here]
+layer: [Structure, DeepDive]  # Use one or both
+category: Relevant category (e.g. api, data, security)
+tags: [insert, relevant, keywords]
+bloom_level: [Remember|Understand|Apply|Analyze|Evaluate|Create]
+license: MIT
+---
+
 # 📄 Perspective Template – *SaaS Architecture Review Navigator Aligned*
 
 > A refined, production-grade format for scalable architectural insight  
