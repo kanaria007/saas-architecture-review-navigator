@@ -1,3 +1,12 @@
+---
+title: ロールバック手順が用意されているか？
+layer: [DeepDive]
+category: リリース・ロールバック
+tags: [rollback, failure-handling, deployment]
+bloom_level: Analyze
+license: MIT
+---
+
 # ロールバック手順が用意されているか？
 
 > Type: DeepDive  

@@ -1,3 +1,12 @@
+---
+title: 変更の影響を考慮し、適切なリリース戦略が計画されているか？
+layer: [Structure]
+category: リリース・ロールバック
+tags: [release, strategy, phased-deployment]
+bloom_level: Apply
+license: MIT
+---
+
 # 変更の影響を考慮し、適切なリリース戦略が計画されているか？
 
 > Type: Structure  

@@ -1,6 +1,15 @@
+---
+title: システム停止が必要な場合、最小限に抑えられるように計画されているか？
+layer: [Structure, DeepDive]
+category: リリース・ロールバック
+tags: [downtime, maintenance, coordination]
+bloom_level: Apply
+license: MIT
+---
+
 # システム停止が必要な場合、最小限に抑えられるように計画されているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: リリース・ロールバック  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

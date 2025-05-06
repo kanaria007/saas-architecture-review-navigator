@@ -1,3 +1,12 @@
+---
+title: ユーザーへの通知が必要な場合、適切な手段が準備されているか？
+layer: [Structure]
+category: リリース・ロールバック
+tags: [notification, user-communication, release-prep]
+bloom_level: Apply
+license: MIT
+---
+
 # ユーザーへの通知が必要な場合、適切な手段が準備されているか？
 
 > Type: Structure  
