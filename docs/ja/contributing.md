@@ -73,6 +73,25 @@ MITなので自由にForkし改変してください
 
 ---
 
+### 📄 Markdown ファイル形式について（日本語）
+
+すべての観点 `.md` ファイルには、以下のような YAML フロントマター（ファイル冒頭の `---` ブロック）が必要です：
+
+```yaml
+---
+title: 適切なタイトル（日本語）
+layer: [Structure または DeepDive または両方]
+category: カテゴリ名（例: api, data など）
+tags: [設計キーワードの配列]
+bloom_level: Apply / Analyze / Evaluate のいずれか
+license: MIT
+---
+```
+
+これにより、ナビゲーター内での自動分類・検索・ナビゲーションが正しく動作します。
+
+---
+
 ## 🛠 ローカルプレビュー（開発者向け）
 
 ```bash
