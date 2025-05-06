@@ -131,8 +131,8 @@ achieving >95% structural fidelity with no hallucinated summaries or invented fi
 ## 🛠 Run Locally
 
 ```bash
-pip install mkdocs-material mkdocs-static-i18n mkdocs-awesome-pages-plugin
-mkdocs serve
+pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-git-revision-date-localized-plugin
+mkdocs serve --config-file mkdocs.en.yml
 ```
 
 ---

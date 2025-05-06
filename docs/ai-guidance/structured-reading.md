@@ -89,3 +89,6 @@ All modes follow the same interpretive ethics: **preserve layered reasoning, mod
 > This project was designed to be **read structurally**—not just scanned.
 >
 > If we want resilient reasoning, we must reason in resilient structures.
+>
+> ⚠️ In addition to strict/flexible templates, a general-purpose prompt (`user-interaction-prompt.md`) exists  
+> to help non-specialist users engage structurally. It enables implicit mode inference without requiring explicit protocol selection.
