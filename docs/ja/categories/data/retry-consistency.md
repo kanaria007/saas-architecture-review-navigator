@@ -1,3 +1,12 @@
+---
+title: イベントのリトライ時にデータの不整合が生じないか？
+layer: [DeepDive]
+category: データ
+tags: [retry, idempotence, consistency]
+bloom_level: Analyze
+license: MIT
+---
+
 # イベントのリトライ時にデータの不整合が生じないか？
 
 > Type: DeepDive  

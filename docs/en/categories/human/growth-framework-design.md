@@ -1,3 +1,12 @@
+---
+title: Growth Framework Design
+layer: [Structure, DeepDive]
+category: human
+tags: [self-design, performance, sustainability]
+bloom_level: Analyze
+license: MIT
+---
+
 # 📄 Designing Repeatable Growth Frameworks
 
 > Type: Guide  

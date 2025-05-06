@@ -1,6 +1,15 @@
+---
+title: 処理の同期・非同期の分離が設計上適切か？
+layer: [Structure, DeepDive]
+category: イベント・非同期処理
+tags: [同期非同期, 処理分離, ユーザビリティ]
+bloom_level: Analyze
+license: MIT
+---
+
 # 非同期処理と同期処理の適用範囲が適切か？
 
-> Type: Structure  
+> Type: Structure, DeepDive
 > Category: API・権限・セキュリティ  
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 

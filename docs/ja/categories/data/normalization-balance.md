@@ -1,3 +1,12 @@
+---
+title: 必要な正規化・非正規化のバランスが適切に設計されているか？
+layer: [Structure]
+category: データ
+tags: [normalization, denormalization, performance]
+bloom_level: Apply
+license: MIT
+---
+
 # 必要な正規化・非正規化のバランスが適切に設計されているか？
 
 > Type: Structure  

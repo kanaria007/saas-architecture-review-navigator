@@ -1,6 +1,15 @@
+---
+title: Observability and Alerting
+layer: [Structure, DeepDive]
+category: non-functional
+tags: [monitoring, alerting, observability]
+bloom_level: Analyze
+license: MIT
+---
+
 # Are Monitoring Targets Well-Defined and Alerts Properly Configured?
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: Non-functional  
 > Audience: SREs, platform engineers, backend leads, reliability owners
 

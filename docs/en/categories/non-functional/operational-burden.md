@@ -1,6 +1,15 @@
+---
+title: Operational Burden Design
+layer: [Structure, DeepDive]
+category: non-functional
+tags: [ops, maintenance, support-load]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is the Operational Flow Designed to Minimize Dev and Support Burden?
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: Non-functional  
 > Audience: Developers, SREs, support leads, system architects
 

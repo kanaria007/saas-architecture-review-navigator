@@ -1,3 +1,12 @@
+---
+title: なぜこの設計を採用したのか、代替案や選定理由が記載されているか？
+layer: [Structure]
+category: 共通
+tags: [reasoning, design-clarity, rationale]
+bloom_level: Analyze
+license: MIT
+---
+
 # なぜこの設計を採用したのか、代替案や選定理由が記載されているか？
 
 > Type: Structure  

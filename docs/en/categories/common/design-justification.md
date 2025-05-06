@@ -1,3 +1,12 @@
+---
+title: Design Justification and Rationale
+layer: [Structure]
+category: common
+tags: [design-reasoning, decision-tracking, architectural-clarity]
+bloom_level: Analyze
+license: MIT
+---
+
 # Do You Know Why This Design Exists?
 
 > Type: Structure  

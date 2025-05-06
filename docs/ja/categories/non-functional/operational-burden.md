@@ -1,6 +1,15 @@
+---
+title: 運用フローが適切に整理され、開発やCSの負荷が最小限に抑えられているか？
+layer: [Structure, DeepDive]
+category: 非機能要件・運用
+tags: [operations, cost, maintainability]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 運用フローが適切に整理され、開発やCSの負荷が最小限に抑えられているか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: 非機能要件・運用
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 

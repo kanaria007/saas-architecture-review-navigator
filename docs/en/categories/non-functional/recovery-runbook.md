@@ -1,3 +1,12 @@
+---
+title: Recovery Runbook Definition
+layer: [DeepDive]
+category: non-functional
+tags: [incident-response, recovery, runbook]
+bloom_level: Apply
+license: MIT
+---
+
 # Are Recovery Steps Clearly Defined for Incidents?
 
 > Type: DeepDive  

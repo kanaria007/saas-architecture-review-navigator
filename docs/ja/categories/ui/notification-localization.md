@@ -1,3 +1,12 @@
+---
+title: メール通知の文面や送信フローに変更がある場合、翻訳フローが考慮されているか？
+layer: [Structure]
+category: UI・通知  
+tags: [localization, i18n, email-design]
+bloom_level: Apply
+license: MIT
+---
+
 # メール通知の文面や送信フローに変更がある場合、翻訳フローが考慮されているか？
 
 > Type: Structure  

@@ -1,6 +1,15 @@
+---
+title: Performance Test Planning
+layer: [Structure, DeepDive]
+category: test
+tags: [performance, throughput, benchmark]
+bloom_level: Apply
+license: MIT
+---
+
 # Has the Need for Performance Testing Been Assessed?
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: Test  
 > Audience: QA engineers, performance architects, and reviewers of high-traffic or complex systems
 

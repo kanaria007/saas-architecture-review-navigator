@@ -1,3 +1,12 @@
+---
+title: 影響範囲が適切に分析されているか？
+layer: [Structure]
+category: テスト
+tags: [影響範囲, 変更管理, 静的解析]
+bloom_level: Analyze
+license: MIT
+---
+
 # 影響範囲が適切に分析されているか？
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: ありえない状態のオブジェクトが作られないよう、制約が適切に設定されているか？
+layer: [Structure]
+category: ドメイン
+tags: [validation, invariants, constraints]
+bloom_level: Apply
+license: MIT
+---
+
 # ありえない状態のオブジェクトが作られないよう、制約が適切に設定されているか？
 
 > Type: Structure  

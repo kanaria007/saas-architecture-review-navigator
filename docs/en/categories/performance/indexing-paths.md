@@ -1,3 +1,12 @@
+---
+title: Query Path Alignment with Indexes
+layer: [DeepDive]
+category: performance
+tags: [query-optimization, indexing, database]
+bloom_level: Analyze
+license: MIT
+---
+
 # Are Your Indexes Aligned with Query Paths?
 
 > Type: DeepDive  

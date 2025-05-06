@@ -1,3 +1,12 @@
+---
+title: Logging for Troubleshooting
+layer: [Structure]
+category: non-functional
+tags: [logging, debugging, traceability]
+bloom_level: Apply
+license: MIT
+---
+
 # Is the Logging Strategy Sufficient for Troubleshooting?
 
 > Type: Structure  

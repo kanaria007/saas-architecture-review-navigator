@@ -1,3 +1,12 @@
+---
+title: Indexing Strategy Design
+layer: [Structure]
+category: data
+tags: [index, performance, access-pattern]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Your Index Strategy Designed—Or Just Inherited?
 
 > Type: Structure  

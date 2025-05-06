@@ -1,3 +1,12 @@
+---
+title: 破壊的変更を避けるための互換性保持の設計がされているか？
+layer: [Structure]
+category: API・権限・セキュリティ
+tags: [互換性, バージョニング, API設計]
+bloom_level: Apply
+license: MIT
+---
+
 # 破壊的変更を避けるための互換性保持の設計がされているか？
 
 > Type: Structure  

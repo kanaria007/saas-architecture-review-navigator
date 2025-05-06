@@ -1,3 +1,12 @@
+---
+title: User Notification Preparation
+layer: [Structure]
+category: release
+tags: [notification, communication, UX]
+bloom_level: Apply
+license: MIT
+---
+
 # Is User Notification Prepared Where Needed?
 
 > Type: Structure  

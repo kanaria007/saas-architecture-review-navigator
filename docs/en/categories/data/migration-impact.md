@@ -1,3 +1,12 @@
+---
+title: Migration Impact and Risk
+layer: [Structure]
+category: data
+tags: [migration, schema-evolution, compatibility]
+bloom_level: Apply
+license: MIT
+---
+
 # Is Schema Migration Treated as a Design Phase—or Just a Release Task?
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: Invalid State Representation
+layer: [Structure]
+category: domain
+tags: [modeling, enums, safety]
+bloom_level: Apply
+license: MIT
+---
+
 # Can Your System Even Represent an Invalid State?
 
 > Type: Structure  

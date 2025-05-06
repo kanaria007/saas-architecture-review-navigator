@@ -1,3 +1,12 @@
+---
+title: 主要な受け入れ基準が明確になっているか？
+layer: [Structure]
+category: テスト
+tags: [受け入れ条件, QA, テスト観点]
+bloom_level: Apply
+license: MIT
+---
+
 # 主要な受け入れ基準が明確になっているか？
 
 > Type: Structure  

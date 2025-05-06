@@ -1,3 +1,12 @@
+---
+title: Data Recovery Planning
+layer: [DeepDive]
+category: availability
+tags: [recovery, RTO, RPO, SLA]
+bloom_level: Evaluate
+license: MIT
+---
+
 # Is a Data Recovery Plan Considered for Failure Scenarios?
 
 > Type: DeepDive  

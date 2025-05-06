@@ -1,3 +1,12 @@
+---
+title: "[観点タイトルをここに]"
+layer: [Structure, DeepDive] # 片方だけなら [Structure] または [DeepDive]
+category: "[カテゴリ]" # 例: データ, human など
+tags: [example-tag1, example-tag2]
+bloom_level: Analyze # Remember, one of: Remember, Understand, Apply, Analyze, Evaluate, Create
+license: MIT
+---
+
 # [観点タイトル]
 
 ## 背景・概要

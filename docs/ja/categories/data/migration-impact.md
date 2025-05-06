@@ -1,6 +1,15 @@
+---
+title: マイグレーションの影響が考慮され、安全な実施計画があるか？
+layer: [Structure, DeepDive]
+category: データ
+tags: [migration, schema-change, rollout]
+bloom_level: Analyze
+license: MIT
+---
+
 # マイグレーションの影響が考慮され、安全な実施計画があるか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: データ  
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 

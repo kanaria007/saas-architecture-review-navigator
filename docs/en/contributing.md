@@ -71,6 +71,25 @@ We value:
 
 ---
 
+### 📄 Markdown Format (English)
+
+Each `.md` perspective file should begin with the following YAML front matter:
+
+```yaml
+---
+title: Clear and concise title
+layer: [Structure, DeepDive]  # one or both
+category: Relevant category (e.g. api, data, security)
+tags: [keywords related to the design lens]
+bloom_level: Apply / Analyze / Evaluate
+license: MIT
+---
+```
+
+This allows the navigator to classify and link perspectives consistently across views.
+
+---
+
 ## 🛠 Local preview
 
 ```bash

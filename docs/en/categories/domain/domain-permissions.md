@@ -1,3 +1,12 @@
+---
+title: Domain-Based Permission Logic
+layer: [Structure]
+category: domain
+tags: [authorization, access-control, logic]
+bloom_level: Analyze
+license: MIT
+---
+
 # Is Authorization Modeled as Domain Behavior—or Just Filtered in the UI?
 
 > Type: Structure  
