@@ -1,3 +1,12 @@
+---
+title: 表示データ量が適切に制限されており、パフォーマンスが考慮されているか？
+layer: [Structure]
+category: UI・通知  
+tags: [表示量, ページネーション, UX]
+bloom_level: Analyze
+license: MIT
+---
+
 # 表示データ量が適切に制限されており、パフォーマンスが考慮されているか？
 
 > Type: Structure  

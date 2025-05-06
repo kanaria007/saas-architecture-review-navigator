@@ -1,3 +1,12 @@
+---
+title: ドメインオブジェクトが適切に抽象化され、アプリケーション層と適切に分離されているか？
+layer: [Structure]
+category: ドメイン
+tags: [domain-layering, separation, DDD]
+bloom_level: Analyze
+license: MIT
+---
+
 # ドメインオブジェクトが適切に抽象化され、アプリケーション層と適切に分離されているか？
 
 > Type: Structure  

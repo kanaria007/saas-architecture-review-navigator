@@ -1,3 +1,12 @@
+---
+title: 一貫性を担保するための分散トランザクションの必要性が整理されているか？
+layer: [DeepDive]
+category: データ
+tags: [distributed-transaction, consistency, saga-pattern, outbox]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 一貫性を担保するための分散トランザクションの必要性が整理されているか？
 
 > Type: DeepDive  

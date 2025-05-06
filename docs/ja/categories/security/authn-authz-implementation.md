@@ -1,6 +1,15 @@
+---
+title: API の認証・認可が適切に実装されているか？
+layer: [Structure, DeepDive]
+category: API・権限・セキュリティ 
+tags: [authn, authz, api-security]
+bloom_level: Apply
+license: MIT
+---
+
 # API の認証・認可が適切に実装されているか？
 
-> Type: DeepDive  
+> Type: Structure, DeepDive  
 > Category: API・権限・セキュリティ  
 > Audience: 設計リーダー / SRE / インフラ設計者 / レビュー担当者
 

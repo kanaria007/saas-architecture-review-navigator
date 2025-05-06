@@ -1,3 +1,12 @@
+---
+title: 重大な変更に対する影響分析が適切に行われているか？
+layer: [DeepDive]
+category: リリース・ロールバック
+tags: [impact-analysis, change-management, risk-review]
+bloom_level: Evaluate
+license: MIT
+---
+
 # 重大な変更に対する影響分析が適切に行われているか？
 
 > Type: DeepDive  

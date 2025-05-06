@@ -1,3 +1,12 @@
+---
+title: データのライフサイクル（作成・更新・削除）が明確か？
+layer: [Structure]
+category: データ
+tags: [lifecycle, deletion, status-flow]
+bloom_level: Understand
+license: MIT
+---
+
 # データのライフサイクル（作成・更新・削除）が明確か？
 
 > Type: Structure  

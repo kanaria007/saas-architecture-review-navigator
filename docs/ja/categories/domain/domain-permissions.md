@@ -1,6 +1,15 @@
+---
+title: ドメインの権限管理が適切に設計されているか？
+layer: [Structure, DeepDive]
+category: ドメイン
+tags: [authorization, permission, domain-logic]
+bloom_level: Evaluate
+license: MIT
+---
+
 # ドメインの権限管理が適切に設計されているか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: ドメイン  
 > Audience: 設計初心者 / 設計中のチーム / レビュワー
 

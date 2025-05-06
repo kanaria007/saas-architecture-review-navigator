@@ -1,3 +1,12 @@
+---
+title: API のレスポンス時間が適切か？
+layer: [Structure]
+category: パフォーマンス・スケーラビリティ  
+tags: [latency, timing, measurement]
+bloom_level: Understand
+license: MIT
+---
+
 # API のレスポンス時間が適切か？
 
 > Type: DeepDive  

@@ -1,6 +1,15 @@
+---
+title: イベントのリトライ設計と遅延の影響が考慮されているか？
+layer: [Structure, DeepDive]
+category: イベント・非同期処理
+tags: [リトライ戦略, バックオフ, イベント処理]
+bloom_level: Analyze
+license: MIT
+---
+
 # 非同期イベントの遅延やリトライ処理の影響を考慮した設計になっているか？
 
-> Type: Structure  
+> Type: Structure, DeepDive  
 > Category: Async  
 > Audience: Engineers building event-driven systems, workflows, or async pipelines
 

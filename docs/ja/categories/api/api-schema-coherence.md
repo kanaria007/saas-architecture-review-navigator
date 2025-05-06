@@ -1,3 +1,12 @@
+---
+title: APIスキーマがシステム全体で一貫しているか？
+layer: [Structure]
+category: API・権限・セキュリティ
+tags: [スキーマ整合性, スキーマ進化, フロント連携]
+bloom_level: Apply
+license: MIT
+---
+
 # API のスキーマが適切に設計され、他の API との整合性があるか？
 
 > Type: Structure  

@@ -1,3 +1,12 @@
+---
+title: 同期・非同期の設計方針が妥当で、業務要件を満たしているか？
+layer: [Structure]
+category: イベント・非同期処理
+tags: [設計整合, ユースケース適合, 処理分割]
+bloom_level: Apply
+license: MIT
+---
+
 # 同期・非同期の設計方針が妥当で、業務要件を満たしているか？
 
 > Type: Structure  
