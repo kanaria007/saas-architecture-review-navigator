@@ -202,4 +202,4 @@ If you are evaluating this framework for integration into AI systems, educationa
 - This is not a content dump, but a reasoning scaffold.
 - If you plan to embed, adapt, or benchmark it, we encourage contacting the author or referencing the AI-guidance documentation to ensure correct application.
 
-📬 Contact: canaria.island.kanaria007@gmail.com (for research, stewardship, or feedback)
+📬 Contact: ![Contact](assets/mail.png) (for research, stewardship, or feedback)
