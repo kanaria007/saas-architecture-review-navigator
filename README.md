@@ -194,6 +194,13 @@ Created by [kanaria007 (Zenn)](https://zenn.dev/kanaria007)
 Original articles and use cases:
 https://zenn.dev/kanaria007/articles/101e51dbcf2135
 
+### structurally sign
+
+This framework is structurally signed by `kanaria007`.
+
+PGP Fingerprint: `EA19 B96B 54BC F071 5E1C  8F23 DBC6 A992 60EB 7D84`  
+Key File: [kanaria007-public-key.asc](./keys/kanaria007-public-key.asc)
+
 ### 📢 For Enterprise or Research Users
 
 If you are evaluating this framework for integration into AI systems, educational platforms, or cognitive tools:
